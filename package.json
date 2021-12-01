@@ -1,0 +1,44 @@
+{
+  "name": "ramp-theme",
+  "version": "1.0.0",
+  "description": "RAMP theme",
+  "author": "Social Science Research Council",
+  "license": "GPL-3.0",
+  "keywords": [
+    "WordPress",
+    "Theme"
+  ],
+  "homepage": "https://ssrc.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hard-g/ramp-theme.git"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^18.0.0",
+    "rtlcss": "^2.5.0",
+    "sass": "^1.42.1"
+  },
+  "rtlcssConfig": {
+    "options": {
+      "autoRename": false,
+      "autoRenameStrict": false,
+      "blacklist": {},
+      "clean": true,
+      "greedy": false,
+      "processUrls": false,
+      "stringMap": []
+    },
+    "plugins": [],
+    "map": false
+  },
+  "scripts": {
+    "build": "wp-scripts build",
+    "check-engines": "wp-scripts check-engines",
+    "watch": "node-sass sass/ -o ./ --source-map true --output-style expanded --indent-type tab --indent-width 1 -w",
+    "compile:css": "node-sass sass/ -o ./ && stylelint '*.css' --fix || true && stylelint '*.css' --fix",
+    "compile:rtl": "rtlcss style.css style-rtl.css",
+    "lint:scss": "wp-scripts lint-style 'sass/**/*.scss'",
+    "lint:js": "wp-scripts lint-js 'js/*.js'",
+    "start": "wp-scripts start src/index.js src/frontend.js"
+  }
+}
