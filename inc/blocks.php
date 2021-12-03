@@ -18,14 +18,14 @@ function ramp_register_block_assets() {
 	);
 
 	wp_enqueue_script(
-		'ramp-blocks',
+		'ramp-theme-blocks',
 		get_template_directory_uri() . '/build/index.js',
 		$blocks_asset_file['dependencies'],
 		$blocks_asset_file['version']
 	);
 
 	wp_enqueue_style(
-		'ramp-blocks',
+		'ramp-theme-blocks',
 		get_template_directory_uri() . '/build/index.css',
 		[],
 		$blocks_asset_file['version']
