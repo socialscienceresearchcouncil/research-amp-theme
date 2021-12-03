@@ -1,0 +1,12 @@
+.item-type-block {
+	margin-bottom: 64px;
+}
+
+.item-type-block-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.item-type-block-header > h2 {
+	margin-bottom: 0;
+}
