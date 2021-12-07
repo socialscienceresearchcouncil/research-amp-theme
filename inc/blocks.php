@@ -40,29 +40,30 @@ function ramp_register_block_patterns() {
 		]
 
 	);
-	register_block_pattern(
-		'ramp-theme/research-topics-heading',
-		[
-			'title'      => __( 'Research Topics Heading', 'ramp-theme' ),
-			'content'    => '<!-- wp:heading -->
-							<h2 id="research-topics-header">' .  esc_html__( 'Research Topics', 'ramp-theme' ) . '</h2>
-							<!-- /wp:heading -->',
-			'inserter'   => false,
-		]
-	);
 
 	register_block_pattern(
-		'ramp-theme/research-topics-all-link',
+		'ramp-theme/research-topics-blade',
 		[
-			'title'      => __( 'More Research Topics', 'ramp-theme' ),
-			'content'    => '<!-- wp:paragraph -->' .
-							sprintf(
-								'<p class="item-type-block-all-link"><a href="%s">%s</a></p>',
-								esc_attr( get_post_type_archive_link( 'ssrc_restop_pt' ) ),
+			'title'       => __( 'Research Topics Blade', 'ramp-theme' ),
+			'description' => __( 'A preview of Research Topics, useful for the home page.', 'ramp' ),
+			'content'     => sprintf( '<!-- wp:group {"tagName":"section"} -->
+<section class="wp-block-group item-type-block"><!-- wp:group {"tagName":"header"} -->
+<header class="wp-block-group item-type-block-header">
+<!-- wp:heading --><h2 id="research-topics-blade">%s</h2><!-- /wp:heading -->
+
+<!-- wp:paragraph --><p class="item-type-block-all-link"><a href="%s">%s</a></p><!-- /wp:paragraph -->
+
+</header><!-- /wp:group -->
+
+<!-- wp:ramp/research-topic-teasers /--></section>
+
+<!-- /wp:group -->',
+								esc_html__( 'Research Topics', 'ramp-theme' ),
+								esc_url( get_post_type_archive_link( 'ssrc_restop_pt' ) ),
 								esc_html__( 'More Research Topics', 'ramp-theme' )
-							) .
-							'<!-- /wp:paragraph -->',
-			'inserter'   => false,
+							),
+			'inserter'    => true,
+			'categories'  => [ 'ramp-theme/content-blades' ],
 		]
 	);
 
@@ -78,9 +79,7 @@ function ramp_register_block_patterns() {
 
 <!-- wp:paragraph --><p class="item-type-block-all-link"><a href="%s">%s</a></p><!-- /wp:paragraph -->
 
-<!-- wp:pattern {"slug":"ramp-theme/articles-all-link"} /--></header>
-
-<!-- /wp:group -->
+</header><!-- /wp:group -->
 
 <!-- wp:ramp/article-teasers /--></section>
 
