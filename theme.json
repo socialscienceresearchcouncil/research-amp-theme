@@ -171,7 +171,8 @@
 		},
 		{
 			"name": "research-topics",
-			"title": "Research Topics"
+			"title": "Research Topics",
+			"area": "uncategorized"
 		},
 		{
 			"name": "footer",
