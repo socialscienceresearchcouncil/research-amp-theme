@@ -17,7 +17,12 @@ $header_props = array(
 
 							'<!-- wp:group {"backgroundColor":"light-grey","className":"header-inner","layout":{"type":"flex","justifyContent":"space-between"}} -->' .
 							'<div class="wp-block-group header-inner has-light-grey-background-color has-background">' .
-								'<!-- wp:site-logo {"width":300} /-->' .
+								'<!-- wp:group {"layout":{"wideSize":"300px","contentSize":"300px"}} -->' .
+								'<div class="wp-block-group">' .
+									'<!-- wp:site-logo {"width":300} /-->' .
+									'<!-- wp:site-tagline /-->' .
+								'</div>' .
+								'<!-- /wp:group -->' .
 
 								'<!-- wp:navigation-area {"area":"primary","className":"primary-nav"} -->' .
 									'<!-- wp:navigation {"ref":%d} -->' .
