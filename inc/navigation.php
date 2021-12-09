@@ -86,7 +86,6 @@ function ramp_theme_get_default_primary_nav_items() {
 		$resources_link,
 		$citations_link,
 	];
-	_b( join( "\n", $items ) );
 
 	return join( "\n", $items );
 }
@@ -129,8 +128,6 @@ function ramp_theme_get_default_secondary_nav_items() {
 		$contact_link,
 		$login_link,
 	];
-
-	_b( join( "\n", $items ) );
 
 	return join( "\n", $items );
 }
