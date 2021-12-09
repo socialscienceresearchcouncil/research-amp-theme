@@ -2,28 +2,30 @@
 /**
  * Default header block pattern
  */
-
 $header_props = array(
 	'title'      => __( 'Default header', 'ramp-theme' ),
 	'categories' => array( 'ramp-headers' ),
 	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => sprintf(
-						'<!-- wp:group {"layout":{"inherit":true}} -->' .
-						'<div class="wp-block-group header-default">' .
-						'<!-- wp:navigation-area {"area":"secondary","className":"secondary-nav"} -->' .
-						'<!-- wp:navigation {"ref":%d} -->' .
-						'%s' .
-						'<!-- /wp:navigation -->' .
-						'<!-- /wp:navigation-area -->' .
+						'<!-- wp:group {"className":"header-default","backgroundColor":"light-grey","layout":{"inherit":true}} -->' .
+						'<div class="wp-block-group header-default has-light-grey-background-color has-background">' .
+							'<!-- wp:navigation-area {"area":"secondary","className":"secondary-nav"} -->' .
+								'<!-- wp:navigation {"ref":%d,"backgroundColor":"cyan-bluish-gray","layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"}} -->' .
+								'%s' .
+								'<!-- /wp:navigation -->' .
+							'<!-- /wp:navigation-area -->' .
 
-						'<!-- wp:site-logo {"width":300} /-->' .
-						'<!-- wp:site-title /-->' .
+							'<!-- wp:group {"backgroundColor":"light-grey","className":"header-inner","layout":{"type":"flex","justifyContent":"space-between"}} -->' .
+							'<div class="wp-block-group header-inner has-light-grey-background-color has-background">' .
+								'<!-- wp:site-logo {"width":300} /-->' .
 
-						'<!-- wp:navigation-area {"area":"primary","className":"primary-nav"} -->' .
-						'<!-- wp:navigation {"ref":%d} -->' .
-						'%s' .
-						'<!-- /wp:navigation -->' .
-						'<!-- /wp:navigation-area -->' .
+								'<!-- wp:navigation-area {"area":"primary","className":"primary-nav"} -->' .
+									'<!-- wp:navigation {"ref":%d} -->' .
+									'%s' .
+									'<!-- /wp:navigation -->' .
+								'<!-- /wp:navigation-area -->' .
+							'</div>' .
+							'<!-- /wp:group -->' .
 						'</div>' .
 						'<!-- /wp:group -->',
 						ramp_theme_get_secondary_nav_id(),

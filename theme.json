@@ -29,6 +29,11 @@
 					"slug": "dark-grey",
 					"color": "#23282D",
 					"name": "Dark grey"
+				},
+				{
+					"slug": "light-grey",
+					"color": "#eaeaea",
+					"name": "Light grey"
 				}
 			]
 		},
