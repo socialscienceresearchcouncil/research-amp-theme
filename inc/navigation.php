@@ -108,9 +108,29 @@ function ramp_theme_get_default_secondary_nav_items() {
 		esc_url( $get_started_page['url'] )
 	);
 
+	$contact_page = get_post( 46 );
+
+	$contact_link = sprintf(
+		'<!-- wp:navigation-link {"label":"%s","type":"page","id":%d,"url":"%s","kind":"post-type","isTopLevelLink":true} /-->',
+		esc_attr( $contact_page->post_title ),
+		(int) $contact_page->ID,
+		esc_url( get_permalink( $contact_page ) )
+	);
+
+	$login_link = sprintf(
+		'<!-- wp:navigation-link {"label":"%s","type":"page","url":"%s","kind":"post-type","isTopLevelLink":true} /-->',
+		esc_attr__( 'Log In', 'ramp' ),
+		(int) 0,
+		esc_url( wp_login_url() )
+	);
+
 	$items = [
-		$get_started_nav_link
+		$get_started_nav_link,
+		$contact_link,
+		$login_link,
 	];
+
+	_b( join( "\n", $items ) );
 
 	return join( "\n", $items );
 }
