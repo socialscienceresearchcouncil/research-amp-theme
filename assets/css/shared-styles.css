@@ -10,3 +10,11 @@
 .item-type-block-header > h2 {
 	margin-bottom: 0;
 }
+
+.nav-search {
+	text-indent: -999em;
+	width: 24px;
+	height: 24px;
+	background-image: url('../img/search.png');
+	background-size: 24px 24px;
+}
