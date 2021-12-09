@@ -15,8 +15,8 @@ $header_props = array(
 								'<!-- /wp:navigation -->' .
 							'<!-- /wp:navigation-area -->' .
 
-							'<!-- wp:group {"backgroundColor":"light-grey","className":"header-inner","layout":{"type":"flex","justifyContent":"space-between"}} -->' .
-							'<div class="wp-block-group header-inner has-light-grey-background-color has-background">' .
+							'<!-- wp:group {"className":"header-inner","layout":{"type":"flex","justifyContent":"space-between","flexWrap":"noWrap"}} -->' .
+							'<div class="wp-block-group header-inner">' .
 								'<!-- wp:group {"layout":{"wideSize":"300px","contentSize":"300px"}} -->' .
 								'<div class="wp-block-group">' .
 									'<!-- wp:site-logo {"width":300} /-->' .

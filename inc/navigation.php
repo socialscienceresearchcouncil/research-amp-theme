@@ -79,14 +79,19 @@ function ramp_theme_get_default_primary_nav_items() {
 		esc_url( get_post_type_archive_link( 'ssrc_citation' ) )
 	);
 
+	// This is a placeholder for something clickable.
+	$search_item = '<!-- wp:navigation-link {"label":"Search","url":"#search","kind":"custom","isTopLevelLink":true,"className":"nav-search"} /-->';
+
 	$items = [
 		ramp_theme_get_research_topics_submenu_block(),
 		$research_reviews_link,
 		$articles_link,
 		$resources_link,
 		$citations_link,
+		$search_item
 	];
 
+	_b( join( "\n", $items ) );
 	return join( "\n", $items );
 }
 

@@ -19,6 +19,13 @@ add_action(
 	'wp_enqueue_scripts',
 	function() {
 		wp_enqueue_style(
+			'ramp-theme',
+			get_template_directory_uri() . '/style.css',
+			[],
+			wp_get_theme()->get( 'Version' )
+		);
+
+		wp_enqueue_style(
 			'ramp-theme-shared-styles',
 			get_template_directory_uri() . '/assets/css/shared-styles.css',
 			[],
