@@ -1,0 +1,36 @@
+<?php
+/**
+ * Default header block pattern
+ */
+
+$header_props = array(
+	'title'      => __( 'Default header', 'ramp-theme' ),
+	'categories' => array( 'ramp-headers' ),
+	'blockTypes' => array( 'core/template-part/header' ),
+	'content'    => sprintf(
+						'<!-- wp:group {"layout":{"inherit":true}} -->' .
+						'<div class="wp-block-group header-default">' .
+						'<!-- wp:navigation-area {"area":"secondary","className":"secondary-nav"} -->' .
+						'<!-- wp:navigation {"ref":%d} -->' .
+						'%s' .
+						'<!-- /wp:navigation -->' .
+						'<!-- /wp:navigation-area -->' .
+
+						'<!-- wp:site-logo {"width":300} /-->' .
+						'<!-- wp:site-title /-->' .
+
+						'<!-- wp:navigation-area {"area":"primary","className":"primary-nav"} -->' .
+						'<!-- wp:navigation {"ref":%d} -->' .
+						'%s' .
+						'<!-- /wp:navigation -->' .
+						'<!-- /wp:navigation-area -->' .
+						'</div>' .
+						'<!-- /wp:group -->',
+						ramp_theme_get_secondary_nav_id(),
+						ramp_theme_get_default_secondary_nav_items(),
+						ramp_theme_get_primary_nav_id(),
+						ramp_theme_get_default_primary_nav_items()
+					),
+);
+
+return $header_props;

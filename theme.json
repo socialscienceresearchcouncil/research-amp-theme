@@ -167,12 +167,18 @@
 	"templateParts": [
 		{
 			"name": "header",
+			"area": "header",
+			"title": "Header: Default"
+		},
+		{
+			"name": "header-condensed",
+			"title": "Header: Condensed",
 			"area": "header"
 		},
 		{
-			"name": "research-topics",
-			"title": "Research Topics",
-			"area": "uncategorized"
+			"name": "header-centered",
+			"title": "Header: Centered",
+			"area": "header"
 		},
 		{
 			"name": "footer",
