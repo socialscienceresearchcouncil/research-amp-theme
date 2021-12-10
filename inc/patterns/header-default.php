@@ -19,7 +19,7 @@ $header_props = array(
 							'<div class="wp-block-group header-inner">' .
 								'<!-- wp:group {"layout":{"wideSize":"300px","contentSize":"300px"}} -->' .
 								'<div class="wp-block-group">' .
-									'<!-- wp:site-logo {"width":300} /-->' .
+									'<!-- wp:site-logo {"width":200} /-->' .
 									'<!-- wp:site-tagline /-->' .
 								'</div>' .
 								'<!-- /wp:group -->' .

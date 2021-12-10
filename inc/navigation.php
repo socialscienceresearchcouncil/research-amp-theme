@@ -91,7 +91,6 @@ function ramp_theme_get_default_primary_nav_items() {
 		$search_item
 	];
 
-	_b( join( "\n", $items ) );
 	return join( "\n", $items );
 }
 
