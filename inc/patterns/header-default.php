@@ -2,13 +2,17 @@
 /**
  * Default header block pattern
  */
+/*
+'<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"28px"}}},"className":"header-inner","layout":{"type":"flex","justifyContent":"space-between","flexWrap":"noWrap"}} -->' .
+'<!-- wp:group {"className":"header-inner","layout":{"type":"flex","justifyContent":"space-between","flexWrap":"noWrap"}} -->' .
+*/
 $header_props = array(
 	'title'      => __( 'Default header', 'ramp-theme' ),
 	'categories' => array( 'ramp-headers' ),
 	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => sprintf(
-						'<!-- wp:group {"className":"header-default","backgroundColor":"light-grey","layout":{"inherit":true}} -->' .
-						'<div class="wp-block-group header-default has-light-grey-background-color has-background">' .
+						'<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"28px"}}},"className":"header-default","backgroundColor":"light-grey","layout":{"inherit":true}} -->' .
+						'<div class="wp-block-group header-default has-light-grey-background-color has-background" style="padding-bottom:28px;">' .
 							'<!-- wp:navigation-area {"area":"secondary","className":"secondary-nav"} -->' .
 								'<!-- wp:navigation {"ref":%d,"backgroundColor":"cyan-bluish-gray","layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"}} -->' .
 								'%s' .
