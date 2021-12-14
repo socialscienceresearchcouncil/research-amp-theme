@@ -109,6 +109,9 @@
 		"color": {
 			"background": "var(--wp--preset--color--white)"
 		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--helvetica-arial)"
+		},
 		"elements": {
 			"h2": {
 				"color": {
