@@ -4,6 +4,7 @@ function ramp_theme_register_block_patterns() {
 	$block_pattern_categories = [
 		'ramp-theme-footers' => [ 'label' => __( 'RAMP Footers', 'ramp-theme' ) ],
 		'ramp-theme-headers' => [ 'label' => __( 'RAMP Headers', 'ramp-theme' ) ],
+		'ramp-theme'         => [ 'label' => __( 'RAMP', 'ramp-theme' ) ],
 	];
 
 	foreach ( $block_pattern_categories as $name => $properties ) {
@@ -20,7 +21,7 @@ function ramp_theme_register_block_patterns() {
 		$pattern_file = get_theme_file_path( '/inc/patterns/' . $block_pattern . '.php' );
 
 		register_block_pattern(
-			'ramp/' . $block_pattern,
+			'ramp-theme/' . $block_pattern,
 			require $pattern_file
 		);
 	}
