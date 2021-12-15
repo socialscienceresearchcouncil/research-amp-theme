@@ -26,6 +26,7 @@ function ramp_theme_register_block_patterns() {
 		'research-topics-blade',
 		'rt-articles-blade',
 		'rt-news-items-blade',
+		'rt-research-reviews-blade',
 	];
 
 	foreach ( $block_patterns as $block_pattern ) {
