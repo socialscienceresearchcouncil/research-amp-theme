@@ -25,6 +25,7 @@ function ramp_theme_register_block_patterns() {
 		'articles-blade',
 		'research-topics-blade',
 		'rt-articles-blade',
+		'rt-citations-blade',
 		'rt-news-items-blade',
 		'rt-research-reviews-blade',
 	];
