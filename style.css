@@ -1,3 +1,16 @@
 /**
  * Theme Name: RAMP Theme
  */
+
+.ramp-tag {
+	background: #eaeaea;
+	border-radius: 16px;
+	color: #000;
+	font-size: .9em;
+	line-height: 2.5em;
+	padding: 8px 16px;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+

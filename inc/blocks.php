@@ -97,7 +97,7 @@ function ramp_register_block_patterns() {
 		'ramp-theme/rt-articles-blade',
 		[
 			'title'       => __( 'Articles Blade for Research Topic', 'ramp-theme' ),
-			'description' => __( 'A preview of recent articles associated with a specific Research Topic', 'ramp' ),
+			'description' => __( 'A preview of recent Articles associated with a specific Research Topic', 'ramp' ),
 			'content'     => sprintf( '<!-- wp:group {"tagName":"section"} -->
 <section class="wp-block-group item-type-block"><!-- wp:group {"tagName":"header"} -->
 <header class="wp-block-group item-type-block-header">
@@ -113,6 +113,32 @@ function ramp_register_block_patterns() {
 								esc_html__( 'Articles', 'ramp-theme' ),
 								esc_url( get_post_type_archive_link( 'ssrc_expref_pt' ) ),
 								esc_html__( 'More Articles', 'ramp-theme' )
+							),
+			'inserter'    => true,
+			'categories'  => [ 'ramp-theme/content-blades' ],
+		]
+	);
+
+	register_block_pattern(
+		'ramp-theme/rt-news-items-blade',
+		[
+			'title'       => __( 'News Items Blade for Research Topic', 'ramp-theme' ),
+			'description' => __( 'A preview of recent News Items associated with a specific Research Topic', 'ramp' ),
+			'content'     => sprintf( '<!-- wp:group {"tagName":"section"} -->
+<section class="wp-block-group item-type-block"><!-- wp:group {"tagName":"header"} -->
+<header class="wp-block-group item-type-block-header">
+<!-- wp:heading --><h2 id="news-items-blade">%s</h2><!-- /wp:heading -->
+
+<!-- wp:paragraph --><p class="item-type-block-all-link"><a href="%s">%s</a></p><!-- /wp:paragraph -->
+
+</header><!-- /wp:group -->
+
+<!-- wp:ramp/news-item-teasers {"researchTopic":"auto"} /--></section>
+
+<!-- /wp:group -->',
+								esc_html__( 'News Items', 'ramp-theme' ),
+								esc_url( '#' ), // @todo
+								esc_html__( 'More News Items', 'ramp-theme' )
 							),
 			'inserter'    => true,
 			'categories'  => [ 'ramp-theme/content-blades' ],
