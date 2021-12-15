@@ -81,7 +81,7 @@ function ramp_register_block_patterns() {
 
 </header><!-- /wp:group -->
 
-<!-- wp:ramp/article-teasers /--></section>
+<!-- wp:ramp/article-teasers-with-featured-article /--></section>
 
 <!-- /wp:group -->',
 								esc_html__( 'Articles', 'ramp-theme' ),
