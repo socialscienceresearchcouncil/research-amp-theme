@@ -8,7 +8,7 @@
 */
 $header_props = array(
 	'title'      => __( 'Default header', 'ramp-theme' ),
-	'categories' => array( 'ramp-headers' ),
+	'categories' => [ 'ramp-theme/headers' ],
 	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => sprintf(
 						'<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"28px"}}},"className":"header-default","backgroundColor":"light-grey","layout":{"inherit":true}} -->' .
