@@ -163,6 +163,11 @@
 			"name": "single-ssrc_restop_pt",
 			"title": "Research Topic Landing Page",
 			"postTypes": [ "ssrc_restop_pt" ]
+		},
+		{
+			"name": "single-ssrc_schprof_pt",
+			"title": "Single Profile",
+			"postTypes": [ "ssrc_schprof_pt" ]
 		}
 	],
 	"templateParts": [
