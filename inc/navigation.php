@@ -98,10 +98,12 @@ function ramp_theme_get_default_primary_nav_items() {
  * Gets the default navigation items for the secondary nav.
  */
 function ramp_theme_get_default_secondary_nav_items() {
+	$get_started_page_id = 52867;
+
 	$get_started_page = [
-		'id' => 44,
-		'url' => 'http://boone.cool/ramp/get-started',
-		'label' => 'Get Started',
+		'id' => $get_started_page_id,
+		'url' => get_permalink( $get_started_page_id ),
+		'label' => get_the_title( $get_started_page_id ),
 	];
 
 	$get_started_nav_link = sprintf(
@@ -111,7 +113,7 @@ function ramp_theme_get_default_secondary_nav_items() {
 		esc_url( $get_started_page['url'] )
 	);
 
-	$contact_page = get_post( 46 );
+	$contact_page = get_post( 108 );
 
 	$contact_link = sprintf(
 		'<!-- wp:navigation-link {"label":"%s","type":"page","id":%d,"url":"%s","kind":"post-type","isTopLevelLink":true} /-->',
