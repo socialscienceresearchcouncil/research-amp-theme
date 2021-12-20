@@ -4,14 +4,14 @@
  * Fetches the primary nav ID.
  */
 function ramp_theme_get_primary_nav_id() {
-	return 43;
+	return 70555;
 }
 
 /**
  * Fetches the secondary nav ID.
  */
 function ramp_theme_get_secondary_nav_id() {
-	return 41;
+	return 70557;
 }
 
 /**
