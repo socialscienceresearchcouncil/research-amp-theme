@@ -60,6 +60,11 @@
 					"fontFamily": "Helvetica Neue, Helvetica, Arial, sans-serif",
 					"slug": "helvetica-arial",
 					"name": "Helvetica or Arial"
+				},
+				{
+					"fontFamily": "Georgia, Times New Roman, serif",
+					"slug": "georgia",
+					"name": "Georgia"
 				}
 			],
 			"fontSizes": [
@@ -107,12 +112,15 @@
 		"elements": {
 			"h2": {
 				"color": {
-					"text": "var(--wp--preset--color--medium-blue)"
+					"text": "var(--wp--preset--color--almost-black)"
 				}
 			},
 			"link": {
 				"color": {
-					"text": "var(--wp--preset--color--blue)"
+					"text": "var(--wp--preset--color--almost-black)"
+				},
+				"typography": {
+					"textDecoration": "underline"
 				}
 			}
 		},
