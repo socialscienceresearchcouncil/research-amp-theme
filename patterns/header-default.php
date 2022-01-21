@@ -15,13 +15,13 @@ $header_props = array(
 						'</div>' .
 						'<!-- /wp:group -->' .
 
-						'<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"28px"}}},"className":"header-default","backgroundColor":"light-grey","layout":{"inherit":true}} -->' .
-						'<div class="wp-block-group header-default has-light-grey-background-color has-background" style="padding-bottom:28px;">' .
+						'<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"28px","top":"16px"}}},"className":"header-default","layout":{"inherit":true}} -->' .
+						'<div class="wp-block-group header-default" style="padding-top:16px;padding-bottom:28px;">' .
 							'<!-- wp:group {"className":"header-inner","layout":{"type":"flex","justifyContent":"space-between","flexWrap":"noWrap"}} -->' .
 							'<div class="wp-block-group header-inner">' .
 								'<!-- wp:group {"layout":{"wideSize":"300px","contentSize":"300px"}} -->' .
 								'<div class="wp-block-group">' .
-									'<!-- wp:site-logo {"width":200} /-->' .
+									'<!-- wp:site-logo {"width":300} /-->' .
 									'<!-- wp:site-tagline /-->' .
 								'</div>' .
 								'<!-- /wp:group -->' .
