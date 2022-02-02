@@ -1,7 +1,7 @@
 <?php
 
 $pattern_content = sprintf(
-	'<!-- wp:group {"tagName":"section"} -->
+	'<!-- wp:group {"tagName":"section","layout":{"inherit":true}} -->
 	<section class="wp-block-group item-type-block"><!-- wp:group {"tagName":"header"} -->
 	<header class="wp-block-group item-type-block-header">
 	<!-- wp:heading --><h2 id="articles-blade">%s</h2><!-- /wp:heading -->

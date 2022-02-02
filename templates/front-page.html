@@ -1,9 +1,20 @@
 <!-- wp:template-part {"slug":"header","tagName":"header","layout":{"inherit":true}} /-->
 
-<!-- wp:group {"layout":{"inherit":true},"tagName":"main"} -->
+<!-- wp:group {"tagName":"main"} -->
 <main class="wp-block-group ramp-home">
-	<!-- wp:pattern {"slug":"ramp-theme/research-topics-blade","layout":{"inherit":true}} /-->
-	<!-- wp:pattern {"slug":"ramp-theme/articles-blade","layout":{"inherit":true}} /-->
+	<!-- wp:group {"style":{"spacing":{"padding":{"top":"32px","right":"0px","bottom":"32px","left":"0px"}}},"backgroundColor":"light-grey"} -->
+		<div class="wp-block-group has-light-grey-background-color has-background" style="padding-top:32px;padding-right:0px;padding-bottom:32px;padding-left:0px;">
+			<!-- wp:group {"layout":{"inherit":true}} -->
+				<div class="wp-block-group">
+					<!-- wp:ramp/homepage-slides /-->
+				</div>
+			<!-- /wp:group -->
+		</div>
+	<!-- /wp:group -->
+
+	<!-- wp:pattern {"slug":"ramp-theme/research-topics-blade"} /-->
+
+	<!-- wp:pattern {"slug":"ramp-theme/articles-blade"} /-->
 </main><!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
