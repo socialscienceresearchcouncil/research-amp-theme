@@ -5,8 +5,8 @@ $pattern_content = sprintf(
 	<section class="wp-block-group item-type-block"><!-- wp:group {"tagName":"header"} -->
 	<header class="wp-block-group item-type-block-header">
 
-	<!-- wp:heading {"style":{"typography":{"textTransform":"uppercase","fontSize":18}}} -->
-	<h2 id="research-topics-blade" style="font-size:18px;text-transform:uppercase">%s</h2>
+	<!-- wp:heading -->
+	<h2 id="research-topics-blade">%s</h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}, "typography":{"fontFamily":"georgia"}} -->
@@ -14,10 +14,6 @@ $pattern_content = sprintf(
 	<!-- /wp:paragraph -->
 
 	</header><!-- /wp:group -->
-
-<!-- wp:separator {"color":"almost-black"} -->
-<hr class="wp-block-separator has-text-color has-background has-almost-black-background-color has-almost-black-color"/>
-<!-- /wp:separator -->
 
 	<!-- wp:ramp/research-topic-teasers /--></section>
 
