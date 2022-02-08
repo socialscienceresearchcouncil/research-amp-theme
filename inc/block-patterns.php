@@ -29,6 +29,9 @@ function ramp_theme_register_block_patterns() {
 		'rt-citations-blade',
 		'rt-news-items-blade',
 		'rt-research-reviews-blade',
+
+		// Misc
+		'call-to-action',
 	];
 
 	foreach ( $block_patterns as $block_pattern ) {
