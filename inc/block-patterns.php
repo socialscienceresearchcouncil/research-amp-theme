@@ -23,6 +23,7 @@ function ramp_theme_register_block_patterns() {
 
 		// Content blades
 		'articles-blade',
+		'research-reviews-blade',
 		'research-topics-blade',
 		'rt-articles-blade',
 		'rt-citations-blade',
