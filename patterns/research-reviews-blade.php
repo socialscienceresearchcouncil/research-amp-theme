@@ -15,7 +15,7 @@ $pattern_content = sprintf(
 
 	</header><!-- /wp:group -->
 
-	<!-- wp:ramp/research-review-teasers {"variationType":"horizontal","researchTopic":"all","order":"random","numberOfItems":"3"} /--></section>
+	<!-- wp:ramp/research-review-teasers {"variationType":"teasers","researchTopic":"all","order":"random","numberOfItems":"3"} /--></section>
 
 	<!-- /wp:group -->',
 	esc_html__( 'Research Reviews', 'ramp-theme' ),
