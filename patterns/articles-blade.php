@@ -14,7 +14,7 @@ $pattern_content = sprintf(
 
 	<!-- /wp:group -->',
 	esc_html__( 'Articles', 'ramp-theme' ),
-	esc_url( get_post_type_archive_link( 'ssrc_expref_pt' ) ),
+	esc_url( get_post_type_archive_link( 'ramp_article' ) ),
 	esc_html__( 'More Articles', 'ramp-theme' )
 );
 
