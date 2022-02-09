@@ -76,7 +76,7 @@ function ramp_theme_get_default_primary_nav_items() {
 	$citations_link = sprintf(
 		'<!-- wp:navigation-link {"label":"%s","type":"","url":"%s","kind":"post-type-archive","isTopLevelItem":true} /-->',
 		esc_attr( __( 'Citations', 'ramp' ) ),
-		esc_url( get_post_type_archive_link( 'ssrc_citation' ) )
+		esc_url( get_post_type_archive_link( 'ramp_citation' ) )
 	);
 
 	// This is a placeholder for something clickable.

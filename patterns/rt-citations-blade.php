@@ -14,7 +14,7 @@ $pattern_content = sprintf(
 
 	<!-- /wp:group -->',
 	esc_html__( 'Citations', 'ramp-theme' ),
-	esc_url( get_post_type_archive_link( 'ssrc_citation' ) ),
+	esc_url( get_post_type_archive_link( 'ramp_citation' ) ),
 	esc_html__( 'Full Citation Library', 'ramp-theme' )
 );
 
