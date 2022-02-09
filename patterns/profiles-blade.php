@@ -14,7 +14,7 @@ $pattern_content = sprintf(
 
 	<!-- /wp:group -->',
 	esc_html__( 'Profiles', 'ramp-theme' ),
-	esc_url( get_post_type_archive_link( 'ssrc_schprof_pt' ) ),
+	esc_url( get_post_type_archive_link( 'ramp_profile' ) ),
 	esc_html__( 'More Profiles', 'ramp-theme' )
 );
 

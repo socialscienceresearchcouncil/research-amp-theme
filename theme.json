@@ -159,9 +159,9 @@
 			"postTypes": [ "ramp_topic" ]
 		},
 		{
-			"name": "single-ssrc_schprof_pt",
+			"name": "single-ramp_profile",
 			"title": "Single Profile",
-			"postTypes": [ "ssrc_schprof_pt" ]
+			"postTypes": [ "ramp_profile" ]
 		}
 	],
 	"templateParts": [
