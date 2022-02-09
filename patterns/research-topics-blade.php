@@ -19,7 +19,7 @@ $pattern_content = sprintf(
 
 	<!-- /wp:group -->',
 	esc_html__( 'Research Topics', 'ramp-theme' ),
-	esc_url( get_post_type_archive_link( 'ssrc_restop_pt' ) ),
+	esc_url( get_post_type_archive_link( 'ramp_topic' ) ),
 	esc_html__( 'More Research Topics', 'ramp-theme' )
 );
 

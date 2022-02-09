@@ -144,9 +144,9 @@
 	},
 	"customTemplates": [
 		{
-			"name": "archive-ssrc_restop_pt",
+			"name": "archive-ramp_topic",
 			"title": "Research Topic Archive",
-			"postTypes": [ "ssrc_restop_pt" ]
+			"postTypes": [ "ramp_topic" ]
 		},
 		{
 			"name": "front-page",
@@ -154,9 +154,9 @@
 			"postTypes": []
 		},
 		{
-			"name": "single-ssrc_restop_pt",
+			"name": "single-ramp_topic",
 			"title": "Research Topic Landing Page",
-			"postTypes": [ "ssrc_restop_pt" ]
+			"postTypes": [ "ramp_topic" ]
 		},
 		{
 			"name": "single-ssrc_schprof_pt",

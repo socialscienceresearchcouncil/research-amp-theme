@@ -4,14 +4,14 @@
  * Fetches the primary nav ID.
  */
 function ramp_theme_get_primary_nav_id() {
-	return 70555;
+	return 70561;
 }
 
 /**
  * Fetches the secondary nav ID.
  */
 function ramp_theme_get_secondary_nav_id() {
-	return 70557;
+	return 70558;
 }
 
 /**
@@ -21,7 +21,7 @@ function ramp_theme_get_secondary_nav_id() {
  */
 function ramp_theme_get_research_topics_submenu_block() {
 	$rts = get_posts( [
-		'post_type' => 'ssrc_restop_pt',
+		'post_type' => 'ramp_theme',
 		'posts_per_page' => -1,
 		'orderby' => [ 'title' => 'ASC' ],
 	] );
@@ -30,7 +30,7 @@ function ramp_theme_get_research_topics_submenu_block() {
 	$research_topics_submenu_items = '';
 	foreach ( $rts as $rt ) {
 		$rt_item = sprintf(
-			'<!-- wp:navigation-link {"label":"%s","url":"%s","id":"%d","type":"ssrc_restop_pt","kind":"post-type","isTopLevelLink":false} /-->',
+			'<!-- wp:navigation-link {"label":"%s","url":"%s","id":"%d","type":"ramp_theme","kind":"post-type","isTopLevelLink":false} /-->',
 			esc_attr( $rt->post_title ),
 			esc_attr( get_permalink( $rt ) ),
 			esc_attr( $rt->ID )
@@ -44,7 +44,7 @@ function ramp_theme_get_research_topics_submenu_block() {
 		'%s' .
 		'<!-- /wp:navigation-submenu -->',
 		esc_attr( __( 'Research Topics', 'ramp' ) ),
-		esc_url( get_post_type_archive_link( 'ssrc_restop_pt' ) ),
+		esc_url( get_post_type_archive_link( 'ramp_theme' ) ),
 		$research_topics_submenu_items
 	);
 

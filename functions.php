@@ -38,8 +38,7 @@ add_action(
  * Gets the database ID of the media item of the default logo.
  */
 function ramp_theme_get_default_logo_id() {
-	return 40;
-
+	return 70564;
 }
 
 add_filter(
