@@ -58,7 +58,7 @@ function ramp_theme_get_default_primary_nav_items() {
 	$research_reviews_link = sprintf(
 		'<!-- wp:navigation-link {"label":"%s","type":"","url":"%s","kind":"post-type-archive","isTopLevelItem":true} /-->',
 		esc_attr( __( 'Research Reviews', 'ramp' ) ),
-		esc_url( get_post_type_archive_link( 'ssrc_lit_review' ) )
+		esc_url( get_post_type_archive_link( 'ramp_review' ) )
 	);
 
 	$articles_link = sprintf(
