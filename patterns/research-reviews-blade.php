@@ -9,9 +9,7 @@ $pattern_content = sprintf(
 	<h2 id="research-reviews-blade">%s</h2>
 	<!-- /wp:heading -->
 
-	<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}, "typography":{"fontFamily":"georgia"}} -->
-	<p class="item-type-block-all-link" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-family:var(--wp--preset--font-family--georgia);"><a href="%s">%s</a></p>
-	<!-- /wp:paragraph -->
+	<!-- wp:paragraph --><p class="item-type-block-all-link"><a href="%s">%s</a></p><!-- /wp:paragraph -->
 
 	</header><!-- /wp:group -->
 
