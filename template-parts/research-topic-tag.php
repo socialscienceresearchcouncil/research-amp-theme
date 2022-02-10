@@ -1,7 +1,7 @@
 <?php
 
 $term_id           = isset( $args['term_id'] ) ? (int) $args['term_id'] : 0;
-$rt_map            = disinfo_app()->get_cpttax_map( 'research_topic' );
+$rt_map            = ramp_app()->get_cpttax_map( 'research_topic' );
 $research_topic_id = $rt_map->get_post_id_for_term_id( $term_id );
 
 if ( $research_topic_id ) {
