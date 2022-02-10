@@ -10,7 +10,7 @@ $pattern_content = sprintf(
 
 	</header><!-- /wp:group -->
 
-	<!-- wp:ramp/news-item-teasers {"researchTopic":"all", "variationType":"three"} /--></section>
+	<!-- wp:ramp/news-item-teasers {"researchTopic":"all", "showFeaturedItem": true, "variationType":"two"} /--></section>
 
 	<!-- /wp:group -->',
 	esc_html__( 'News Items', 'ramp-theme' ),
