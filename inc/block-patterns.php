@@ -36,6 +36,10 @@ function ramp_theme_register_block_patterns() {
 		'call-to-action',
 	];
 
+	if ( defined( 'TRIBE_EVENTS_FILE' ) ) {
+		$block_patterns[] = 'events-blade';
+	}
+
 	foreach ( $block_patterns as $block_pattern ) {
 		$pattern_file = get_theme_file_path( '/patterns/' . $block_pattern . '.php' );
 
