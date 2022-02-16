@@ -7,7 +7,7 @@ $pattern_content = sprintf(
 		<h2 id="research-reviews-blade">%s</h2>
 		<!-- /wp:heading -->
 
-		<!-- wp:ramp/research-review-teasers /-->
+		<!-- wp:ramp/research-review-teasers {"researchTopic":"auto", "variationType":"horizontal" } /-->
 	</section>
 	<!-- /wp:group -->',
 	esc_html__( 'Research Reviews', 'ramp-theme' )
