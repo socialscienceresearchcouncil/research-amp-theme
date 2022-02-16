@@ -144,6 +144,11 @@
 	},
 	"customTemplates": [
 		{
+			"name": "archive-ramp_review",
+			"title": "Research Review Archive",
+			"postTypes": [ "ramp_review" ]
+		},
+		{
 			"name": "archive-ramp_topic",
 			"title": "Research Topic Archive",
 			"postTypes": [ "ramp_topic" ]
