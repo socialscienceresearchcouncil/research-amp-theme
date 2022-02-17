@@ -34,7 +34,8 @@ function ramp_theme_register_block_patterns() {
 
 		// Misc
 		'call-to-action',
-		'research-reviews-archive-intro'
+		'citation-library-intro',
+		'research-reviews-archive-intro',
 	];
 
 	if ( defined( 'TRIBE_EVENTS_FILE' ) ) {
