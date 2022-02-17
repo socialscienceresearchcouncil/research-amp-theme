@@ -21,7 +21,7 @@ function ramp_theme_get_secondary_nav_id() {
  */
 function ramp_theme_get_research_topics_submenu_block() {
 	$rts = get_posts( [
-		'post_type' => 'ramp_theme',
+		'post_type' => 'ramp_topic',
 		'posts_per_page' => -1,
 		'orderby' => [ 'title' => 'ASC' ],
 	] );
