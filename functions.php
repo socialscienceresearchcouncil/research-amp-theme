@@ -18,11 +18,17 @@ add_action(
 add_action(
 	'wp_enqueue_scripts',
 	function() {
-		wp_enqueue_style(
+		wp_register_style(
 			'ramp-theme',
 			get_template_directory_uri() . '/style.css',
 			[],
 			wp_get_theme()->get( 'Version' )
+		);
+
+		// Inline styles.
+		wp_add_inline_style(
+			'ramp-theme',
+			ramp_theme_font_styles()
 		);
 
 		wp_enqueue_style(
@@ -31,8 +37,51 @@ add_action(
 			[],
 			wp_get_theme()->get( 'Version' )
 		);
-	}
+
+		wp_enqueue_style( 'ramp-theme' );
+	},
+	5
 );
+
+function ramp_theme_font_styles() {
+	return "
+	/* open-sans-400 - latin */
+	@font-face {
+	  font-family: 'Open Sans';
+	  font-style: normal;
+	  font-weight: 400;
+	  font-display: swap;
+	  src: url( '" . get_theme_file_uri( 'assets/fonts/open-sans-v27-latin-regular.woff2' ) . "') format('woff2');
+	}
+
+	/* open-sans-600 - latin */
+	@font-face {
+	  font-family: 'Open Sans';
+	  font-style: normal;
+	  font-weight: 600;
+	  font-display: swap;
+	  src: url( '" . get_theme_file_uri( 'assets/fonts/open-sans-v27-latin-600.woff2' ) . "') format('woff2');
+	}
+
+	/* pt-serif-400 - latin */
+	@font-face {
+	  font-family: 'PT Serif';
+	  font-style: normal;
+	  font-weight: 400;
+	  font-display: swap;
+	  src: url( '" . get_theme_file_uri( 'assets/fonts/pt-serif-v16-latin-regular.woff2' ) . "') format('woff2');
+	}
+
+	/* pt-serif-700 - latin */
+	@font-face {
+	  font-family: 'PT Serif';
+	  font-style: normal;
+	  font-weight: 700;
+	  font-display: swap;
+	  src: url( '" . get_theme_file_uri( 'assets/fonts/pt-serif-v16-latin-700.woff2' ) . "') format('woff2');
+	}
+	";
+}
 
 /**
  * Gets the database ID of the media item of the default logo.

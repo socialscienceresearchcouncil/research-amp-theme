@@ -26,7 +26,7 @@ $header_props = array(
 								'</div>' .
 								'<!-- /wp:group -->' .
 
-								'<!-- wp:navigation {"ref":%d} -->' .
+								'<!-- wp:navigation {"ref":%d,"style":{"typography":{"fontWeight":"600"}}} -->' .
 								'%s' .
 								'<!-- /wp:navigation -->' .
 							'</div>' .

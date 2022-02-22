@@ -192,6 +192,12 @@
 			}
 		},
 		"blocks": {
+			"core/navigation": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--open-sans)",
+					"fontSize": "var(--wp--preset--font-size--small)"
+				}
+			},
 			"core/paragraph": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--normal)"
@@ -205,6 +211,13 @@
 							"bottom": "1em"
 						}
 					}
+				}
+			},
+			"core/site-tagline": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--open-sans)",
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontStyle": "italic"
 				}
 			}
 		}
