@@ -1,12 +1,14 @@
 <?php
 
+$archive_link = get_post_type_archive_link( 'ramp_topic' );
+
 $pattern_content = sprintf(
 	'<!-- wp:group {"tagName":"section","layout":{"inherit":true}} -->
 	<section class="wp-block-group item-type-block"><!-- wp:group {"tagName":"header"} -->
 	<header class="wp-block-group item-type-block-header">
 
-	<!-- wp:heading -->
-	<h2 id="research-topics-blade">%s</h2>
+	<!-- wp:heading {"fontSize":"medium-large"} -->
+	<h2 class="has-medium-large-font-size" id="research-reviews-blade"><a href="%s">%s</a></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:paragraph --><p class="item-type-block-all-link"><a href="%s">%s</a></p><!-- /wp:paragraph -->
@@ -16,8 +18,9 @@ $pattern_content = sprintf(
 	<!-- wp:ramp/research-topic-teasers /--></section>
 
 	<!-- /wp:group -->',
+	esc_url( $archive_link ),
 	esc_html__( 'Research Topics', 'ramp-theme' ),
-	esc_url( get_post_type_archive_link( 'ramp_topic' ) ),
+	esc_url( $archive_link ),
 	esc_html__( 'More Research Topics', 'ramp-theme' )
 );
 
