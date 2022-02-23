@@ -26,9 +26,29 @@ $header_props = array(
 								'</div>' .
 								'<!-- /wp:group -->' .
 
-								'<!-- wp:navigation {"ref":%d,"style":{"typography":{"fontWeight":"600"}}} -->' .
-								'%s' .
-								'<!-- /wp:navigation -->' .
+								'<!-- wp:columns {"className":"nav-and-search"} -->' .
+								'<div class="wp-block-columns nav-and-search">' .
+									'<!-- wp:column -->' .
+									'<div class="wp-block-column">' .
+										'<!-- wp:navigation {"ref":%d,"style":{"typography":{"fontWeight":"600"}}} -->' .
+										'%s' .
+										'<!-- /wp:navigation -->' .
+									'</div>' .
+									'<!-- /wp:column -->' .
+
+									'<!-- wp:column {"width":"18px"} -->' .
+									'<div class="wp-block-column" style="flex-basis:18px">' .
+										'<!-- wp:buttons {"className":"nav-search-area"} -->' .
+										'<div class="wp-block-buttons nav-search-area">' .
+											'<!-- wp:button {"className":"nav-search"} -->' .
+											'<div class="wp-block-button nav-search"><a class="wp-block-button__link">%s</a></div>' .
+											'<!-- /wp:button -->' .
+										'</div>' .
+										'<!-- /wp:buttons -->' .
+									'</div>' .
+									'<!-- /wp:column -->' .
+								'</div>' .
+								'<!-- /wp:columns -->' .
 							'</div>' .
 							'<!-- /wp:group -->' .
 						'</div>' .
@@ -36,7 +56,8 @@ $header_props = array(
 						ramp_theme_get_secondary_nav_id(),
 						ramp_theme_get_default_secondary_nav_items(),
 						ramp_theme_get_primary_nav_id(),
-						ramp_theme_get_default_primary_nav_items()
+						ramp_theme_get_default_primary_nav_items(),
+						esc_html__( 'Search', 'ramp-theme' )
 					),
 );
 

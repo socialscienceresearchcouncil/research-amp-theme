@@ -79,9 +79,6 @@ function ramp_theme_get_default_primary_nav_items() {
 		esc_url( get_post_type_archive_link( 'ramp_citation' ) )
 	);
 
-	// This is a placeholder for something clickable.
-	$search_item = '<!-- wp:navigation-link {"label":"Search","url":"#search","kind":"custom","isTopLevelLink":true,"className":"nav-search"} /-->';
-
 	$items = [
 		ramp_theme_get_research_topics_submenu_block(),
 		$research_reviews_link,
