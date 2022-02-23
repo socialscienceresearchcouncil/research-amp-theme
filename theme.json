@@ -261,11 +261,6 @@
 			"title": "Header: Default"
 		},
 		{
-			"name": "header-condensed",
-			"title": "Header: Condensed",
-			"area": "header"
-		},
-		{
 			"name": "header-centered",
 			"title": "Header: Centered",
 			"area": "header"

@@ -26,8 +26,8 @@ $header_props = array(
 								'</div>' .
 								'<!-- /wp:group -->' .
 
-								'<!-- wp:columns {"className":"nav-and-search"} -->' .
-								'<div class="wp-block-columns nav-and-search">' .
+								'<!-- wp:columns {"isStackedOnMobile":false,"className":"nav-and-search"} -->' .
+								'<div class="wp-block-columns is-not-stacked-on-mobile nav-and-search">' .
 									'<!-- wp:column -->' .
 									'<div class="wp-block-column">' .
 										'<!-- wp:navigation {"ref":%d,"style":{"typography":{"fontWeight":"600"}}} -->' .
