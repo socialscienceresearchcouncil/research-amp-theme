@@ -12,12 +12,7 @@ add_action(
 				'./assets/css/shared-styles.css',
 			]
 		);
-	}
-);
 
-add_action(
-	'wp_enqueue_scripts',
-	function() {
 		wp_register_style(
 			'ramp-theme',
 			get_template_directory_uri() . '/style.css',
@@ -31,16 +26,30 @@ add_action(
 			ramp_theme_font_styles()
 		);
 
-		wp_enqueue_style(
+		wp_register_style(
 			'ramp-theme-shared-styles',
 			get_template_directory_uri() . '/assets/css/shared-styles.css',
 			[],
 			wp_get_theme()->get( 'Version' )
 		);
+	}
+);
 
-		wp_enqueue_style( 'ramp-theme' );
-	},
-	5
+function ramp_theme_enqueue_styles() {
+	wp_enqueue_style( 'ramp-theme-shared-styles' );
+	wp_enqueue_style( 'ramp-theme' );
+}
+add_action( 'wp_enqueue_scripts', 'ramp_theme_enqueue_styles' );
+add_action( 'enqueue_block_editor_assets', 'ramp_theme_enqueue_styles' );
+
+add_action(
+	'admin_init',
+	function() {
+		wp_add_inline_style(
+			'wp-block-library',
+			ramp_theme_font_styles()
+		);
+	}
 );
 
 function ramp_theme_font_styles() {
