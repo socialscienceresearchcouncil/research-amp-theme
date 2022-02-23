@@ -26,8 +26,8 @@ $header_props = array(
 								'</div>' .
 								'<!-- /wp:group -->' .
 
-								'<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px"}}},"className":"nav-and-search-group","layout":{"inherit":false}} -->' .
-								'<div class="wp-block-group nav-and-search-group" style="padding-top:20px"><!-- wp:columns {"isStackedOnMobile":false,"className":"nav-and-search"} -->' .
+								'<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px"}}},"className":"nav-and-search-group"} -->' .
+								'<div class="wp-block-group nav-and-search-group" style="padding-top:20px">' .
 									'<!-- wp:columns {"isStackedOnMobile":false,"className":"nav-and-search"} -->' .
 									'<div class="wp-block-columns is-not-stacked-on-mobile nav-and-search">' .
 										'<!-- wp:column -->' .
