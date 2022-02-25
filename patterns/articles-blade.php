@@ -2,17 +2,19 @@
 
 $pattern_content = sprintf(
 	'<!-- wp:group {"tagName":"section","layout":{"inherit":true}} -->
-	<section class="wp-block-group item-type-block"><!-- wp:group {"tagName":"header"} -->
-	<header class="wp-block-group item-type-block-header">
-	<!-- wp:heading {"fontSize":"medium-large"} -->
-	<h2 class="has-medium-large-font-size" id="articles-blade">%s</h2>
-	<!-- /wp:heading -->
+	<section class="wp-block-group item-type-block">
+		<!-- wp:group {"tagName":"header","style":{"spacing":{"padding":{"bottom":"8px"}}}} -->
+		<header class="wp-block-group item-type-block-header" style="padding-bottom:8px;">
+			<!-- wp:heading {"fontSize":"medium-large"} -->
+			<h2 class="has-medium-large-font-size" id="articles-blade">%s</h2>
+			<!-- /wp:heading -->
 
-	<!-- wp:paragraph --><p class="item-type-block-all-link"><a href="%s">%s</a></p><!-- /wp:paragraph -->
+			<!-- wp:paragraph --><p class="item-type-block-all-link"><a href="%s">%s</a></p><!-- /wp:paragraph -->
 
-	</header><!-- /wp:group -->
+		</header>
+		<!-- /wp:group -->
 
-	<!-- wp:ramp/article-teasers { "researchTopic": "all", "showFeaturedItem": true, "variationType": "columns" } /--></section>
+		<!-- wp:ramp/article-teasers { "researchTopic": "all", "showFeaturedItem": true, "variationType": "columns" } /--></section>
 
 	<!-- /wp:group -->',
 	esc_html__( 'Articles', 'ramp-theme' ),
