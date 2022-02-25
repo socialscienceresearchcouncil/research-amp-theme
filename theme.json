@@ -29,13 +29,23 @@
 				},
 				{
 					"slug": "ramp-blue",
-					"color": "#4b6687",
+					"color": "rgba(75, 102, 135, 1)",
 					"name": "Research AMP Blue"
 				},
 				{
+					"slug": "ramp-blue-desaturated",
+					"color": "rgba(75, 102, 135, .85)",
+					"name": "Research AMP Blue Desaturated"
+				},
+				{
 					"slug": "ramp-red",
-					"color": "#a83535",
+					"color": "rgba(168,53,53,1)",
 					"name": "Research AMP Red"
+				},
+				{
+					"slug": "ramp-red-desaturated",
+					"color": "rgba(168,53,53,.85)",
+					"name": "Research AMP Red Desaturated"
 				},
 				{
 					"slug": "almost-black",

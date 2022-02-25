@@ -23,23 +23,23 @@ registerPlugin(
 );
 */
 
-function modifyGroupBlockSettings( settings, name ) {
-    if ( name !== 'core/group' ) {
+function modifyButtonBlockSettings( settings, name ) {
+    if ( name !== 'core/button' ) {
         return settings;
     }
 
     return assign( {}, settings, {
-        supports: assign( {}, settings.supports, {
-						spacing: assign( {}, settings.supports.spacing, {
-							'margin': true,
-							'blockGap': true
-						} )
-        } ),
+        styles: [
+					{ "name": "primary", "label": "Primary", "isDefault": true },
+					{ "name": "secondary", "label": "Secondary" },
+					{ "name": "tertiary", "label": "Tertiary" },
+					{ "name": "outline", "label": "Outline" }
+        ],
     } );
 }
 
 addFilter(
     'blocks.registerBlockType',
-    'ramp-theme/modify-group-block-settings',
-    modifyGroupBlockSettings
+    'ramp-theme/modify-button-block-settings',
+    modifyButtonBlockSettings
 );

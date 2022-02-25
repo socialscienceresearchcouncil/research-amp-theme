@@ -15,7 +15,7 @@ $pattern_content = sprintf(
 	<!-- /wp:paragraph -->
 
 	<!-- wp:buttons -->
-	<div class="wp-block-buttons"><!-- wp:button {"align":"center","className":"is-style-outline"} -->
+	<div class="wp-block-buttons"><!-- wp:button {"align":"center","style":"outline"} -->
 	<div class="wp-block-button aligncenter is-style-outline"><a class="wp-block-button__link">%s</a></div>
 	<!-- /wp:button --></div>
 	<!-- /wp:buttons --></section>
