@@ -6,12 +6,12 @@ $pattern_content = sprintf(
 	<h2 class="has-text-align-center has-white-color has-text-color" id="welcome-to-mediawell">%s</h2>
 	<!-- /wp:heading -->
 
-	<!-- wp:paragraph {"align":"center"} -->
-	<p class="has-text-align-center">%s</p>
+	<!-- wp:paragraph {"align":"center","fontSize":"medium-small"} -->
+	<p class="has-text-align-center has-medium-small-font-size"><strong>%s</strong></p>
 	<!-- /wp:paragraph -->
 
-	<!-- wp:paragraph {"align":"center"} -->
-	<p class="has-text-align-center">%s</p>
+	<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
+	<p class="has-text-align-center has-small-font-size">%s</p>
 	<!-- /wp:paragraph -->
 
 	<!-- wp:buttons -->

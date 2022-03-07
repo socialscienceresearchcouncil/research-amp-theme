@@ -7,11 +7,13 @@ $pattern_content = sprintf(
 	<section class="wp-block-group item-type-block">
 		<!-- wp:group {"tagName":"header","style":{"spacing":{"padding":{"bottom":"8px"}}}} -->
 		<header class="wp-block-group item-type-block-header" style="padding-bottom:8px;">
-			<!-- wp:heading {"fontSize":"medium-large"} -->
-			<h2 class="has-medium-large-font-size" id="research-reviews-blade"><a href="%s">%s</a></h2>
+			<!-- wp:heading {"fontSize":"medium"} -->
+			<h2 class="has-medium-font-size" id="research-reviews-blade"><a href="%s">%s</a></h2>
 			<!-- /wp:heading -->
 
-			<!-- wp:paragraph --><p class="item-type-block-all-link"><a href="%s">%s</a></p><!-- /wp:paragraph -->
+			<!-- wp:paragraph {"fontSize":"small"} -->
+				<p class="has-small-font-size item-type-block-all-link"><a href="%s">%s</a></p>
+			<!-- /wp:paragraph -->
 		</header>
 		<!-- /wp:group -->
 
