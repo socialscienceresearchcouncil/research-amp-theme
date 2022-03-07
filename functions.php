@@ -54,40 +54,22 @@ add_action(
 
 function ramp_theme_font_styles() {
 	return "
-	/* open-sans-400 - latin */
+	/* inter-400 - latin */
 	@font-face {
-	  font-family: 'Open Sans';
+	  font-family: 'Inter';
 	  font-style: normal;
 	  font-weight: 400;
 	  font-display: swap;
-	  src: url( '" . get_theme_file_uri( 'assets/fonts/open-sans-v27-latin-regular.woff2' ) . "') format('woff2');
+	  src: url( '" . get_theme_file_uri( 'assets/fonts/Inter-Regular.ttf' ) . "') format('truetype');
 	}
 
-	/* open-sans-600 - latin */
+	/* inter-700 - latin */
 	@font-face {
-	  font-family: 'Open Sans';
-	  font-style: normal;
-	  font-weight: 600;
-	  font-display: swap;
-	  src: url( '" . get_theme_file_uri( 'assets/fonts/open-sans-v27-latin-600.woff2' ) . "') format('woff2');
-	}
-
-	/* pt-serif-400 - latin */
-	@font-face {
-	  font-family: 'PT Serif';
-	  font-style: normal;
-	  font-weight: 400;
-	  font-display: swap;
-	  src: url( '" . get_theme_file_uri( 'assets/fonts/pt-serif-v16-latin-regular.woff2' ) . "') format('woff2');
-	}
-
-	/* pt-serif-700 - latin */
-	@font-face {
-	  font-family: 'PT Serif';
+	  font-family: 'Inter';
 	  font-style: normal;
 	  font-weight: 700;
 	  font-display: swap;
-	  src: url( '" . get_theme_file_uri( 'assets/fonts/pt-serif-v16-latin-700.woff2' ) . "') format('woff2');
+	  src: url( '" . get_theme_file_uri( 'assets/fonts/Inter-Bold.ttf' ) . "') format('truetype');
 	}
 	";
 }

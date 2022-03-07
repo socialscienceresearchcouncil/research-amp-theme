@@ -62,14 +62,9 @@
     "typography": {
 			"fontFamilies": [
 				{
-					"fontFamily": "\"Open Sans\", \"Segoe UI\", Tahoma, sans-serif",
-					"slug": "open-sans",
-					"name": "Open Sans"
-				},
-				{
-					"fontFamily": "\"PT Serif\", Georgia, serif",
-					"slug": "pt-serif",
-					"name": "PT Serif"
+					"fontFamily": "Inter, \"Segoe UI\", Tahoma, Arial, Helvetica, sans-serif",
+					"slug": "inter",
+					"name": "inter"
 				}
 			],
 			"fontSizes": [
@@ -112,7 +107,7 @@
 			"background": "var(--wp--preset--color--white)"
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--pt-serif)",
+			"fontFamily": "var(--wp--preset--font-family--inter)",
 			"fontSize": "var(--wp--preset--font-size--normal)"
 		},
 		"spacing": {
@@ -121,14 +116,12 @@
 		"elements": {
 			"h1": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--open-sans)",
 					"fontSize": "var(--wp--preset--font-size--huge)",
 					"fontWeight": "600"
 				}
 			},
 			"h2": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--open-sans)",
 					"fontSize": "var(--wp--preset--font-size--big)",
 					"fontWeight": "600"
 				},
@@ -143,7 +136,6 @@
 			},
 			"h3": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--open-sans)",
 					"fontSize": "var(--wp--preset--font-size--medium-large)",
 					"fontWeight": "600"
 				},
@@ -158,7 +150,6 @@
 			},
 			"h4": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--open-sans)",
 					"fontSize": "var(--wp--preset--font-size--medium)",
 					"fontWeight": "600"
 				},
@@ -173,7 +164,6 @@
 			},
 			"h5": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--open-sans)",
 					"fontSize": "22px",
 					"fontWeight": "600"
 				},
@@ -188,7 +178,6 @@
 			},
 			"p": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--pt-serif)",
 					"fontSize": "var(--wp--preset--font-size--normal)"
 				}
 			},
@@ -204,7 +193,6 @@
 		"blocks": {
 			"core/navigation": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--open-sans)",
 					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
@@ -225,7 +213,6 @@
 			},
 			"core/site-tagline": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--open-sans)",
 					"fontSize": "var(--wp--preset--font-size--small)",
 					"fontStyle": "italic"
 				}
