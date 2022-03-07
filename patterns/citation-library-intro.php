@@ -10,10 +10,15 @@ $pattern_content = sprintf(
 		<!-- wp:paragraph {"placeholder":"%s"} -->
 		<p></p>
 		<!-- /wp:paragraph -->
+
+		<!-- wp:heading {"className": "recent-citations-heading"} -->
+		<h2 class="recent-citations-heading">%s</h2>
+		<!-- /wp:heading -->
 	</div>
 	<!-- /wp:group -->',
 	esc_html__( 'Citation Library', 'ramp-theme' ),
-	esc_html__( 'Enter a description for the Citation Library.', 'ramp-theme' )
+	esc_html__( 'Enter a description for the Citation Library.', 'ramp-theme' ),
+	esc_html__( 'Recent Citations', 'ramp-theme' )
 );
 
 return [
