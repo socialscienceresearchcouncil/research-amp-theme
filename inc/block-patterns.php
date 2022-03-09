@@ -35,6 +35,7 @@ function ramp_theme_register_block_patterns() {
 		// Misc
 		'call-to-action',
 		'citation-library-intro',
+		'profiles-archive-intro',
 		'research-reviews-archive-intro',
 	];
 

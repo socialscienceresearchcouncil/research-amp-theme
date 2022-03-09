@@ -9,7 +9,7 @@
 		},
 		"appearanceTools": true,
 		"layout": {
-			"contentSize": "960px",
+			"contentSize": "1160px",
 			"wideSize": "1300px"
 		},
 		"border": {
@@ -54,7 +54,7 @@
 				},
 				{
 					"slug": "light-grey",
-					"color": "#eee",
+					"color": "#f3f4f4",
 					"name": "Light grey"
 				}
 			]
@@ -230,6 +230,11 @@
 			"name": "archive-ramp_citation",
 			"title": "Citation Library",
 			"postTypes": [ "ramp_citation" ]
+		},
+		{
+			"name": "archive-ramp_profile",
+			"title": "Profile Archive",
+			"postTypes": [ "ramp_profile" ]
 		},
 		{
 			"name": "archive-ramp_review",
