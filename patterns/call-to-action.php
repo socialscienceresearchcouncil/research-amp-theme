@@ -1,17 +1,16 @@
 <?php
-
 $pattern_content = sprintf(
-	'<!-- wp:group {"tagName":"section","style":{"spacing":{"padding":{"top":"32px","right":"32px","bottom":"32px","left":"32px"}}},"backgroundColor":"ramp-blue","textColor":"white","layout":{"inherit":true}} -->
-	<section class="wp-block-group has-white-color has-ramp-blue-background-color has-text-color has-background" style="padding-top:32px;padding-right:32px;padding-bottom:32px;padding-left:32px"><!-- wp:heading {"textAlign":"center","textColor":"white"} -->
-	<h2 class="has-text-align-center has-white-color has-text-color" id="welcome-to-mediawell">%s</h2>
+	'<!-- wp:group {"tagName":"section","style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"},"blockGap":"24px"}},"backgroundColor":"ramp-blue","textColor":"white","layout":{"inherit":true}} -->
+	<section class="wp-block-group has-white-color has-ramp-blue-background-color has-text-color has-background" style="padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px"><!-- wp:heading {"textAlign":"center","textColor":"white","fontSize":"h3"} -->
+	<h2 class="has-text-align-center has-h-3-font-size has-white-color has-text-color" id="welcome-to-mediawell">%s</h2>
 	<!-- /wp:heading -->
 
-	<!-- wp:paragraph {"align":"center","fontSize":"medium-small"} -->
-	<p class="has-text-align-center has-medium-small-font-size"><strong>%s</strong></p>
+	<!-- wp:paragraph {"align":"center","fontSize":"h5"} -->
+	<p class="has-text-align-center has-h-5-font-size"><strong>%s</strong></p>
 	<!-- /wp:paragraph -->
 
-	<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-	<p class="has-text-align-center has-small-font-size">%s</p>
+	<!-- wp:paragraph {"align":"center"} -->
+	<p class="has-text-align-center">%s</p>
 	<!-- /wp:paragraph -->
 
 	<!-- wp:buttons -->
