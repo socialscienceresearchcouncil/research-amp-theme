@@ -1,16 +1,15 @@
 .wp-block-button__link {
-	border-radius: 4px;
-	font-size: var(--wp--preset--font-size--small);
+	border-radius: 2px;
 	font-weight: 600;
-	padding: 12px 24px;
+	padding: 16px 32px;
 }
 
 .wp-block-button.is-style-primary .wp-block-button__link {
-	background-color: var(--wp--preset--color--ramp-red);
+	background-color: var(--wp--preset--color--ramp-green);
 }
 
 .wp-block-button.is-style-primary .wp-block-button__link:hover {
-	background-color: var(--wp--preset--color--ramp-red-desaturated);
+	background-color: var(--wp--preset--color--ramp-green-desaturated);
 }
 
 .wp-block-button.is-style-secondary .wp-block-button__link {
@@ -21,12 +20,16 @@
 	background-color: var(--wp--preset--color--ramp-blue-desaturated);
 }
 
+.wp-block-button.is-style-outline .wp-block-button__link,
 .wp-block-button.is-style-tertiary .wp-block-button__link {
 	background-color: transparent;
-	border-width: 2px;
+	border-width: 1px;
 	border-style: solid;
+	padding: 15px 30px;
+}
+
+.wp-block-button.is-style-tertiary .wp-block-button__link {
 	border-color: var(--wp--preset--color--almost-black);
-	padding: 10px 22px;
 }
 
 .wp-block-button.is-style-tertiary .wp-block-button__link:hover {
