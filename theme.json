@@ -223,6 +223,9 @@
 			}
 		},
 		"blocks": {
+			"core/separator": {
+				"color": "medium-grey"
+			},
 			"core/site-tagline": {
 				"typography": {
 					"fontStyle": "italic"
