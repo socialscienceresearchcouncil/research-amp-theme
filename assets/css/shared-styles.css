@@ -88,3 +88,9 @@ h6 a:hover {
 	margin-bottom: 0;
 }
 
+.item-type-block-all-link {
+	background: url('../img/ic_arrow_forward_24px.png') no-repeat right center;
+	background-size: 24px auto;
+	padding-right: 36px;
+}
+
