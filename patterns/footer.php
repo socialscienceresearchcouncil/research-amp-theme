@@ -82,8 +82,8 @@ $pattern_content = sprintf(
 		'<!-- /wp:group -->' .
 	'</div>' .
 	'<!-- /wp:group -->',
-	ramp_theme_get_footer_nav_id(),
-	ramp_theme_get_default_footer_nav_items(),
+	SSRC\RAMP\Util\Navigation::get_nav_id( 'footer-nav' ),
+	SSRC\RAMP\Util\Navigation::get_default_footer_nav_items(),
 	esc_html__( 'Place funder logos and links here', 'ramp-theme' ),
 	esc_html__( 'Place copyright info, links to Privacy Policy and Terms of Conditions, and other footer links here', 'ramp-theme' ),
 	implode( ' &nbsp;/&nbsp; ', $bottom_contents )

@@ -57,10 +57,10 @@ $header_props = array(
 							'<!-- /wp:group -->' .
 						'</div>' .
 						'<!-- /wp:group -->',
-						ramp_theme_get_secondary_nav_id(),
-						ramp_theme_get_default_secondary_nav_items(),
-						ramp_theme_get_primary_nav_id(),
-						ramp_theme_get_default_primary_nav_items(),
+						SSRC\RAMP\Util\Navigation::get_nav_id( 'secondary-nav' ),
+						SSRC\RAMP\Util\Navigation::get_default_secondary_nav_items(),
+						SSRC\RAMP\Util\Navigation::get_nav_id( 'primary-nav' ),
+						SSRC\RAMP\Util\Navigation::get_default_primary_nav_items(),
 						esc_html__( 'Search', 'ramp-theme' )
 					),
 );

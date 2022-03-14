@@ -5,7 +5,6 @@ add_action(
 	function() {
 		require __DIR__ . '/inc/blocks.php';
 		require __DIR__ . '/inc/block-patterns.php';
-		require __DIR__ . '/inc/navigation.php';
 
 		add_editor_style(
 			[
