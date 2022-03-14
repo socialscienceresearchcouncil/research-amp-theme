@@ -15,6 +15,13 @@ function ramp_theme_get_secondary_nav_id() {
 }
 
 /**
+ * Fetches the footer nav ID.
+ */
+function ramp_theme_get_footer_nav_id() {
+	return 70558;
+}
+
+/**
  * Fetches the Research Topics submenu navigation block and its children.
  *
  * @todo This works for the initial insertion, but it's not dynamic for newly created RTs.
@@ -130,6 +137,46 @@ function ramp_theme_get_default_secondary_nav_items() {
 		$get_started_nav_link,
 		$contact_link,
 		$login_link,
+	];
+
+	return join( "\n", $items );
+}
+
+/**
+ * Gets the default navigation items for the footer nav.
+ */
+function ramp_theme_get_default_footer_nav_items() {
+	$research_reviews_link = sprintf(
+		'<!-- wp:navigation-link {"label":"%s","type":"","url":"%s","kind":"post-type-archive","isTopLevelItem":true} /-->',
+		esc_attr( __( 'Research Reviews', 'ramp' ) ),
+		esc_url( get_post_type_archive_link( 'ramp_review' ) )
+	);
+
+	$articles_link = sprintf(
+		'<!-- wp:navigation-link {"label":"%s","type":"","url":"%s","kind":"post-type-archive","isTopLevelItem":true} /-->',
+		esc_attr( __( 'Articles', 'ramp' ) ),
+		esc_url( get_post_type_archive_link( 'ramp_article' ) )
+	);
+
+	$resources_link = sprintf(
+		'<!-- wp:navigation-link {"label":"%s","type":"","url":"%s","kind":"post-type-archive","isTopLevelItem":true} /-->',
+		esc_attr( __( 'Resources', 'ramp' ) ),
+		esc_url( '#' )
+	);
+
+	$citations_link = sprintf(
+		'<!-- wp:navigation-link {"label":"%s","type":"","url":"%s","kind":"post-type-archive","isTopLevelItem":true} /-->',
+		esc_attr( __( 'Citations', 'ramp' ) ),
+		esc_url( get_post_type_archive_link( 'ramp_citation' ) )
+	);
+
+	$items = [
+		ramp_theme_get_research_topics_submenu_block(),
+		$research_reviews_link,
+		$articles_link,
+		$resources_link,
+		$citations_link,
+		$search_item
 	];
 
 	return join( "\n", $items );

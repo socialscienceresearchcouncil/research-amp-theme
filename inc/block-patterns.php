@@ -21,6 +21,9 @@ function ramp_theme_register_block_patterns() {
 		'header-condensed',
 		'header-centered',
 
+		// Footers
+		'footer',
+
 		// Content blades
 		'articles-blade',
 		'news-items-blade',

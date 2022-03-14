@@ -280,7 +280,8 @@
 		},
 		{
 			"name": "footer",
-			"area": "footer"
+			"area": "footer",
+			"title": "Footer"
 		}
 	]
 }

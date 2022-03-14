@@ -47,6 +47,16 @@
 	border-top: 1px solid var(--wp--preset--color--almost-black);
 }
 
+.footer-nav .wp-block-navigation a,
+.footer-nav .wp-block-navigation a:active,
+.footer-nav .wp-block-navigation a:focus {
+	text-decoration: underline;
+}
+
+.footer-nav .wp-block-navigation a:hover {
+	text-decoration: none;
+}
+
 /**
  * theme.json doesn't yet support pseudo-classes.
  *
