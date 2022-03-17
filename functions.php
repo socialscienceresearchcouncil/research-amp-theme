@@ -5,18 +5,21 @@ add_action(
 	function() {
 		require __DIR__ . '/inc/blocks.php';
 		require __DIR__ . '/inc/block-patterns.php';
-	}
-);
 
-add_action(
-	'wp_enqueue_scripts',
-	function() {
 		add_editor_style(
 			[
 				'./assets/css/shared-styles.css',
 			]
 		);
+	}
+);
 
+/**
+ * Style loader.
+ */
+add_action(
+	'wp_enqueue_scripts',
+	function() {
 		wp_register_style(
 			'ramp-theme',
 			get_template_directory_uri() . '/style.css',
