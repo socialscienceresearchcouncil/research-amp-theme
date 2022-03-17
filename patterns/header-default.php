@@ -30,7 +30,7 @@ $header_props = array(
 								'<div class="wp-block-columns is-not-stacked-on-mobile nav-and-search">' .
 									'<!-- wp:column -->' .
 									'<div class="wp-block-column">' .
-										'<!-- wp:navigation {"ref":%d,"style":{"typography":{"fontWeight":"600"}}} -->' .
+										'<!-- wp:navigation {"ref":%d,"style":{"typography":{"fontWeight":"600"},"spacing":{"blockGap":"32px"}}} -->' .
 										'%s' .
 										'<!-- /wp:navigation -->' .
 									'</div>' .
