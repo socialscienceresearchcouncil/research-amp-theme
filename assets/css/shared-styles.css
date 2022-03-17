@@ -105,3 +105,54 @@ h6 a:hover {
 	padding-right: 36px;
 }
 
+/* Social links */
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-twitter,
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-instagram,
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-facebook,
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-mail {
+	background: none;
+}
+
+.wp-social-link-twitter svg,
+.wp-social-link-instagram svg,
+.wp-social-link-facebook svg,
+.wp-social-link-mail svg {
+	display: none;
+}
+
+.wp-social-link-twitter button:after,
+.wp-social-link-twitter a:after,
+.wp-social-link-instagram button:after,
+.wp-social-link-instagram a:after,
+.wp-social-link-facebook button:after,
+.wp-social-link-facebook a:after,
+.wp-social-link-mail button:after,
+.wp-social-link-mail a:after {
+	background-repeat: no-repeat;
+	content: '';
+	height: 24px;
+}
+
+.wp-social-link-twitter button:after,
+.wp-social-link-twitter a:after {
+	background-image: url(../img/social-icons/twitter.svg);
+	width: 30px;
+}
+
+.wp-social-link-instagram button:after,
+.wp-social-link-instagram a:after {
+	background-image: url(../img/social-icons/instagram.svg);
+	width: 24px;
+}
+
+.wp-social-link-facebook button:after,
+.wp-social-link-facebook a:after {
+	background-image: url(../img/social-icons/facebook.svg);
+	width: 13px;
+}
+
+.wp-social-link-mail button:after,
+.wp-social-link-mail a:after {
+	background-image: url(../img/social-icons/email.svg);
+	width: 30px;
+}
