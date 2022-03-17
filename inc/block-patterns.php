@@ -18,7 +18,6 @@ function ramp_theme_register_block_patterns() {
 	$block_patterns = [
 		// Headers
 		'header-default',
-		'header-condensed',
 		'header-centered',
 
 		// Footers
