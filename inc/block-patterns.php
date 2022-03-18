@@ -57,9 +57,3 @@ function ramp_theme_register_block_patterns() {
 	}
 }
 add_action( 'init', 'ramp_theme_register_block_patterns', 9 );
-
-function ramp_add_custom_query_vars( $vars ) {
-	$vars[] = 'pag-offset';
-	return $vars;
-}
-add_filter( 'query_vars', 'ramp_add_custom_query_vars' );

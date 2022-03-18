@@ -157,7 +157,7 @@ h6 a:hover {
 	width: 30px;
 }
 
-.ramp-arrow-more-link a.wp-block-post-excerpt__more-link {
+a.ramp-arrow-more-link {
 	display: block;
 	height: 18px;
 	position: relative;
@@ -165,7 +165,7 @@ h6 a:hover {
 	width: 41px;
 }
 
-.ramp-arrow-more-link a.wp-block-post-excerpt__more-link:after {
+a.ramp-arrow-more-link:after {
 	background: url(../img/ic_arrow_forward_24px.png) no-repeat;
 	content: '';
 	position: absolute;
