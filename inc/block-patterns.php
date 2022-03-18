@@ -39,6 +39,7 @@ function ramp_theme_register_block_patterns() {
 		'citation-library-intro',
 		'profiles-archive-intro',
 		'research-reviews-archive-intro',
+		'research-topics-archive-intro',
 	];
 
 	if ( defined( 'TRIBE_EVENTS_FILE' ) ) {

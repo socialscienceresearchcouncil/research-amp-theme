@@ -156,3 +156,21 @@ h6 a:hover {
 	background-image: url(../img/social-icons/email.svg);
 	width: 30px;
 }
+
+.ramp-arrow-more-link a.wp-block-post-excerpt__more-link {
+	display: block;
+	height: 18px;
+	position: relative;
+	text-indent: -999em;
+	width: 41px;
+}
+
+.ramp-arrow-more-link a.wp-block-post-excerpt__more-link:after {
+	background: url(../img/ic_arrow_forward_24px.png) no-repeat;
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
