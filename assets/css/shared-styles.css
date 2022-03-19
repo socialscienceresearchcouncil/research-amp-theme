@@ -9,6 +9,19 @@
 	white-space: nowrap;
 }
 
+.ramp-page-section {
+	border-bottom: 1px solid var(--wp--preset--color--medium-grey);
+	padding: 0 0 42px 0;
+}
+
+.ramp-page-section:first-child {
+	padding-top: 0;
+}
+
+.ramp-page-bottom:last-child {
+	border-bottom: none;
+}
+
 /*
  * Navigation/search
  */
@@ -98,6 +111,15 @@ h6 a:hover {
 	margin-bottom: 0;
 }
 
+.item-intro h2 {
+	margin-top: 0;
+}
+
+.item-intro-item-type {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
 .arrow-button,
 .item-type-block-all-link {
 	background: url('../img/ic_arrow_forward_24px.png') no-repeat right center;
@@ -173,4 +195,8 @@ a.ramp-arrow-more-link:after {
 	top: 0;
 	right: 0;
 	bottom: 0;
+}
+
+.enforce-reading-width {
+	max-width: 982px;
 }
