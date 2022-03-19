@@ -14,7 +14,7 @@ $pattern_content = sprintf(
 		</header>
 		<!-- /wp:group -->
 
-		<!-- wp:ramp/research-review-teasers {"contentMode":"auto", "variationType":"horizontal" } /-->
+		<!-- wp:ramp/research-review-teasers {"contentMode":"auto", "variationType":"list", "numberOfItems": 2 } /-->
 	</section>
 	<!-- /wp:group -->',
 	esc_html__( 'Research Reviews', 'ramp-theme' ),
