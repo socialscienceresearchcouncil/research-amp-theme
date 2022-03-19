@@ -127,6 +127,15 @@ h6 a:hover {
 	padding-right: 36px;
 }
 
+.item-type-block-all-link a {
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.item-type-block-all-link a:hover {
+	text-decoration: underline;
+}
+
 /* Social links */
 .wp-block-social-links:not(.is-style-logos-only) .wp-social-link-twitter,
 .wp-block-social-links:not(.is-style-logos-only) .wp-social-link-instagram,
