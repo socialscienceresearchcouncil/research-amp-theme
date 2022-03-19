@@ -8,7 +8,7 @@ $pattern_content = sprintf(
 		<!-- wp:group {"tagName":"header","style":{"spacing":{"padding":{"bottom":"8px"}}}} -->
 		<header class="wp-block-group item-type-block-header" style="padding-bottom:8px;">
 			<!-- wp:heading {"fontSize":"h4"} -->
-			<h2 class="has-h-4-font-size" id="research-reviews-blade"><a href="%s">%s</a></h2>
+				<h2 class="has-h-4-font-size" id="research-reviews-blade"><a href="%s">%s</a></h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
