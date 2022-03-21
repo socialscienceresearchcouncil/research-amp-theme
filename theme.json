@@ -252,7 +252,7 @@
 			"postTypes": [ "ramp_topic" ]
 		},
 		{
-			"name": "front-page",
+			"name": "home",
 			"title": "Home Page",
 			"postTypes": []
 		},
