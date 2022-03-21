@@ -23,7 +23,7 @@ $pattern_content = sprintf(
 	esc_url( $archive_link ),
 	esc_html__( 'Research Reviews', 'ramp-theme' ),
 	esc_url( $archive_link ),
-	esc_html__( 'All Research Reviews', 'ramp-theme' )
+	esc_html__( 'More Research Reviews', 'ramp-theme' )
 );
 
 return [
