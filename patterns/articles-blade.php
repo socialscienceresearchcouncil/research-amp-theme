@@ -15,8 +15,8 @@ $pattern_content = sprintf(
 		</header>
 		<!-- /wp:group -->
 
-		<!-- wp:ramp/article-teasers { "researchTopic": "all", "showFeaturedItem": true, "variationType": "columns" } /--></section>
-
+		<!-- wp:ramp/article-teasers { "contentMode":"all", "featuredItemId": 0, "order": "latest", "variationType":"featured" } /-->
+	</section>
 	<!-- /wp:group -->',
 	esc_html__( 'Articles', 'ramp-theme' ),
 	esc_url( get_post_type_archive_link( 'ramp_article' ) ),
