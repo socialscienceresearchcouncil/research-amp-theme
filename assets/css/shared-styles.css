@@ -1,3 +1,7 @@
+.wp-block-separator {
+	border-top: none;
+}
+
 .ramp-page-section {
 	border-bottom: 1px solid var(--wp--preset--color--medium-grey);
 	padding: 0 0 42px 0;
@@ -92,6 +96,7 @@ h6 a:hover {
 }
 
 .item-type-block-header {
+	align-items: flex-end;
 	display: flex;
 	justify-content: space-between;
 }
