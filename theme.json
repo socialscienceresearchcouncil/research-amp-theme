@@ -252,8 +252,8 @@
 			"postTypes": [ "ramp_topic" ]
 		},
 		{
-			"name": "home",
-			"title": "Home Page",
+			"name": "front-page",
+			"title": "Front Page",
 			"postTypes": []
 		},
 		{
