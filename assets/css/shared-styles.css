@@ -182,15 +182,16 @@ h6 a:hover {
 	width: 30px;
 }
 
-a.ramp-arrow-more-link {
+.ramp-arrow-more-link {
 	display: block;
 	height: 18px;
 	position: relative;
+	text-decoration: underline;
 	text-indent: -999em;
 	width: 41px;
 }
 
-a.ramp-arrow-more-link:after {
+.ramp-arrow-more-link:after {
 	background: url(../img/ic_arrow_forward_24px.png) no-repeat;
 	content: '';
 	position: absolute;
