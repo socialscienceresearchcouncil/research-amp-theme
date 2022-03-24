@@ -1,8 +1,8 @@
 <?php
 
 $pattern_content = sprintf(
-	'<!-- wp:group {"tagName":"section"} -->
-	<section class="wp-block-group item-type-block">
+	'<!-- wp:group {"tagName":"section","className":"ramp-page-section item-type-block"} -->
+	<section class="wp-block-group ramp-page-section item-type-block">
 		<!-- wp:group {"tagName":"header","style":{"spacing":{"padding":{"bottom":"8px"}}}} -->
 		<header class="wp-block-group item-type-block-header" style="padding-bottom:8px;">
 			<!-- wp:heading	{"level":3,"fontSize":"h4"} -->
