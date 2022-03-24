@@ -6,7 +6,7 @@ $pattern_content = sprintf(
 		<!-- wp:group {"tagName":"header","style":{"spacing":{"padding":{"bottom":"32px"}}}} -->
 		<header class="wp-block-group item-type-block-header" style="padding-bottom:32px;">
 			<!-- wp:heading	{"level":3,"fontSize":"h4"} -->
-				<h3 class="has-h-4-font-size" id="articles-blade">%s</h3>
+				<h3 class="has-h-4-font-size" id="events-blade">%s</h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
