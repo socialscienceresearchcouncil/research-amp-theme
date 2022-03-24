@@ -1,16 +1,21 @@
 <?php
 
 $pattern_content = sprintf(
-	'<!-- wp:group {"tagName":"section"} -->
-	<section class="wp-block-group item-type-block"><!-- wp:group {"tagName":"header"} -->
-	<header class="wp-block-group item-type-block-header">
-	<!-- wp:heading --><h2 id="news-items-blade">%s</h2><!-- /wp:heading -->
+	'<!-- wp:group {"tagName":"section","className":"ramp-page-section item-type-block"} -->
+	<section class="wp-block-group ramp-page-section item-type-block">
+		<!-- wp:group {"tagName":"header","style":{"spacing":{"padding":{"bottom":"8px"}}}} -->
+		<header class="wp-block-group item-type-block-header" style="padding-bottom:8px;">
+			<!-- wp:heading	{"level":3,"fontSize":"h4"} -->
+				<h3 class="has-h-4-font-size" id="news-items-blade">%s</h3>
+			<!-- /wp:heading -->
 
-	<!-- wp:paragraph --><p class="item-type-block-all-link"><a href="%s">%s</a></p><!-- /wp:paragraph -->
+			<!-- wp:paragraph -->
+				<p class="item-type-block-all-link"><a href="%s">%s</a></p>
+			<!-- /wp:paragraph -->
+		</header>
+		<!-- /wp:group -->
 
-	</header><!-- /wp:group -->
-
-	<!-- wp:ramp/news-item-teasers {"researchTopic":"auto"} /--></section>
+	<!-- wp:ramp/news-item-teasers {"contentMode":"auto", "numberOfItems": 3, "order": "latest", "showResearchTopics": true, "variationType": "grid"} /--></section>
 
 	<!-- /wp:group -->',
 	esc_html__( 'News Items', 'ramp-theme' ),
