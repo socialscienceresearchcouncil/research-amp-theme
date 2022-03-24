@@ -11,6 +11,10 @@
 	padding-top: 0;
 }
 
+.ramp-page-section:last-child {
+	border-bottom: none;
+}
+
 .ramp-page-bottom:last-child {
 	border-bottom: none;
 }
