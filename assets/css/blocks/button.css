@@ -1,5 +1,6 @@
 .wp-block-button__link {
 	border-radius: 2px;
+	font-size: var(--wp--preset--font-size--normal);
 	font-weight: 600;
 	padding: 16px 32px;
 }
