@@ -15,7 +15,7 @@ $pattern_content = sprintf(
 		</header>
 		<!-- /wp:group -->
 
-		<!-- wp:ramp/citation-teasers {"contentMode":"auto","numberOfItems": 3, "order": "latest", "variationType": "list"} /--></section>
+		<!-- wp:ramp/citation-teasers {"contentMode":"auto","numberOfItems": 3, "order": "latest"} /--></section>
 
 	<!-- /wp:group -->',
 	esc_html__( 'Citations', 'ramp-theme' ),
