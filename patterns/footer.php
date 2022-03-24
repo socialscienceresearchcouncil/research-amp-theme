@@ -19,8 +19,8 @@ $bottom_contents = [
  * First group is for background, second for "inherit" layout.
  */
 $pattern_content = sprintf(
-	'<!-- wp:group {"style":{"spacing":{"blockGap":"0px"}}} -->' .
-	'<div class="wp-block-group">' .
+	'<!-- wp:group {"style":{"spacing":{"blockGap":"0px","margin":{"top":"96px"}}}} -->' .
+	'<div class="wp-block-group" style="margin-top:96px">' .
 		'<!-- wp:separator {"color":"almost-black","className":"is-style-wide"} -->' .
 			'<hr class="wp-block-separator has-text-color has-background has-almost-black-background-color has-almost-black-color is-style-wide"/>' .
 		'<!-- /wp:separator -->' .
