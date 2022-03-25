@@ -8,6 +8,8 @@ $pattern_content = sprintf(
 		<!-- /wp:paragraph -->
 
 		<!-- wp:post-title /-->
+
+		<!-- wp:ramp/item-byline {"showPublicationDate":"true"} /-->
 	</div>
 	<!-- /wp:group -->',
 	__( 'Research Review', 'ramp' )
