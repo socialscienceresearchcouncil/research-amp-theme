@@ -15,7 +15,7 @@ $pattern_content = sprintf(
 		</header>
 		<!-- /wp:group -->
 
-		<!-- wp:ramp/profile-teasers {"contentMode":"auto", "hasRowRules": false, "numberOfItems": 4} /-->
+		<!-- wp:ramp/profile-teasers {"contentMode":"auto", "numberOfItems": 4, "showRowRules": false} /-->
 	</section>
 	<!-- /wp:group -->',
 	esc_html__( 'Profiles', 'ramp-theme' ),

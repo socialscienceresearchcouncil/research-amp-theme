@@ -17,7 +17,7 @@ $pattern_content = sprintf(
 		</header>
 		<!-- /wp:group -->
 
-		<!-- wp:ramp/research-review-teasers {"variationType":"grid","contentMode":"all","order":"random","numberOfItems":3,"hasRowRules":false} /-->
+		<!-- wp:ramp/research-review-teasers {"variationType":"grid","contentMode":"all","order":"random","numberOfItems":3,"showRowRules":false} /-->
 	</section>
 	<!-- /wp:group -->',
 	esc_url( $archive_link ),
