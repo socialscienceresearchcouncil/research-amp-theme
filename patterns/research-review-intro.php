@@ -7,7 +7,7 @@ $pattern_content = sprintf(
 			<p class="item-intro-item-type">%s</p>
 		<!-- /wp:paragraph -->
 
-		<!-- wp:post-title /-->
+		<!-- wp:post-title {"className":"enforce-reading-width"} /-->
 
 		<!-- wp:ramp/item-byline {"showPublicationDate":"true"} /-->
 	</div>
