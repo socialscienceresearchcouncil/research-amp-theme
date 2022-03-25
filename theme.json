@@ -266,6 +266,11 @@
 			"name": "single-ramp_profile",
 			"title": "Single Profile",
 			"postTypes": [ "ramp_profile" ]
+		},
+		{
+			"name": "single-ramp_review_version",
+			"title": "Single Research Review",
+			"postTypes": [ "ramp_review_version" ]
 		}
 	],
 	"templateParts": [

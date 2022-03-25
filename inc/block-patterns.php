@@ -38,6 +38,7 @@ function ramp_theme_register_block_patterns() {
 		// Page type intros
 		'citation-library-intro',
 		'profiles-archive-intro',
+		'research-review-intro',
 		'research-reviews-archive-intro',
 		'research-topic-intro',
 		'research-topics-archive-intro',
