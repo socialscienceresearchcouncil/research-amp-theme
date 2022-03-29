@@ -35,6 +35,7 @@ function ramp_theme_enqueue_block_styles() {
 		'button',
 		'list',
 		'pullquote',
+		'quote',
 	];
 
 	foreach ( $styled_blocks as $block_name ) {

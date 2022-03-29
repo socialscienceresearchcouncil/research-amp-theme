@@ -1,0 +1,15 @@
+.wp-block-quote {
+	border-left: 4px solid var(--wp--preset--color--dark-grey);
+	margin-left: 0;
+	padding-left: 24px;
+}
+
+.wp-block-quote p:last-of-type {
+	margin-bottom: 0;
+}
+
+.wp-block-quote cite {
+	font-size: var(--wp--preset--font-size--body-text);
+	font-style: normal;
+	font-weight: normal;
+}

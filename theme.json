@@ -233,6 +233,16 @@
 				"color": {
 					"text": "var(--wp--preset--color--ramp-green)"
 				}
+			},
+			"core/quote": {
+				"color": {
+					"text": "var(--wp--preset--color--dark-grey)"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--h-3)",
+					"fontWeight": 700,
+					"lineHeight": "1.5em"
+				}
 			}
 		}
 	},
