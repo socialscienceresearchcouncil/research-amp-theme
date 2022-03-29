@@ -3,9 +3,7 @@
 $pattern_content = sprintf(
 	'<!-- wp:group {"className":"item-intro"} -->
 	<div class="wp-block-group item-intro">
-		<!-- wp:paragraph {"className":"item-intro-item-type"} -->
-			<p class="item-intro-item-type">%s</p>
-		<!-- /wp:paragraph -->
+		<!-- wp:ramp/item-type-label /-->
 
 		<!-- wp:post-title {"className":"enforce-reading-width"} /-->
 

@@ -113,11 +113,6 @@ h6 a:hover {
 	margin-top: 0;
 }
 
-.item-intro-item-type {
-	font-weight: 700;
-	text-transform: uppercase;
-}
-
 .arrow-button,
 .item-type-block-all-link {
 	background: url('../img/ic_arrow_forward_24px.png') no-repeat right center;
