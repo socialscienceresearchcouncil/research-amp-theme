@@ -31,7 +31,7 @@ add_action( 'enqueue_block_editor_assets', 'ramp_register_block_assets' );
  */
 function ramp_theme_enqueue_block_styles() {
 	// An array of blocks.
-	$styled_blocks = [ 'button' ];
+	$styled_blocks = [ 'button', 'list' ];
 
 	foreach ( $styled_blocks as $block_name ) {
 		// Get the stylesheet handle. This is backwards-compatible and checks the
