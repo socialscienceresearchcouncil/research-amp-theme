@@ -36,6 +36,7 @@ function ramp_theme_register_block_patterns() {
 		'rt-research-reviews-blade',
 
 		// Page type intros
+		'article-intro',
 		'articles-archive-intro',
 		'citation-library-intro',
 		'profiles-archive-intro',

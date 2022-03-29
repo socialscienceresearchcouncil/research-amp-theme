@@ -278,6 +278,11 @@
 			"postTypes": []
 		},
 		{
+			"name": "single-ramp_article",
+			"title": "Single Article",
+			"postTypes": [ "ramp_article" ]
+		},
+		{
 			"name": "single-ramp_topic",
 			"title": "Research Topic Landing Page",
 			"postTypes": [ "ramp_topic" ]
