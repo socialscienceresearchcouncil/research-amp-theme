@@ -228,6 +228,11 @@
 				"typography": {
 					"fontStyle": "italic"
 				}
+			},
+			"core/pullquote": {
+				"color": {
+					"text": "var(--wp--preset--color--ramp-green)"
+				}
 			}
 		}
 	},
