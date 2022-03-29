@@ -248,6 +248,11 @@
 	},
 	"customTemplates": [
 		{
+			"name": "archive-ramp_article",
+			"title": "Article Archive",
+			"postTypes": [ "ramp_article" ]
+		},
+		{
 			"name": "archive-ramp_citation",
 			"title": "Citation Library",
 			"postTypes": [ "ramp_citation" ]
