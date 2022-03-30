@@ -273,8 +273,13 @@
 			"postTypes": [ "ramp_topic" ]
 		},
 		{
-			"name": "front-page",
-			"title": "Front Page",
+			"name": "page-home-page",
+			"title": "Home Page",
+			"postTypes": []
+		},
+		{
+			"name": "page-news-items",
+			"title": "News Items Archive",
 			"postTypes": []
 		},
 		{
