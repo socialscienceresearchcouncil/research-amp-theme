@@ -15,11 +15,11 @@ $pattern_content = sprintf(
 		</header>
 		<!-- /wp:group -->
 
-	<!-- wp:ramp/news-item-teasers {"contentMode":"auto", "numberOfItems": 3, "order": "latest", "showResearchTopics": true, "variationType": "grid"} /--></section>
+	<!-- wp:ramp/news-item-teasers {"contentMode":"auto", "numberOfItems": 3, "order": "latest", "showResearchTopics": true, "showRowRules": false, "variationType": "grid"} /--></section>
 
 	<!-- /wp:group -->',
 	esc_html__( 'News Items', 'ramp-theme' ),
-	esc_url( '#' ), // @todo
+	esc_url( get_permalink( get_option( 'page_for_posts' ) ) ),
 	esc_html__( 'More News Items', 'ramp-theme' )
 );
 
