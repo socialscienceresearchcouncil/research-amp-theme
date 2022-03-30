@@ -39,6 +39,7 @@ function ramp_theme_register_block_patterns() {
 		'article-intro',
 		'articles-archive-intro',
 		'citation-library-intro',
+		'news-items-archive-intro',
 		'profiles-archive-intro',
 		'research-review-intro',
 		'research-reviews-archive-intro',
