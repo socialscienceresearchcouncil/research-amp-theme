@@ -283,6 +283,11 @@
 			"postTypes": []
 		},
 		{
+			"name": "single",
+			"title": "Single News Item",
+			"postTypes": [ "post" ]
+		},
+		{
 			"name": "single-ramp_article",
 			"title": "Single Article",
 			"postTypes": [ "ramp_article" ]
