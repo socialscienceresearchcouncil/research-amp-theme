@@ -2,7 +2,18 @@
 
 <!-- wp:group {"tagName":"main","style":{"spacing":{"blockGap":"64px"}},"layout":{"inherit":true}} -->
 <main class="wp-block-group">
-	<!-- wp:pattern {"slug":"ramp-theme/research-topic-intro"} /-->
+	<!-- wp:group {"className":"item-intro"} -->
+	<div class="wp-block-group item-intro">
+		<!-- wp:ramp/item-type-label /-->
+
+		<!-- wp:group {"className": "ramp-page-section"} -->
+		<div class="wp-block-group ramp-page-section">
+			<!-- wp:post-title /-->
+			<!-- wp:post-content {"className":"enforce-reading-width"} /-->
+		</div>
+		<!-- /wp:group -->
+	</div>
+	<!-- /wp:group -->
 
 	<!-- wp:pattern {"slug":"ramp-theme/rt-research-reviews-blade"} /-->
 

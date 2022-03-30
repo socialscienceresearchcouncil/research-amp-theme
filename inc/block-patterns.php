@@ -41,7 +41,6 @@ function ramp_theme_register_block_patterns() {
 		'news-items-archive-intro',
 		'profiles-archive-intro',
 		'research-reviews-archive-intro',
-		'research-topic-intro',
 		'research-topics-archive-intro',
 
 		// Misc
