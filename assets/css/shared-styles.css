@@ -19,10 +19,14 @@
 	border-bottom: none;
 }
 
+.single-ramp_profile .ramp-page-section:first-of-type {
+	margin-top: 60px;
+}
+
 .single-ramp_profile .ramp-page-section {
 	border-top: 5px solid var(--wp--preset--color--medium-grey);
+	border-bottom: none;
 	padding: 48px 0;
-	margin-top: 60px;
 }
 
 .single-ramp_profile .item-type-block-header {
