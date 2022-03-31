@@ -51,6 +51,7 @@ function ramp_theme_register_block_patterns() {
 
 	if ( defined( 'TRIBE_EVENTS_FILE' ) ) {
 		$block_patterns[] = 'events-blade';
+		$block_patterns[] = 'profile-events-blade';
 		$block_patterns[] = 'rt-events-blade';
 	}
 

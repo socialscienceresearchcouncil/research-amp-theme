@@ -31,6 +31,7 @@
 
 .single-ramp_profile .item-type-block-header {
 	color: var(--wp--preset--color--ramp-green);
+	margin-bottom: 48px;
 	text-transform: uppercase;
 }
 
