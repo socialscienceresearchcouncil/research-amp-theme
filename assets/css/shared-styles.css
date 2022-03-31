@@ -19,6 +19,17 @@
 	border-bottom: none;
 }
 
+.single-ramp_profile .ramp-page-section {
+	border-top: 5px solid var(--wp--preset--color--medium-grey);
+	padding: 48px 0;
+	margin-top: 60px;
+}
+
+.single-ramp_profile .item-type-block-header {
+	color: var(--wp--preset--color--ramp-green);
+	text-transform: uppercase;
+}
+
 /*
  * Navigation/search
  */
