@@ -27,6 +27,7 @@ function ramp_theme_register_block_patterns() {
 		'articles-blade',
 		'news-items-blade',
 		'profile-articles-blade',
+		'profile-citations-blade',
 		'profile-research-reviews-blade',
 		'profiles-blade',
 		'research-reviews-blade',
