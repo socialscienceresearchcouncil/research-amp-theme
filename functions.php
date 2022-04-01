@@ -117,3 +117,6 @@ add_filter(
 		return $logo;
 	}
 );
+
+// Prevent The Events Calendar from hijacking the loading of our block templates.
+add_filter( 'tribe_events_views_v2_use_wp_template_hierarchy', '__return_true' );
