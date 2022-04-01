@@ -293,6 +293,11 @@
 			"postTypes": [ "ramp_article" ]
 		},
 		{
+			"name": "single-ramp_citation",
+			"title": "Single Citation",
+			"postTypes": [ "ramp_citation" ]
+		},
+		{
 			"name": "single-ramp_topic",
 			"title": "Research Topic Landing Page",
 			"postTypes": [ "ramp_topic" ]
