@@ -90,6 +90,11 @@
 					"name": "Body Text"
 				},
 				{
+					"slug": "large-text",
+					"size": "18px",
+					"name": "Large Text"
+				},
+				{
 					"slug": "h6",
 					"size": "18px",
 					"name": "H6"
