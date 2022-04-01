@@ -11,8 +11,8 @@ $pattern_content = sprintf(
 		<p></p>
 		<!-- /wp:paragraph -->
 
-		<!-- wp:heading {"className": "recent-citations-heading"} -->
-		<h2 class="recent-citations-heading">%s</h2>
+		<!-- wp:heading {"className": "recent-citations-heading", "level":3, "style":{"spacing":{"margin":{"top":"48px"}}}} -->
+		<h3 class="recent-citations-heading" style="margin-top:48px">%s</h3>
 		<!-- /wp:heading -->
 	</div>
 	<!-- /wp:group -->',
