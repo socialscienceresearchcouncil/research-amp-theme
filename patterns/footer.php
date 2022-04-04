@@ -21,7 +21,7 @@ $bottom_contents = [
 /**
  * First group is for background, second for "inherit" layout.
  */
-$pattern_content = sprintf(
+printf(
 	'<!-- wp:group {"style":{"spacing":{"blockGap":"0px","margin":{"top":"96px"}}}} -->' .
 	'<div class="wp-block-group" style="margin-top:96px">' .
 		'<!-- wp:separator {"color":"almost-black","className":"is-style-wide"} -->' .
@@ -91,12 +91,3 @@ $pattern_content = sprintf(
 	esc_html__( 'Place copyright info, links to Privacy Policy and Terms of Conditions, and other footer links here', 'ramp-theme' ),
 	implode( ' &nbsp;/&nbsp; ', $bottom_contents )
 );
-
-$footer_props = array(
-	'title'      => __( 'Footer', 'ramp-theme' ),
-	'categories' => [ 'ramp-theme/footers' ],
-	'blockTypes' => array( 'core/template-part/footer' ),
-	'content'    => $pattern_content,
-);
-
-return $footer_props;

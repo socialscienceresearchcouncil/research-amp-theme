@@ -8,7 +8,7 @@
  * Categories: ramp-theme
  */
 
-$pattern_content = sprintf(
+printf(
 	'<!-- wp:group {"layout":{"inherit":true},"className":"directory-intro"} -->
 	<div class="wp-block-group">
 		<!-- wp:heading -->
@@ -23,11 +23,3 @@ $pattern_content = sprintf(
 	esc_html__( 'News Items', 'ramp-theme' ),
 	esc_html__( 'Enter a description of the News Items archive', 'ramp-theme' )
 );
-
-return [
-	'title'       => __( 'News Items Archive Intro', 'ramp-theme' ),
-	'description' => __( 'The introductory section of the News Items archive', 'ramp' ),
-	'content'     => $pattern_content,
-	'inserter'    => false,
-	'categories'  => [ 'ramp-theme' ],
-];

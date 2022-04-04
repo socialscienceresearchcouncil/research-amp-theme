@@ -7,7 +7,7 @@
  * Categories: ramp-theme/content-blades
  */
 
-$pattern_content = sprintf(
+printf(
 	'<!-- wp:group {"tagName":"section","className":"item-type-block ramp-page-section"} -->
 	<section class="wp-block-group item-type-block ramp-page-section">
 		<!-- wp:group {"tagName":"header","style":{"spacing":{"padding":{"bottom":"8px"}}}} -->
@@ -29,12 +29,3 @@ $pattern_content = sprintf(
 	esc_url( get_post_type_archive_link( 'ramp_review' ) ),
 	esc_html__( 'More Research Reviews', 'ramp-theme' )
 );
-
-return [
-	'title'       => __( 'Research Reviews Blade for Research Topic', 'ramp-theme' ),
-	'slug'        => 'ramp-theme/rt-research-reviews-blade',
-	'description' => __( 'A list of Research Reviews associated with a specific Research Topic', 'ramp' ),
-	'content'     => $pattern_content,
-	'inserter'    => true,
-	'categories'  => [ 'ramp-theme/content-blades' ],
-];

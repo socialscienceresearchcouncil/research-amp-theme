@@ -8,7 +8,7 @@
  * Categories: ramp-theme/content-blades
  */
 
-$pattern_content = sprintf(
+printf(
 	'<!-- wp:group {"tagName":"section","className":"ramp-page-section item-type-block"} -->
 	<section class="wp-block-group ramp-page-section item-type-block">
 		<!-- wp:group {"tagName":"header","style":{"spacing":{"padding":{"bottom":"8px"}}}} -->
@@ -24,11 +24,3 @@ $pattern_content = sprintf(
 	<!-- /wp:group -->',
 	esc_html__( 'Featured Publications', 'ramp-theme' )
 );
-
-return [
-	'title'       => __( 'Citations Blade for Profiles', 'ramp-theme' ),
-	'description' => __( 'A preview of recent Citations associated with a specific Profile.', 'ramp' ),
-	'content'     => $pattern_content,
-	'inserter'    => true,
-	'categories'  => [ 'ramp-theme/content-blades' ],
-];

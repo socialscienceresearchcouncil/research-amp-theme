@@ -8,7 +8,7 @@
  * Categories: ramp-theme
  */
 
-$pattern_content = sprintf(
+printf(
 	'<!-- wp:group {"layout":{"inherit":true},"className":"directory-intro"} -->
 	<div class="wp-block-group">
 		<!-- wp:heading -->
@@ -28,11 +28,3 @@ $pattern_content = sprintf(
 	esc_html__( 'Enter a description for the Citation Library.', 'ramp-theme' ),
 	esc_html__( 'Recent Citations', 'ramp-theme' )
 );
-
-return [
-	'title'       => __( 'Citation Library Intro', 'ramp-theme' ),
-	'description' => __( 'The introductory section of the Citations Library', 'ramp' ),
-	'content'     => $pattern_content,
-	'inserter'    => false,
-	'categories'  => [ 'ramp-theme' ],
-];

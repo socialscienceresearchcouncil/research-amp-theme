@@ -8,7 +8,7 @@
  * Categories: ramp-theme/content-blades
  */
 
-$pattern_content = sprintf(
+printf(
 	'<!-- wp:group {"tagName":"section","layout":{"inherit":true}} -->
 	<section class="wp-block-group item-type-block">
 		<!-- wp:group {"tagName":"header","style":{"spacing":{"padding":{"bottom":"8px"}}}} -->
@@ -30,11 +30,3 @@ $pattern_content = sprintf(
 	esc_url( get_post_type_archive_link( 'post' ) ),
 	esc_html__( 'More News Items', 'ramp-theme' )
 );
-
-return [
-	'title'       => __( 'News Items Blade', 'ramp-theme' ),
-	'description' => __( 'A preview of recent and featured news items, useful for the home page.', 'ramp' ),
-	'content'     => $pattern_content,
-	'inserter'    => true,
-	'categories'  => [ 'ramp-theme/content-blades' ],
-];

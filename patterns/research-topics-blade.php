@@ -10,7 +10,7 @@
 
 $archive_link = get_post_type_archive_link( 'ramp_topic' );
 
-$pattern_content = sprintf(
+printf(
 	'<!-- wp:group {"tagName":"section","layout":{"inherit":true}} -->
 	<section class="wp-block-group item-type-block">
 		<!-- wp:group {"tagName":"header","style":{"spacing":{"padding":{"bottom":"8px"}}}} -->
@@ -32,11 +32,3 @@ $pattern_content = sprintf(
 	esc_url( $archive_link ),
 	esc_html__( 'More Research Topics', 'ramp-theme' )
 );
-
-return [
-	'title'       => __( 'Research Topics Blade', 'ramp-theme' ),
-	'description' => __( 'A preview of Research Topics, useful for the home page.', 'ramp' ),
-	'content'     => $pattern_content,
-	'inserter'    => true,
-	'categories'  => [ 'ramp-theme/content-blades' ],
-];

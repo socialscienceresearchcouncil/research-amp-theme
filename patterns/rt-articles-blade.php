@@ -8,7 +8,7 @@
  * Categories: ramp-theme/content/blades
  */
 
-$pattern_content = sprintf(
+printf(
 	'<!-- wp:group {"tagName":"section","className":"ramp-page-section item-type-block"} -->
 	<section class="wp-block-group ramp-page-section item-type-block">
 		<!-- wp:group {"tagName":"header","style":{"spacing":{"padding":{"bottom":"8px"}}}} -->
@@ -30,11 +30,3 @@ $pattern_content = sprintf(
 	esc_url( get_post_type_archive_link( 'ramp_article' ) ),
 	esc_html__( 'More Articles', 'ramp-theme' )
 );
-
-return [
-	'title'       => __( 'Articles Blade for Research Topic', 'ramp-theme' ),
-	'description' => __( 'A preview of recent Articles associated with a specific Research Topic', 'ramp' ),
-	'content'     => $pattern_content,
-	'inserter'    => true,
-	'categories'  => [ 'ramp-theme/content-blades' ],
-];

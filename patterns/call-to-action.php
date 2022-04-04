@@ -8,7 +8,7 @@
  * Categories: ramp-theme
  */
 
-$pattern_content = sprintf(
+printf(
 	'<!-- wp:group {"tagName":"section","style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"},"blockGap":"24px"}},"backgroundColor":"ramp-blue","textColor":"white","layout":{"inherit":true}} -->
 	<section class="wp-block-group has-white-color has-ramp-blue-background-color has-text-color has-background" style="padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px"><!-- wp:heading {"textAlign":"center","textColor":"white","fontSize":"h3"} -->
 	<h2 class="has-text-align-center has-h-3-font-size has-white-color has-text-color" id="welcome-to-mediawell">%s</h2>
@@ -33,11 +33,3 @@ $pattern_content = sprintf(
 	esc_html__( 'Use this call-to-action to invite users to learn more about your project, or to get involved.', 'ramp-theme' ),
 	esc_html__( 'Learn more', 'ramp-theme' )
 );
-
-return [
-	'title'       => __( 'Call to Action', 'ramp-theme' ),
-	'description' => __( 'Invite users to learn more or get involved', 'ramp-theme' ),
-	'content'     => $pattern_content,
-	'inserter'    => true,
-	'categories'  => [ 'ramp-theme' ],
-];
