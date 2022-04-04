@@ -221,6 +221,13 @@ h6 a:hover {
 	max-width: 982px;
 }
 
+.citation-body-text {
+	border-left: 6px solid var(--wp--preset--color--light-grey);
+	font-size: var(--wp--preset--font-size--large-text);
+	line-height: 1.8em;
+	padding-left: 48px;
+}
+
 /* Events */
 
 .single-tribe_events .tribe-events-event-meta {
@@ -260,4 +267,24 @@ h3.tribe-events-single-section-title {
 
 .tribe-events-meta-group-details dd {
 	margin-left: 8px;
+}
+
+.event-body-text {
+	border-left: 6px solid var(--wp--preset--color--light-grey);
+	line-height: 1.8em;
+	padding-left: 48px;
+}
+
+.event-body-text blockquote {
+	margin-left: 0;
+}
+
+.tribe-block__events-link {
+	flex-direction: column;
+	gap: 16px;
+	padding: 0;
+}
+
+.tribe-block__events-link .wp-block-button__link:before {
+	content: '+';
 }
