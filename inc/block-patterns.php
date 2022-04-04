@@ -15,56 +15,17 @@ function ramp_theme_register_block_patterns() {
 		register_block_pattern_category( $name, $properties );
 	}
 
-	$block_patterns = [
-		// Headers
-		'header-default',
-		'header-centered',
+	$block_patterns_to_unregister = [];
 
-		// Footers
-		'footer',
-
-		// Content blades
-		'articles-blade',
-		'event-profiles-blade',
-		'news-items-blade',
-		'profile-articles-blade',
-		'profile-citations-blade',
-		'profile-research-reviews-blade',
-		'profiles-blade',
-		'research-reviews-blade',
-		'research-topics-blade',
-		'rt-articles-blade',
-		'rt-citations-blade',
-		'rt-news-items-blade',
-		'rt-profiles-blade',
-		'rt-research-reviews-blade',
-
-		// Page type intros
-		'articles-archive-intro',
-		'citation-library-intro',
-		'news-items-archive-intro',
-		'profiles-archive-intro',
-		'research-reviews-archive-intro',
-		'research-topics-archive-intro',
-
-		// Misc
-		'call-to-action',
-	];
-
-	if ( defined( 'TRIBE_EVENTS_FILE' ) ) {
-		$block_patterns[] = 'events-archive-intro';
-		$block_patterns[] = 'events-blade';
-		$block_patterns[] = 'profile-events-blade';
-		$block_patterns[] = 'rt-events-blade';
+	if ( ! defined( 'TRIBE_EVENTS_FILE' ) ) {
+		$block_patterns_to_unregister[] = 'events-archive-intro';
+		$block_patterns_to_unregister[] = 'events-blade';
+		$block_patterns_to_unregister[] = 'profile-events-blade';
+		$block_patterns_to_unregister[] = 'rt-events-blade';
 	}
 
-	foreach ( $block_patterns as $block_pattern ) {
-		$pattern_file = get_theme_file_path( '/patterns/' . $block_pattern . '.php' );
-
-		register_block_pattern(
-			'ramp-theme/' . $block_pattern,
-			require $pattern_file
-		);
+	foreach ( $block_patterns_to_unregister as $block_pattern ) {
+		unregister_block_pattern( 'ramp-theme/' . $block_pattern );
 	}
 }
 add_action( 'init', 'ramp_theme_register_block_patterns', 9 );
