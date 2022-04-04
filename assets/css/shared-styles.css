@@ -2,8 +2,9 @@
 	border-top: none;
 }
 
-.ramp-page-section {
+body .ramp-page-section {
 	border-bottom: 1px solid var(--wp--preset--color--medium-grey);
+	margin-bottom: 48px;
 	padding: 0 0 42px 0;
 }
 

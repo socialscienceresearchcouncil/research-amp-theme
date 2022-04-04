@@ -25,6 +25,7 @@ function ramp_theme_register_block_patterns() {
 
 		// Content blades
 		'articles-blade',
+		'event-profiles-blade',
 		'news-items-blade',
 		'profile-articles-blade',
 		'profile-citations-blade',
