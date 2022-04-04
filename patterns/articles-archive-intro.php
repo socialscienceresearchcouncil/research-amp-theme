@@ -2,7 +2,7 @@
 
 /**
  * Title: Articles Archive Intro
- * Slug: ramp-theme/patterns/articles-archive-intro
+ * Slug: ramp-theme/articles-archive-intro
  * Description: The introductory section of the Articles archive
  * Inserter: false
  * Categories: ramp-theme
