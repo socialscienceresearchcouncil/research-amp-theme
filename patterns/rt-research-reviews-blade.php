@@ -1,4 +1,12 @@
 <?php
+/**
+ * Title: Research Reviews Blade for Research Topic
+ * Slug: ramp-theme/rt-research-reviews-blade
+ * Description: A list of Research Reviews associated with a specific Research Topic
+ * Inserter: true
+ * Categories: ramp-theme/content-blades
+ */
+
 $pattern_content = sprintf(
 	'<!-- wp:group {"tagName":"section","className":"item-type-block ramp-page-section"} -->
 	<section class="wp-block-group item-type-block ramp-page-section">
@@ -24,6 +32,7 @@ $pattern_content = sprintf(
 
 return [
 	'title'       => __( 'Research Reviews Blade for Research Topic', 'ramp-theme' ),
+	'slug'        => 'ramp-theme/rt-research-reviews-blade',
 	'description' => __( 'A list of Research Reviews associated with a specific Research Topic', 'ramp' ),
 	'content'     => $pattern_content,
 	'inserter'    => true,

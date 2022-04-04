@@ -1,4 +1,13 @@
 <?php
+
+/**
+ * Title: Call to Action
+ * Slug: ramp-theme/call-to-action
+ * Description: Invite users to learn more or get involved
+ * Inserter: true
+ * Categories: ramp-theme
+ */
+
 $pattern_content = sprintf(
 	'<!-- wp:group {"tagName":"section","style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"},"blockGap":"24px"}},"backgroundColor":"ramp-blue","textColor":"white","layout":{"inherit":true}} -->
 	<section class="wp-block-group has-white-color has-ramp-blue-background-color has-text-color has-background" style="padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px"><!-- wp:heading {"textAlign":"center","textColor":"white","fontSize":"h3"} -->

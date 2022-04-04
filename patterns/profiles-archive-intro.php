@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Title: Profiles Archive Intro
+ * Slug: ramp-theme/profiles-archive-intro
+ * Description: The introductory section of the Profiles archive
+ * Inserter: false
+ * Categories: ramp-theme
+ */
+
 $pattern_content = sprintf(
 	'<!-- wp:group {"layout":{"inherit":true},"className":"directory-intro"} -->
 	<div class="wp-block-group">

@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Title: Events Blade
+ * Slug: ramp-theme/events-blade
+ * Description: A preview of upcoming events.
+ * Inserter: true
+ * Categories: ramp-theme/content-blades
+ */
+
 $pattern_content = sprintf(
 	'<!-- wp:group {"tagName":"section","layout":{"inherit":true}} -->
 	<section class="wp-block-group item-type-block">

@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Title: Profiles Blade for Research Topic
+ * Slug: ramp-theme/rt-profiles-blade
+ * Description: A preview of Profiles associated with a specific Research Topic
+ * Inserter: true
+ * Categories: ramp-theme/content-blades
+ */
+
 $pattern_content = sprintf(
 	'<!-- wp:group {"tagName":"section","className":"ramp-page-section item-type-block"} -->
 	<section class="wp-block-group ramp-page-section item-type-block">

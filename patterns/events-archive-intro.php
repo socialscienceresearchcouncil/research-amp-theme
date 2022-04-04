@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Title: Events Archive Intro
+ * Slug: ramp-theme/events-archive-intro
+ * Description: The introductory section of the Events archive
+ * Inserter: false
+ * Categories: ramp-theme
+ */
+
 $pattern_content = sprintf(
 	'<!-- wp:group {"layout":{"inherit":true},"className":"directory-intro"} -->
 	<div class="wp-block-group">

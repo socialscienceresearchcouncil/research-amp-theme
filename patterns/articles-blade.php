@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Title: Articles Blade
+ * Slug: ramp-theme/articles-blade
+ * Description: A two-column preview of recent and featured articles, useful for the home page.
+ * Inserter: true
+ * Categories: ramp-theme/content-blades
+ */
+
 $pattern_content = sprintf(
 	'<!-- wp:group {"tagName":"section","layout":{"inherit":true}} -->
 	<section class="wp-block-group item-type-block">

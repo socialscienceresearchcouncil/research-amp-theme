@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Title: Citation Library Intro
+ * Slug: ramp-theme/citation-library-intro
+ * Description: The introductory section of the Citations Library
+ * Inserter: false
+ * Categories: ramp-theme
+ */
+
 $pattern_content = sprintf(
 	'<!-- wp:group {"layout":{"inherit":true},"className":"directory-intro"} -->
 	<div class="wp-block-group">

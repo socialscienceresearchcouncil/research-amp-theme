@@ -1,7 +1,13 @@
 <?php
+
 /**
- * Default header block pattern
+ * Title: Header - Default
+ * Slug: ramp-theme/header-default
+ * Description: Default header
+ * blockTypes: core/template-part/header
+ * Inserter: true
  */
+
 $header_props = array(
 	'title'      => __( 'Default header', 'ramp-theme' ),
 	'categories' => [ 'ramp-theme/headers' ],

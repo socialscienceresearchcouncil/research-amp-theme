@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Title: Profiles Blade
+ * Slug: ramp-theme/profiles-blade
+ * Description: Lists Profiles from your network.
+ * Inserter: true
+ * Categories: ramp-theme/content-blades
+ */
+
 $pattern_content = sprintf(
 	'<!-- wp:group {"tagName":"section","layout":{"inherit":true}} -->
 	<section class="wp-block-group item-type-block">

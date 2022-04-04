@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Title: Research Reviews Archive Intro
+ * Slug: ramp-theme/research-reviews-archive-intro
+ * Description: The introductory section of the Research Reviews archive
+ * Inserter: false
+ * Categories: ramp-theme
+ */
+
 $pattern_content = sprintf(
 	'<!-- wp:group {"layout":{"inherit":true},"className":"directory-intro"} -->
 	<div class="wp-block-group">

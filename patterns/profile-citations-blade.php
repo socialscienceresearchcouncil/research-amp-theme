@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Title: Citations Blade for Profiles
+ * Slug: ramp-theme/profile-citations-blade
+ * Description: A preview of recent Citations associated with a specific Profile.
+ * Inserter: false
+ * Categories: ramp-theme/content-blades
+ */
+
 $pattern_content = sprintf(
 	'<!-- wp:group {"tagName":"section","className":"ramp-page-section item-type-block"} -->
 	<section class="wp-block-group ramp-page-section item-type-block">

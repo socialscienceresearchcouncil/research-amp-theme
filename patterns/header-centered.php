@@ -1,7 +1,13 @@
 <?php
+
 /**
- * Centered header block pattern
+ * Title: Header - Centered
+ * Slug: ramp-theme/header-centered
+ * Description: Centered header
+ * blockTypes: core/template-part/header
+ * Inserter: true
  */
+
 $header_props = array(
 	'title'      => __( 'Centered header', 'ramp-theme' ),
 	'categories' => [ 'ramp-theme/headers' ],

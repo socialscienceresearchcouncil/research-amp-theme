@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Title: Articles Blade for Profiles
+ * Slug: ramp-theme/profile-articles-blade
+ * Description: A preview of recent Articles associated with a specific Profile.
+ * Inserter: true
+ * Categories: ramp-theme/content-blades
+ */
+
 $pattern_content = sprintf(
 	'<!-- wp:group {"tagName":"section","className":"ramp-page-section item-type-block"} -->
 	<section class="wp-block-group ramp-page-section item-type-block">

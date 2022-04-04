@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Title: Profiles Blade for Event
+ * Slug: ramp-theme/event-profiles-blade
+ * Description: A preview of Profiles associated with a specific Event
+ * Inserter: true
+ * Categories: ramp-theme/content-blades
+ */
+
 $pattern_content = sprintf(
 	'<!-- wp:group {"tagName":"section","className":"ramp-page-section item-type-block"} -->
 	<section class="wp-block-group ramp-page-section item-type-block">

@@ -1,6 +1,9 @@
 <?php
 /**
- * Footer block pattern.
+ * Title: Foter
+ * Slug: ramp-theme/footer
+ * blockTypes: core/template-part/footer
+ * Inserter: true
  */
 
 $bottom_contents = [

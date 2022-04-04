@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Title: Articles Archive Intro
+ * Slug: ramp-theme/patterns/articles-archive-intro
+ * Description: The introductory section of the Articles archive
+ * Inserter: false
+ * Categories: ramp-theme
+ */
+
 $pattern_content = sprintf(
 	'<!-- wp:group {"layout":{"inherit":true},"className":"directory-intro"} -->
 	<div class="wp-block-group">
@@ -18,6 +26,7 @@ $pattern_content = sprintf(
 
 return [
 	'title'       => __( 'Articles Archive Intro', 'ramp-theme' ),
+	'slug'        => 'ramp-theme/patterns/articles-archive-intro',
 	'description' => __( 'The introductory section of the Articles archive', 'ramp' ),
 	'content'     => $pattern_content,
 	'inserter'    => false,
