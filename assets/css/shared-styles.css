@@ -219,3 +219,44 @@ h6 a:hover {
 .enforce-reading-width {
 	max-width: 982px;
 }
+
+/* Events */
+
+.single-tribe_events .tribe-events-event-meta {
+	background: none;
+	border: none;
+	display: flex;
+}
+
+.single-tribe_events .tribe-events-event-meta > div {
+	flex: 0 0 50%;
+}
+
+.tribe-events-event-meta .tribe-events-meta-group {
+	float: none;
+	padding: 0;
+	margin: 0;
+	width: auto;
+}
+
+h3.tribe-events-single-section-title {
+	margin-top: 0;
+}
+
+.tribe-events-event-meta a {
+	text-decoration: underline;
+}
+
+.tribe-events-event-meta a:hover {
+	text-decoration: none;
+}
+
+.tribe-events-meta-group-details dt,
+.tribe-events-meta-group-details dd,
+.tribe-events-meta-group-details dd div {
+	display: inline;
+}
+
+.tribe-events-meta-group-details dd {
+	margin-left: 8px;
+}

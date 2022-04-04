@@ -278,6 +278,11 @@
 			"postTypes": [ "ramp_topic" ]
 		},
 		{
+			"name": "archive-tribe_events",
+			"title": "Events Archive",
+			"postTypes": [ "tribe_events" ]
+		},
+		{
 			"name": "page-home-page",
 			"title": "Home Page",
 			"postTypes": []
@@ -316,6 +321,11 @@
 			"name": "single-ramp_review_version",
 			"title": "Single Research Review",
 			"postTypes": [ "ramp_review_version" ]
+		},
+		{
+			"name": "single-tribe_events",
+			"title": "Single Event",
+			"postTypes": [ "ramp_tribe_events" ]
 		}
 	],
 	"templateParts": [
