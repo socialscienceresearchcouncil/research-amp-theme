@@ -326,6 +326,10 @@
 			"name": "single-tribe_events",
 			"title": "Single Event",
 			"postTypes": [ "ramp_tribe_events" ]
+		},
+		{
+			"name": "search",
+			"title": "Search Results"
 		}
 	],
 	"templateParts": [
