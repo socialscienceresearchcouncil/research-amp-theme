@@ -15,17 +15,39 @@ function ramp_theme_register_block_patterns() {
 		register_block_pattern_category( $name, $properties );
 	}
 
-	$block_patterns_to_unregister = [];
+	$additional_patterns = [];
 
-	if ( ! defined( 'TRIBE_EVENTS_FILE' ) ) {
-		$block_patterns_to_unregister[] = 'events-archive-intro';
-		$block_patterns_to_unregister[] = 'events-blade';
-		$block_patterns_to_unregister[] = 'profile-events-blade';
-		$block_patterns_to_unregister[] = 'rt-events-blade';
+	if ( defined( 'TRIBE_EVENTS_FILE' ) ) {
+		$additional_patterns[] = 'event-profiles-blade';
+		$additional_patterns[] = 'events-archive-intro';
+		$additional_patterns[] = 'events-blade';
+		$additional_patterns[] = 'profile-events-blade';
+		$additional_patterns[] = 'rt-events-blade';
 	}
 
-	foreach ( $block_patterns_to_unregister as $block_pattern ) {
-		unregister_block_pattern( 'ramp-theme/' . $block_pattern );
+	$default_headers = array(
+		'title'         => 'Title',
+		'slug'          => 'Slug',
+		'description'   => 'Description',
+		'viewportWidth' => 'Viewport Width',
+		'categories'    => 'Categories',
+		'keywords'      => 'Keywords',
+		'blockTypes'    => 'Block Types',
+		'inserter'      => 'Inserter',
+	);
+
+	foreach ( $additional_patterns as $block_pattern ) {
+		$file = get_template_directory() . '/conditional-patterns/' . $block_pattern . '.php';
+		$pattern_data = get_file_data( $file, $default_headers );
+
+		ob_start();
+		include $file;
+		$pattern_data['content'] = ob_get_clean();
+		if ( ! $pattern_data['content'] ) {
+			continue;
+		}
+
+		register_block_pattern( 'ramp-theme/' . $block_pattern, $pattern_data );
 	}
 }
-add_action( 'init', 'ramp_theme_register_block_patterns', 9 );
+add_action( 'init', 'ramp_theme_register_block_patterns', 15 );
