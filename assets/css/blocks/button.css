@@ -5,6 +5,10 @@
 	padding: 16px 32px;
 }
 
+button.wp-block-button__link {
+	border: none;
+}
+
 .wp-block-button.is-style-primary .wp-block-button__link {
 	background-color: var(--wp--preset--color--ramp-green);
 }
