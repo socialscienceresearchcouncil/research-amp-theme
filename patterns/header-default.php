@@ -16,43 +16,44 @@ printf(
 		'<!-- /wp:navigation -->' .
 	'</div>' .
 	'<!-- /wp:group -->' .
-
 	'<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"48px","top":"16px"}}},"className":"header-default","layout":{"inherit":true}} -->' .
 	'<div class="wp-block-group header-default" style="padding-top:16px;padding-bottom:48px;">' .
-		'<!-- wp:group {"className":"header-inner","layout":{"type":"flex","justifyContent":"space-between","flexWrap":"noWrap"}} -->' .
-		'<div class="wp-block-group header-inner">' .
-			'<!-- wp:group {"layout":{"wideSize":"300px","contentSize":"300px"}} -->' .
-			'<div class="wp-block-group">' .
+		'<!-- wp:columns {"verticalAlignment": "center", "className":"header-inner"}} -->' .
+		'<div class="wp-block-columns are-vertically-aligned-center header-inner">' .
+			'<!-- wp:column {"verticalAlignment": "center", "width":"360px"} -->' .
+			'<div class="wp-block-column is-vertically-aligned-center" style="flex-basis: 360px">' .
 				'<!-- wp:site-logo {"width":300} /-->' .
 				'<!-- wp:site-tagline /-->' .
 			'</div>' .
-			'<!-- /wp:group -->' .
-
-			'<!-- wp:columns {"isStackedOnMobile":false,"className":"nav-and-search"} -->' .
-			'<div class="wp-block-columns is-not-stacked-on-mobile nav-and-search">' .
-				'<!-- wp:column -->' .
-				'<div class="wp-block-column">' .
-					'<!-- wp:navigation {"ref":%d,"style":{"typography":{"fontWeight":"600"},"spacing":{"blockGap":"32px"}}} -->' .
-					'%s' .
-					'<!-- /wp:navigation -->' .
-				'</div>' .
-				'<!-- /wp:column -->' .
-
-				'<!-- wp:column {"width":"18px"} -->' .
-				'<div class="wp-block-column" style="flex-basis:18px">' .
-					'<!-- wp:buttons {"className":"nav-search-area"} -->' .
-					'<div class="wp-block-buttons nav-search-area">' .
-						'<!-- wp:button {"className":"nav-search"} -->' .
-						'<div class="wp-block-button nav-search"><a class="wp-block-button__link">%s</a></div>' .
-						'<!-- /wp:button -->' .
+			'<!-- /wp:column -->' .
+			'<!-- wp:column {"verticalAlignment": "center"} -->' .
+			'<div class="wp-block-column is-vertically-aligned-center">' .
+				'<!-- wp:columns {"isStackedOnMobile":false,"className":"nav-and-search"} -->' .
+				'<div class="wp-block-columns is-not-stacked-on-mobile nav-and-search">' .
+					'<!-- wp:column -->' .
+					'<div class="wp-block-column">' .
+						'<!-- wp:navigation {"ref":%d, "layout": {"type": "flex", "justifyContent": "right"}, "style":{"typography":{"fontWeight":"600"},"spacing":{"blockGap":"32px"}}} -->' .
+						'%s' .
+						'<!-- /wp:navigation -->' .
 					'</div>' .
-					'<!-- /wp:buttons -->' .
+					'<!-- /wp:column -->' .
+					'<!-- wp:column {"width":"30px"} -->' .
+					'<div class="wp-block-column" style="flex-basis:30px">' .
+						'<!-- wp:buttons {"className":"nav-search-area", "layout": {"type": "flex", "justifyContent": "right"}} -->' .
+						'<div class="wp-block-buttons nav-search-area">' .
+							'<!-- wp:button {"className":"nav-search"} -->' .
+							'<div class="wp-block-button nav-search"><a class="wp-block-button__link">%s</a></div>' .
+							'<!-- /wp:button -->' .
+						'</div>' .
+						'<!-- /wp:buttons -->' .
+					'</div>' .
+					'<!-- /wp:column -->' .
 				'</div>' .
-				'<!-- /wp:column -->' .
+				'<!-- /wp:columns -->' .
 			'</div>' .
-			'<!-- /wp:columns -->' .
+			'<!-- /wp:column -->' .
 		'</div>' .
-		'<!-- /wp:group -->' .
+		'<!-- /wp:columns -->' .
 	'</div>' .
 	'<!-- /wp:group -->',
 	SSRC\RAMP\Util\Navigation::get_nav_id( 'secondary-nav' ),
