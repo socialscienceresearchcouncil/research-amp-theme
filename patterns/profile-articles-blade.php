@@ -22,5 +22,5 @@ printf(
 		<!-- wp:ramp/article-teasers {"contentMode":"auto", "numberOfItems": 3, "order": "latest", "variationType":"list"} /-->
 	</section>
 	<!-- /wp:group -->',
-	esc_html__( 'Articles', 'ramp-theme' )
+	esc_html__( 'Associated Articles', 'ramp-theme' )
 );
