@@ -303,6 +303,11 @@
 			"postTypes": [ "ramp_article" ]
 		},
 		{
+			"name": "single-ramp_article-with-featured-image",
+			"title": "Single Article (with featured image)",
+			"postTypes": [ "ramp_article" ]
+		},
+		{
 			"name": "single-ramp_citation",
 			"title": "Single Citation",
 			"postTypes": [ "ramp_citation" ]

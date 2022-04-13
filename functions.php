@@ -120,3 +120,25 @@ add_filter(
 
 // Prevent The Events Calendar from hijacking the loading of our block templates.
 add_filter( 'tribe_events_views_v2_use_wp_template_hierarchy', '__return_true' );
+
+/**
+ * Modify default page template for Articles that have a featured image.
+ */
+function ramp_modify_default_article_page_template( $value, $post_id, $meta_key ) {
+	if ( '_wp_page_template' !== $meta_key ) {
+		return $value;
+	}
+
+	$post = get_post( $post_id );
+	if ( ! $post || 'ramp_article' !== $post->post_type ) {
+		return $value;
+	}
+
+	$post_thumbnail = get_the_post_thumbnail( $post_id );
+	if ( ! $post_thumbnail ) {
+		return $value;
+	}
+
+	return 'single-ramp_article-with-featured-image';
+}
+add_filter( 'default_post_metadata', 'ramp_modify_default_article_page_template', 10, 3 );

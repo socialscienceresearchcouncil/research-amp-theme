@@ -288,3 +288,7 @@ h3.tribe-events-single-section-title {
 .tribe-block__events-link .wp-block-button__link:before {
 	content: '+';
 }
+
+.has-featured-image .item-intro {
+	background: var(--wp--preset--color--ramp-green);
+}
