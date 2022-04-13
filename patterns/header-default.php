@@ -39,13 +39,7 @@ printf(
 					'<!-- /wp:column -->' .
 					'<!-- wp:column {"width":"30px"} -->' .
 					'<div class="wp-block-column" style="flex-basis:30px">' .
-						'<!-- wp:buttons {"className":"nav-search-area", "layout": {"type": "flex", "justifyContent": "right"}} -->' .
-						'<div class="wp-block-buttons nav-search-area">' .
-							'<!-- wp:button {"className":"nav-search"} -->' .
-							'<div class="wp-block-button nav-search"><a class="wp-block-button__link">%s</a></div>' .
-							'<!-- /wp:button -->' .
-						'</div>' .
-						'<!-- /wp:buttons -->' .
+						'<!-- wp:ramp/nav-search /-->' .
 					'</div>' .
 					'<!-- /wp:column -->' .
 				'</div>' .
@@ -59,6 +53,5 @@ printf(
 	SSRC\RAMP\Util\Navigation::get_nav_id( 'secondary-nav' ),
 	SSRC\RAMP\Util\Navigation::get_default_secondary_nav_items(),
 	SSRC\RAMP\Util\Navigation::get_nav_id( 'primary-nav' ),
-	SSRC\RAMP\Util\Navigation::get_default_primary_nav_items(),
-	esc_html__( 'Search', 'ramp-theme' )
+	SSRC\RAMP\Util\Navigation::get_default_primary_nav_items()
 );
