@@ -25,6 +25,15 @@ button.wp-block-button__link {
 	background-color: var(--wp--preset--color--ramp-blue-desaturated);
 }
 
+.wp-block-button.is-style-outline .wp-block-button__link:hover {
+	background-color: #fff;
+	color: var(--wp--preset--color--almost-black);
+}
+
+.has-ramp-blue-background-color .wp-block-button.is-style-outline .wp-block-button__link:hover {
+	color: var(--wp--preset--color--ramp-blue);
+}
+
 .wp-block-button.is-style-outline .wp-block-button__link,
 .wp-block-button.is-style-tertiary .wp-block-button__link {
 	background-color: transparent;
