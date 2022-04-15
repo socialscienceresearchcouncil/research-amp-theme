@@ -25,7 +25,7 @@ body .ramp-page-section {
 }
 
 .single-ramp_profile .ramp-page-section {
-	border-top: 5px solid var(--wp--preset--color--medium-grey);
+	border-top: 1px solid var(--wp--preset--color--medium-grey);
 	border-bottom: none;
 	padding: 48px 0;
 }
