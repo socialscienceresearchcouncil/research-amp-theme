@@ -18,16 +18,16 @@ printf(
 	'<!-- /wp:group -->' .
 	'<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"48px","top":"16px"}}},"className":"header-default","layout":{"inherit":true}} -->' .
 	'<div class="wp-block-group header-default" style="padding-top:16px;padding-bottom:48px;">' .
-		'<!-- wp:columns {"verticalAlignment": "center", "className":"header-inner"}} -->' .
-		'<div class="wp-block-columns are-vertically-aligned-center header-inner">' .
-			'<!-- wp:column {"verticalAlignment": "center", "width":"360px"} -->' .
-			'<div class="wp-block-column is-vertically-aligned-center" style="flex-basis: 360px">' .
+		'<!-- wp:columns {"verticalAlignment":"center","isStackedOnMobile":false,"style":{"spacing":{"padding":{"right":"16px","left":"16px"}}},"className":"header-inner"} -->' .
+		'<div class="wp-block-columns are-vertically-aligned-center is-not-stacked-on-mobile header-inner" style="padding-right:16px;padding-left:16px">' .
+			'<!-- wp:column {"verticalAlignment": "center", "className": "header-logo-column"} -->' .
+			'<div class="wp-block-column is-vertically-aligned-center header-logo-column">' .
 				'<!-- wp:site-logo {"width":300} /-->' .
 				'<!-- wp:site-tagline /-->' .
 			'</div>' .
 			'<!-- /wp:column -->' .
-			'<!-- wp:column {"verticalAlignment": "center"} -->' .
-			'<div class="wp-block-column is-vertically-aligned-center">' .
+			'<!-- wp:column {"verticalAlignment": "center", "className": "header-nav-column"} -->' .
+			'<div class="wp-block-column is-vertically-aligned-center header-nav-column">' .
 				'<!-- wp:columns {"isStackedOnMobile":false,"className":"nav-and-search"} -->' .
 				'<div class="wp-block-columns is-not-stacked-on-mobile nav-and-search">' .
 					'<!-- wp:column -->' .

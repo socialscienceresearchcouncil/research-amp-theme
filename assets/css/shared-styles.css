@@ -292,3 +292,30 @@ h3.tribe-events-single-section-title {
 .has-featured-image .item-intro {
 	background: var(--wp--preset--color--ramp-green);
 }
+
+
+/* WP doesn't allow for different mobile vs desktop width targeting */
+.wp-block-columns.is-not-stacked-on-mobile > .wp-block-column.header-logo-column {
+	flex-basis: 300px;
+	flex-grow: 0;
+}
+
+@media screen and (max-width: 600px) {
+	.header-default {
+		padding-bottom: 16px !important;
+	}
+
+	.header-inner .wp-block-site-tagline {
+		display: none;
+	}
+
+	.wp-block-columns.is-not-stacked-on-mobile > .wp-block-column.header-logo-column {
+		flex-basis: 50%;
+	}
+
+	.header-logo-column .wp-block-site-logo img {
+		max-width: 100%;
+		height: auto;
+	}
+
+}
