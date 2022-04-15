@@ -23,7 +23,7 @@ printf(
 		</header>
 		<!-- /wp:group -->
 
-		<!-- wp:ramp/profile-teasers {"contentMode":"auto", "numberOfItems": 4, "showRowRules": false} /-->
+		<!-- wp:ramp/profile-teasers {"contentMode":"auto", "numberOfItems": 4} /-->
 	</section>
 	<!-- /wp:group -->',
 	esc_html__( 'Profiles', 'ramp-theme' ),
