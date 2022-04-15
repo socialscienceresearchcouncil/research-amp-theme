@@ -10,7 +10,7 @@
 
 printf(
 	'<!-- wp:group {"layout":{"inherit":true},"className":"directory-intro"} -->
-	<div class="wp-block-group">
+	<div class="wp-block-group directory-intro">
 		<!-- wp:heading -->
 		<h2>%s</h2>
 		<!-- /wp:heading -->
