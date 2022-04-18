@@ -15,8 +15,8 @@ printf(
 	<section class="wp-block-group item-type-block">
 		<!-- wp:group {"tagName":"header","style":{"spacing":{"padding":{"bottom":"8px"}}}} -->
 		<header class="wp-block-group item-type-block-header" style="padding-bottom:8px;">
-			<!-- wp:heading {"fontSize":"h4"} -->
-				<h2 class="has-h-4-font-size" id="research-reviews-blade"><a href="%s">%s</a></h2>
+			<!-- wp:heading {"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"h5"} -->
+				<h2 class="has-h-5-font-size" id="research-topics-blade" style="text-transform:uppercase;"><a href="%s">%s</a></h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->

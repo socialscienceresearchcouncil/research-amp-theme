@@ -13,8 +13,8 @@ printf(
 	<section class="wp-block-group ramp-page-section item-type-block">
 		<!-- wp:group {"tagName":"header","style":{"spacing":{"padding":{"bottom":"8px"}}}} -->
 		<header class="wp-block-group item-type-block-header" style="padding-bottom:8px;">
-			<!-- wp:heading	{"level":3,"fontSize":"h4"} -->
-				<h3 class="has-h-4-font-size" id="news-items-blade">%s</h3>
+			<!-- wp:heading {"level":3, "style":{"typography":{"textTransform":"uppercase"}},"fontSize":"h5"} -->
+				<h3 class="has-h-5-font-size" id="news-items-blade" style="text-transform: uppercase;">%s</h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
