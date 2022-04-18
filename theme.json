@@ -315,9 +315,9 @@
 			"postTypes": [ "ramp_profile" ]
 		},
 		{
-			"name": "single-ramp_review_version",
+			"name": "single-ramp_review",
 			"title": "Single Research Review",
-			"postTypes": [ "ramp_review_version" ]
+			"postTypes": [ "ramp_review" ]
 		},
 		{
 			"name": "single-tribe_events",
