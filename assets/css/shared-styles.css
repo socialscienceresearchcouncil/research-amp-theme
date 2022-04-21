@@ -61,6 +61,33 @@ body .ramp-page-section {
 	background-size: 18px 18px;
 }
 
+@media screen and (max-width: 600px) {
+	.secondary-nav {
+		display: none;
+		visibility: hidden;
+	}
+
+	.secondary-nav-contents {
+		border-top: 1px solid var(--wp--preset--color--medium-grey);
+		margin-top: 48px;
+	}
+
+	.nav-and-search .wp-block-navigation__responsive-container-close {
+		right: 29px;
+		top: -2px;
+	}
+
+	.nav-and-search .wp-block-navigation__responsive-container.is-menu-open {
+		background-repeat: no-repeat;
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+
+	.nav-and-search .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content.primary-nav-responsive-contents {
+		padding-top: 96px;
+	}
+}
+
 /* Block editor doesn't support doing this properly */
 .header-centered {
 	text-align: center;
