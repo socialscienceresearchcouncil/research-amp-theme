@@ -165,6 +165,16 @@ body.single-ramp_topic .item-intro > .ramp-page-section {
 	text-decoration: underline;
 }
 
+@media screen and (max-width: 600px) {
+	.item-type-block > div {
+		margin-bottom: 48px;
+	}
+
+	.item-type-block-all-link {
+		text-align: right;
+	}
+}
+
 /* Social links */
 .wp-block-social-links:not(.is-style-logos-only) .wp-social-link-twitter,
 .wp-block-social-links:not(.is-style-logos-only) .wp-social-link-instagram,
