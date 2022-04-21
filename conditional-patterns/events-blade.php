@@ -9,8 +9,8 @@
  */
 
 printf(
-	'<!-- wp:group {"tagName":"section","layout":{"inherit":true}} -->
-	<section class="wp-block-group item-type-block">
+	'<!-- wp:group {"tagName":"section","layout":{"inherit":true}, "className": "item-type-block ramp-container" } -->
+	<section class="wp-block-group item-type-block ramp-container">
 		<!-- wp:group {"tagName":"header","style":{"spacing":{"padding":{"bottom":"32px"}}}} -->
 		<header class="wp-block-group item-type-block-header" style="padding-bottom:32px;">
 			<!-- wp:heading {"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"h5"} -->

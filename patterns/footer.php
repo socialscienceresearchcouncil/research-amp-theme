@@ -30,8 +30,8 @@ printf(
 
 		'<!-- wp:group {"style":{"spacing":{"padding":{"top":"50px","bottom":"50px"}}},"backgroundColor":"white"} -->' .
 		'<div class="wp-block-group has-white-background-color has-background" style="padding-top:50px;padding-bottom:50px;">' .
-			'<!-- wp:group {"layout":{"inherit":true}} -->' .
-			'<div class="wp-block-group">' .
+			'<!-- wp:group {"layout":{"inherit":true}, "className": "ramp-container" } -->' .
+			'<div class="wp-block-group ramp-container">' .
 				'<!-- wp:group {"layout":{"type":"flex","justifyContent":"space-between","flexWrap":"noWrap"}} -->' .
 				'<div class="wp-block-group">' .
 					'<!-- wp:site-logo {"width":300} /-->' .
@@ -60,8 +60,8 @@ printf(
 		'</div>' .
 		'<!-- /wp:group -->' .
 
-		'<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","bottom":"40px"}}},"backgroundColor":"light-grey","className":"footer-funders"} -->' .
-		'<div class="wp-block-group footer-funders has-light-grey-background-color has-background" style="padding-top:40px;padding-bottom:40px">' .
+		'<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","bottom":"40px"}}},"backgroundColor":"light-grey","className":"footer-funders ramp-container"} -->' .
+		'<div class="wp-block-group footer-funders has-light-grey-background-color has-background ramp-container" style="padding-top:40px;padding-bottom:40px">' .
 			'<!-- wp:group {"layout":{"inherit":true}} -->' .
 			'<div class="wp-block-group">' .
 				'<!-- wp:paragraph {"placeholder":"%s"} -->' .
@@ -72,8 +72,8 @@ printf(
 		'</div>' .
 		'<!-- /wp:group -->' .
 
-		'<!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"spacing":{"padding":{"top":"12px","bottom":"24px"}}},"backgroundColor":"almost-black","textColor":"white","className":"footer-bottom"} -->'.
-		'<div class="wp-block-group footer-bottom has-white-color has-almost-black-background-color has-text-color has-background has-link-color" style="padding-top:12px;padding-bottom:24px">'.
+		'<!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"spacing":{"padding":{"top":"12px","bottom":"24px"}}},"backgroundColor":"almost-black","textColor":"white","className":"footer-bottom ramp-container"} -->'.
+		'<div class="wp-block-group footer-bottom has-white-color has-almost-black-background-color has-text-color has-background has-link-color ramp-container" style="padding-top:12px;padding-bottom:24px">'.
 			'<!-- wp:group {"layout":{"inherit":true}} -->'.
 			'<div class="wp-block-group">'.
 				'<!-- wp:paragraph {"placeholder":"%s"} -->'.
