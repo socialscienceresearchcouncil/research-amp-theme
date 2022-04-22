@@ -37,7 +37,22 @@
 		return !! readMoreLink.closest( '.item-type-block-header' )
 	}
 
+	const setUpSwipeables = () => {
+		const swipeables = document.querySelectorAll( '.allow-horizontal-swipe' )
+
+		for ( const swipeable of swipeables ) {
+			const itemTypeBlock = swipeable.closest( '.item-type-block.ramp-container' )
+
+			if ( ! itemTypeBlock ) {
+				continue;
+			}
+
+			itemTypeBlock.classList.add( 'contains-swipeable' )
+		}
+	}
+
 	positionReadMoreLinks()
 	window.addEventListener( 'resize', positionReadMoreLinks )
 
+	setUpSwipeables()
 }())
