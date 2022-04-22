@@ -30,6 +30,12 @@ body .ramp-page-section {
 	padding: 48px 0;
 }
 
+@media screen and (max-width: 600px) {
+	.single-ramp_profile .ramp-page-section {
+		padding-bottom: 0;
+	}
+}
+
 .single-ramp_profile .item-type-block-header {
 	color: var(--wp--preset--color--ramp-green);
 	margin-bottom: 48px;
