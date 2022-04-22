@@ -59,6 +59,10 @@ body .ramp-page-section {
 		gap: 0;
 	}
 
+	.article-with-featured-image-item-intro .article-intro-content {
+		margin-top: -36px;
+	}
+
 	.article-featured-image {
 		order: 0;
 	}
