@@ -9,8 +9,8 @@
  */
 
 printf(
-	'<!-- wp:group {"tagName":"section","className":"ramp-page-section item-type-block"} -->
-	<section class="wp-block-group ramp-page-section item-type-block">
+	'<!-- wp:group {"tagName":"section","className":"ramp-page-section item-type-block ramp-container contains-swipeable"} -->
+	<section class="wp-block-group ramp-page-section item-type-block ramp-container contains-swipeable">
 		<!-- wp:group {"tagName":"header","style":{"spacing":{"padding":{"bottom":"8px"}}}} -->
 		<header class="wp-block-group item-type-block-header" style="padding-bottom:8px;">
 			<!-- wp:heading {"level":3, "style":{"typography":{"textTransform":"uppercase"}},"fontSize":"h5"} -->
@@ -23,7 +23,7 @@ printf(
 		</header>
 		<!-- /wp:group -->
 
-		<!-- wp:ramp/article-teasers {"contentMode":"auto", "numberOfItems": 3, "order": "latest", "variationType":"grid"} /-->
+		<!-- wp:ramp/article-teasers {"contentMode":"auto", "horizontalSwipe": true, "numberOfItems": 3, "order": "latest", "variationType":"grid"} /-->
 	</section>
 	<!-- /wp:group -->',
 	esc_html__( 'Articles', 'ramp-theme' ),

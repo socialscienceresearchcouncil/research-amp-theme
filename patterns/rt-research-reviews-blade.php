@@ -8,8 +8,8 @@
  */
 
 printf(
-	'<!-- wp:group {"tagName":"section","className":"item-type-block ramp-page-section"} -->
-	<section class="wp-block-group item-type-block ramp-page-section">
+	'<!-- wp:group {"tagName":"section","className":"item-type-block ramp-page-section ramp-container"} -->
+	<section class="wp-block-group item-type-block ramp-page-section ramp-container">
 		<!-- wp:group {"tagName":"header","style":{"spacing":{"padding":{"bottom":"8px"}}}} -->
 		<header class="wp-block-group item-type-block-header" style="padding-bottom:8px;">
 			<!-- wp:heading {"level":3, "style":{"typography":{"textTransform":"uppercase"}},"fontSize":"h5"} -->
