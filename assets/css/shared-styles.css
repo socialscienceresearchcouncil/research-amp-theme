@@ -36,6 +36,14 @@ body .ramp-page-section {
 	text-transform: uppercase;
 }
 
+.single-ramp_review .single-sidebar {
+	order: 0;
+}
+
+.single-ramp_review .single-main {
+	order: 1;
+}
+
 /*
  * Navigation/search
  */
@@ -385,5 +393,4 @@ h3.tribe-events-single-section-title {
 		max-width: 100%;
 		height: auto;
 	}
-
 }
