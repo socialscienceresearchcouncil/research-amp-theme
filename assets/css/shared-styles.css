@@ -132,18 +132,20 @@ body .ramp-page-section {
 	}
 
 	.nav-and-search .wp-block-navigation__responsive-container-close {
-		right: 29px;
-		top: -2px;
+		position: relative;
+		top: auto;
+		right: auto;
 	}
 
 	.nav-and-search .wp-block-navigation__responsive-container.is-menu-open {
 		background-repeat: no-repeat;
 		padding-left: 32px;
 		padding-right: 32px;
+		padding-top: 0;
 	}
 
 	.nav-and-search .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content.primary-nav-responsive-contents {
-		padding-top: 96px;
+		padding-top: 48px;
 	}
 }
 
