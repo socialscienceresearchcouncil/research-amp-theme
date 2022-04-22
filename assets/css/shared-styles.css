@@ -61,6 +61,18 @@ body .ramp-page-section {
 	background-size: 18px 18px;
 }
 
+@media screen and (min-width: 601px) {
+	.nav-and-search .wp-block-navigation__responsive-container {
+		background-image: none !important;
+		top: 0 !important;
+	}
+
+	.wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content.secondary-nav-contents {
+		display: none;
+		visibility: hidden;
+	}
+}
+
 @media screen and (max-width: 600px) {
 	.secondary-nav {
 		display: none;
