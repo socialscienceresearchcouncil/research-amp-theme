@@ -49,7 +49,7 @@ printf(
 
 				'<!-- wp:group {"className":"footer-nav"} -->' .
 				'<div class="wp-block-group footer-nav">' .
-					'<!-- wp:navigation {"ref":%d} -->' .
+					'<!-- wp:navigation {"ref":%d, "overlayMenu":"never", "layout":{"type":"flex", "flexWrap":"wrap"}} -->' .
 						'%s' .
 					'<!-- /wp:navigation -->' .
 				'</div>' .
