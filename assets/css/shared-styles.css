@@ -158,6 +158,10 @@ body .ramp-page-section {
 	.nav-and-search .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content.primary-nav-responsive-contents {
 		padding-top: 48px;
 	}
+
+	.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__submenu-container .wp-block-navigation-item {
+		margin: 16px 0;
+	}
 }
 
 /* Block editor doesn't support doing this properly */
