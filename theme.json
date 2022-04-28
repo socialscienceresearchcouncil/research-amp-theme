@@ -81,7 +81,7 @@
 			"fontSizes": [
 				{
 					"slug": "small-text",
-					"size": "14px",
+					"size": "0.9rem",
 					"name": "Small Text"
 				},
 				{
@@ -91,7 +91,7 @@
 				},
 				{
 					"slug": "large-text",
-					"size": "18px",
+					"size": "1rem",
 					"name": "Large Text"
 				},
 				{
