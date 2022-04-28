@@ -42,14 +42,6 @@ body .ramp-page-section {
 	text-transform: uppercase;
 }
 
-.single-ramp_review .single-sidebar {
-	order: 0;
-}
-
-.single-ramp_review .single-main {
-	order: 1;
-}
-
 .article-featured-image .wp-block-post-featured-image {
 	height: 100%;
 }
@@ -80,6 +72,14 @@ body .ramp-page-section {
 	.article-featured-image .wp-block-post-featured-image {
 		width: calc( 100% + 32px );
 		margin-left: -16px;
+	}
+
+	.single-ramp_review .single-sidebar {
+		order: 0;
+	}
+
+	.single-ramp_review .single-main {
+		order: 1;
 	}
 }
 
