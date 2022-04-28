@@ -24,7 +24,7 @@ printf(
 			<!-- /wp:paragraph -->
 		</header>
 		<!-- /wp:group -->
-		<!-- wp:ramp/research-topic-teasers /-->
+		<!-- wp:ramp/research-topic-teasers {"horizontalSwipe": true} /-->
 	</section>
 	<!-- /wp:group -->',
 	esc_url( $archive_link ),
