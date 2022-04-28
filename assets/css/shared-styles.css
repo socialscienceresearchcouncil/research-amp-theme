@@ -281,7 +281,8 @@ body.single-ramp_topic .item-intro > .ramp-page-section {
 	}
 
 	.item-type-block-all-link {
-		text-align: right;
+		display: inline-block;
+		padding-left: 16px;
 	}
 }
 
