@@ -138,7 +138,7 @@
 			"lineHeight": "1.6em"
 		},
 		"spacing": {
-			"blockGap": "16px"
+			"blockGap": "1rem"
 		},
 		"elements": {
 			"h1": {
