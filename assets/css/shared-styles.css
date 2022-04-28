@@ -52,7 +52,8 @@ body .ramp-page-section {
 	width: 100%;
 }
 
-@media screen and (max-width: 600px) {
+/* 781px is WP's native breakpoint for column stacking */
+@media screen and (max-width: 780px) {
 	body .article-with-featured-image-item-intro {
 		gap: 0;
 	}
