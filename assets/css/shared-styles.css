@@ -2,6 +2,12 @@
 	border-top: none;
 }
 
+@media screen and (max-width: 600px) {
+	.hide-on-mobile {
+		display: none;
+	}
+}
+
 body .ramp-page-section {
 	border-bottom: 1px solid var(--wp--preset--color--medium-grey);
 	margin-bottom: 48px;
