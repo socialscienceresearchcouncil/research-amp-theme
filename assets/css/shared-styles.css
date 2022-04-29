@@ -235,6 +235,10 @@ h6 a:hover {
 	margin-bottom: 0;
 }
 
+body .item-intro {
+	margin-top: calc( 64px + 1rem );
+}
+
 .directory-intro,
 .single-ramp_topic .item-intro {
 	border-bottom: 1px solid var(--wp--preset--color--medium-grey);
@@ -251,6 +255,8 @@ h6 a:hover {
 body .directory-intro {
 	padding-bottom: 48px;
 	margin-bottom: 48px;
+	/* 1rem offsets the negative margin on the header, which cancels out WP's block gap */
+	margin-top: calc( 64px + 1rem );
 }
 
 @media screen and (max-width: 600px) {
@@ -258,6 +264,10 @@ body .directory-intro {
 		padding-bottom: 24px;
 		margin-bottom: 24px;
 	}
+}
+
+body.search-results .directory-intro {
+	margin-bottom: 0;
 }
 
 body.single-ramp_topic .item-intro > .ramp-page-section {
