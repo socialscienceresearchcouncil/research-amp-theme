@@ -9,14 +9,45 @@
 $bottom_contents = [
 	// translators: site name
 	esc_html( sprintf( __( 'Copyright &#169; %s', 'ramp-theme' ), get_option( 'blogname' ) ) ),
-
-	// translators: 1. URL of Research AMP project, 2. URL of Social Science Research Council
-	sprintf(
-		__( 'Powered by <a href="%1$s">Research AMP</a> - a product of the <a href="%2$s">Social Science Research Council</a>', 'ramp-theme' ),
-		'https://researchamp.org',
-		'https://ssrc.org'
-	)
 ];
+
+$ramp_pages = get_option( 'ramp_pages' );
+$page_links = [ 'about', 'contact' ];
+foreach ( $page_links as $page_link ) {
+	if ( empty( $ramp_pages[ $page_link ] ) ) {
+		continue;
+	}
+
+	$link_page = get_post( $ramp_pages[ $page_link ] );
+	if ( ! $link_page ) {
+		continue;
+	}
+
+	$bottom_contents[] = sprintf(
+		'<a href="%s">%s</a>',
+		esc_url( get_permalink( $link_page ) ),
+		esc_html( $link_page->post_title )
+	);
+}
+
+$privacy_policy_page_id = get_option( 'wp_page_for_privacy_policy' );
+if ( $privacy_policy_page_id ) {
+	$privacy_policy_page = get_page( $privacy_policy_page_id );
+	if ( $privacy_policy_page ) {
+		$bottom_contents[] = sprintf(
+			'<a href="%s">%s</a>',
+			esc_url( get_permalink( $privacy_policy_page ) ),
+			esc_html( $privacy_policy_page->post_title )
+		);
+	}
+}
+
+// translators: 1. URL of Research AMP project, 2. URL of Social Science Research Council
+$bottom_contents[] = sprintf(
+	__( 'Powered by <a href="%1$s">Research AMP</a> - a product of the <a href="%2$s">Social Science Research Council</a>', 'ramp-theme' ),
+	'https://researchamp.org',
+	'https://ssrc.org'
+);
 
 /**
  * First group is for background, second for "inherit" layout.
