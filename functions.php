@@ -93,7 +93,8 @@ function ramp_theme_font_styles() {
  * Gets the database ID of the media item of the default logo.
  */
 function ramp_theme_get_default_logo_id() {
-	return 70564;
+	$id = get_option( 'ramp_default_logo', $attachment_id );
+	return (int) $id;
 }
 
 add_filter(
@@ -104,25 +105,6 @@ add_filter(
 		}
 
 		return (string) ramp_theme_get_default_logo_id();
-	}
-);
-
-add_filter(
-	'get_custom_logo',
-	function( $logo ) {
-		return $logo;
-		if ( $logo ) {
-			return $logo;
-		}
-
-		$logo = sprintf(
-			'<a class="custom-logo-link" rel="home" href="%s"><img src="%s" alt="%s" width="200" height="76" /></a>',
-			esc_url( home_url() ),
-			esc_url( get_template_directory_uri() . '/assets/img/research-amp.png' ),
-			__( 'RAMP logo', 'ramp-theme' )
-		);
-
-		return $logo;
 	}
 );
 
