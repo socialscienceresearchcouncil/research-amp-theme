@@ -220,6 +220,14 @@ h6 a:hover {
 	text-decoration: underline;
 }
 
+.footer-bottom a {
+	text-decoration: none;
+}
+
+.footer-bottom a:hover {
+	text-decoration: underline;
+}
+
 /* Item Type */
 .item-type-block {
 	margin-bottom: 64px;
