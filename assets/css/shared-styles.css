@@ -8,6 +8,16 @@
 	}
 }
 
+blockquote {
+	border-left: 4px solid var(--wp--preset--color--dark-grey);
+	margin-left: 0;
+	padding-left: 24px;
+}
+
+blockquote p:last-of-type {
+	margin-bottom: 0;
+}
+
 body .ramp-page-section {
 	border-bottom: 1px solid var(--wp--preset--color--medium-grey);
 	margin-bottom: 48px;
