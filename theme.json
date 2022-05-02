@@ -252,35 +252,43 @@
 	"customTemplates": [
 		{
 			"name": "archive-ramp_article",
-			"title": "Article Archive"
+			"title": "Article Archive",
+			"postTypes": []
 		},
 		{
 			"name": "archive-ramp_citation",
-			"title": "Citation Library"
+			"title": "Citation Library",
+			"postTypes": []
 		},
 		{
 			"name": "archive-ramp_profile",
-			"title": "Profile Archive"
+			"title": "Profile Archive",
+			"postTypes": []
 		},
 		{
 			"name": "archive-ramp_review",
-			"title": "Research Review Archive"
+			"title": "Research Review Archive",
+			"postTypes": []
 		},
 		{
 			"name": "archive-ramp_topic",
-			"title": "Research Topic Archive"
+			"title": "Research Topic Archive",
+			"postTypes": []
 		},
 		{
 			"name": "archive-tribe_events",
-			"title": "Events Archive"
+			"title": "Events Archive",
+			"postTypes": []
 		},
 		{
 			"name": "page-home-page",
-			"title": "Home Page"
+			"title": "Home Page",
+			"postTypes": []
 		},
 		{
 			"name": "page-news-items",
-			"title": "News Items Archive"
+			"title": "News Items Archive",
+			"postTypes": []
 		},
 		{
 			"name": "single",
