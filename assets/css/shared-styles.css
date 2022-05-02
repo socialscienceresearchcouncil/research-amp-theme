@@ -114,6 +114,10 @@ body .ramp-page-section {
 	text-decoration: none;
 }
 
+.secondary-nav > nav > .wp-block-navigation__responsive-container {
+	margin: 0 16px;
+}
+
 .wp-block-navigation .wp-block-navigation__submenu-icon {
 	margin-left: 8px;
 	background: url( '../img/ic_arrow_drop_down_24px.png' ) no-repeat center right;
