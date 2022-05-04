@@ -58,6 +58,12 @@ body .ramp-page-section {
 	text-transform: uppercase;
 }
 
+@media screen and (max-width: 600px) {
+	.single-ramp_profile .item-type-block-header {
+		margin-bottom: 24px;
+	}
+}
+
 .article-featured-image .wp-block-post-featured-image {
 	height: 100%;
 }
