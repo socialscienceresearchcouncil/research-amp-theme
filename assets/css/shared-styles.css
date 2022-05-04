@@ -60,7 +60,7 @@ body .ramp-page-section {
 
 @media screen and (max-width: 600px) {
 	.single-ramp_profile .item-type-block-header {
-		margin-bottom: 24px;
+		margin-bottom: 16px;
 	}
 }
 
