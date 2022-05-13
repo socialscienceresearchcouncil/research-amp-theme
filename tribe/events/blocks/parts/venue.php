@@ -16,7 +16,7 @@ $url      = get_permalink( $venue_id );
 ?>
 
 <div class="tribe-block__venue__meta">
-	<h3 class="tribe-events-single-section-title has-h-6-font-size"><?php esc_html_e( 'Venue', 'ramp' ); ?></h3>
+	<h3 class="tribe-events-single-section-title has-h-6-font-size"><?php esc_html_e( 'Venue', 'research-amp' ); ?></h3>
 
 	<div class="tribe-block__venue__name">
 		<?php echo tribe_get_venue_link() ?>
@@ -39,7 +39,7 @@ $url      = get_permalink( $venue_id );
 	<?php endif ?>
 
 	<?php if ( ! empty( $url ) ) : ?>
-		<span class="tribe-block__venue__website"><a href="<?php echo esc_url( $url ); ?>"><?php esc_html_e( 'Visit Venue Website', 'ramp' ); ?></a></span><br />
+		<span class="tribe-block__venue__website"><a href="<?php echo esc_url( $url ); ?>"><?php esc_html_e( 'Visit Venue Website', 'research-amp' ); ?></a></span><br />
 	<?php endif ?>
 
 	<?php do_action( 'tribe_events_single_meta_venue_section_end' ) ?>

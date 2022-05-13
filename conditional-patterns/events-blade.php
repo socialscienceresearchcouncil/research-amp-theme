@@ -26,7 +26,7 @@ printf(
 		<!-- wp:ramp/event-teasers {"contentMode":"all", "numberOfItems": 3} /-->
 	</section>
 	<!-- /wp:group -->',
-	esc_html__( 'Upcoming Events', 'ramp-theme' ),
+	esc_html__( 'Upcoming Events', 'research-amp-theme' ),
 	esc_url( tribe_events_get_url() ),
-	esc_html__( 'More Events', 'ramp-theme' )
+	esc_html__( 'More Events', 'research-amp-theme' )
 );

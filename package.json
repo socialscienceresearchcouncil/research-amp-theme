@@ -1,7 +1,7 @@
 {
-  "name": "ramp-theme",
+  "name": "research-amp-theme",
   "version": "1.0.0",
-  "description": "RAMP theme",
+  "description": "Research AMP theme",
   "author": "Social Science Research Council",
   "license": "GPL-3.0",
   "keywords": [
@@ -11,7 +11,7 @@
   "homepage": "https://ssrc.org",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hard-g/ramp-theme.git"
+    "url": "git+https://github.com/hard-g/research-amp-theme.git"
   },
   "devDependencies": {
     "@wordpress/scripts": "^18.0.0",

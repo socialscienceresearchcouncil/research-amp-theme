@@ -26,7 +26,7 @@ printf(
 	<!-- wp:ramp/news-item-teasers {"contentMode":"auto", "numberOfItems": 3, "order": "latest", "showResearchTopics": true, "variationType": "grid"} /--></section>
 
 	<!-- /wp:group -->',
-	esc_html__( 'News Items', 'ramp-theme' ),
+	esc_html__( 'News Items', 'research-amp-theme' ),
 	esc_url( get_permalink( get_option( 'page_for_posts' ) ) ),
-	esc_html__( 'More News Items', 'ramp-theme' )
+	esc_html__( 'More News Items', 'research-amp-theme' )
 );

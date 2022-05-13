@@ -25,7 +25,7 @@ printf(
 		<!-- wp:ramp/research-review-teasers {"contentMode":"auto", "variationType":"list", "numberOfItems": 2, "order":"latest"} /-->
 	</section>
 	<!-- /wp:group -->',
-	esc_html__( 'Research Reviews', 'ramp-theme' ),
+	esc_html__( 'Research Reviews', 'research-amp-theme' ),
 	esc_url( get_post_type_archive_link( 'ramp_review' ) ),
-	esc_html__( 'More Research Reviews', 'ramp-theme' )
+	esc_html__( 'More Research Reviews', 'research-amp-theme' )
 );

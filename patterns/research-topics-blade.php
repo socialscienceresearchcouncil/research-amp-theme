@@ -28,7 +28,7 @@ printf(
 	</section>
 	<!-- /wp:group -->',
 	esc_url( $archive_link ),
-	esc_html__( 'Research Topics', 'ramp-theme' ),
+	esc_html__( 'Research Topics', 'research-amp-theme' ),
 	esc_url( $archive_link ),
-	esc_html__( 'More Research Topics', 'ramp-theme' )
+	esc_html__( 'More Research Topics', 'research-amp-theme' )
 );

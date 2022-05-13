@@ -26,7 +26,7 @@ printf(
 		<!-- wp:ramp/news-item-teasers {"contentMode":"all", "numberOfItems": 6, "showFeaturedItem": true, "variationType":"grid"} /-->
 	</section>
 	<!-- /wp:group -->',
-	esc_html__( 'News Items', 'ramp-theme' ),
+	esc_html__( 'News Items', 'research-amp-theme' ),
 	esc_url( get_post_type_archive_link( 'post' ) ),
-	esc_html__( 'More News Items', 'ramp-theme' )
+	esc_html__( 'More News Items', 'research-amp-theme' )
 );

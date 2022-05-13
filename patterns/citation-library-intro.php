@@ -25,7 +25,7 @@ printf(
 	<h3 class="recent-citations-heading" style="margin-top:48px">%s</h3>
 	<!-- /wp:heading -->
 	',
-	esc_html__( 'Citation Library', 'ramp-theme' ),
-	esc_html__( 'Enter a description for the Citation Library.', 'ramp-theme' ),
-	esc_html__( 'Recent Citations', 'ramp-theme' )
+	esc_html__( 'Citation Library', 'research-amp-theme' ),
+	esc_html__( 'Enter a description for the Citation Library.', 'research-amp-theme' ),
+	esc_html__( 'Recent Citations', 'research-amp-theme' )
 );

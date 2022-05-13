@@ -20,6 +20,6 @@ printf(
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->',
-	esc_html__( 'Events', 'ramp-theme' ),
-	esc_html__( 'Enter a description of the Events archive', 'ramp-theme' )
+	esc_html__( 'Events', 'research-amp-theme' ),
+	esc_html__( 'Enter a description of the Events archive', 'research-amp-theme' )
 );

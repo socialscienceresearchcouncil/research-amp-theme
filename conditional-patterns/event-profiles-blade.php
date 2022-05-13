@@ -22,5 +22,5 @@ printf(
 		<!-- wp:ramp/profile-teasers {"contentMode":"auto", "numberOfItems": 4} /-->
 	</section>
 	<!-- /wp:group -->',
-	esc_html__( 'Profiles', 'ramp-theme' )
+	esc_html__( 'Profiles', 'research-amp-theme' )
 );

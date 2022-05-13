@@ -26,7 +26,7 @@ printf(
 		<!-- wp:ramp/article-teasers { "contentMode":"all", "featuredItemId": 0, "order": "latest", "variationType":"featured" } /-->
 	</section>
 	<!-- /wp:group -->',
-	esc_html__( 'Articles', 'ramp-theme' ),
+	esc_html__( 'Articles', 'research-amp-theme' ),
 	esc_url( get_post_type_archive_link( 'ramp_article' ) ),
-	esc_html__( 'More Articles', 'ramp-theme' )
+	esc_html__( 'More Articles', 'research-amp-theme' )
 );

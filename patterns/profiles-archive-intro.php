@@ -20,6 +20,6 @@ printf(
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->',
-	esc_html__( 'Profiles', 'ramp-theme' ),
-	esc_html__( 'Enter a description for the Profiles archive.', 'ramp-theme' )
+	esc_html__( 'Profiles', 'research-amp-theme' ),
+	esc_html__( 'Enter a description for the Profiles archive.', 'research-amp-theme' )
 );

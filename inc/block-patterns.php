@@ -5,10 +5,10 @@
  */
 function ramp_theme_register_block_patterns() {
 	$block_pattern_categories = [
-		'ramp-theme'                => [ 'label' => __( 'RAMP', 'ramp-theme' ) ],
-		'ramp-theme/footers'        => [ 'label' => __( 'RAMP Footers', 'ramp-theme' ) ],
-		'ramp-theme/headers'        => [ 'label' => __( 'RAMP Headers', 'ramp-theme' ) ],
-		'ramp-theme/content-blades' => [ 'label' => __( 'RAMP Content Blades', 'ramp-theme' ) ],
+		'research-amp-theme'                => [ 'label' => __( 'RAMP', 'research-amp-theme' ) ],
+		'ramp-theme/footers'        => [ 'label' => __( 'RAMP Footers', 'research-amp-theme' ) ],
+		'ramp-theme/headers'        => [ 'label' => __( 'RAMP Headers', 'research-amp-theme' ) ],
+		'ramp-theme/content-blades' => [ 'label' => __( 'RAMP Content Blades', 'research-amp-theme' ) ],
 	];
 
 	foreach ( $block_pattern_categories as $name => $properties ) {

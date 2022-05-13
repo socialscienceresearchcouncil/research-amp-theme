@@ -8,7 +8,7 @@
 
 $bottom_contents = [
 	// translators: site name
-	esc_html( sprintf( __( 'Copyright &#169; %s', 'ramp-theme' ), get_option( 'blogname' ) ) ),
+	esc_html( sprintf( __( 'Copyright &#169; %s', 'research-amp-theme' ), get_option( 'blogname' ) ) ),
 ];
 
 $ramp_pages = get_option( 'ramp_pages' );
@@ -44,7 +44,7 @@ if ( $privacy_policy_page_id ) {
 
 // translators: 1. URL of Research AMP project, 2. URL of Social Science Research Council
 $bottom_contents[] = sprintf(
-	__( 'Powered by <a href="%1$s">Research AMP</a> - a product of the <a href="%2$s">Social Science Research Council</a>', 'ramp-theme' ),
+	__( 'Powered by <a href="%1$s">Research AMP</a> - a product of the <a href="%2$s">Social Science Research Council</a>', 'research-amp-theme' ),
 	'https://researchamp.org',
 	'https://ssrc.org'
 );
@@ -118,7 +118,7 @@ printf(
 	'<!-- /wp:group -->',
 	SSRC\RAMP\Util\Navigation::get_nav_id( 'footer-nav' ),
 	SSRC\RAMP\Util\Navigation::get_default_footer_nav_items(),
-	esc_html__( 'Place funder logos and links here', 'ramp-theme' ),
-	esc_html__( 'Place copyright info, links to Privacy Policy and Terms of Conditions, and other footer links here', 'ramp-theme' ),
+	esc_html__( 'Place funder logos and links here', 'research-amp-theme' ),
+	esc_html__( 'Place copyright info, links to Privacy Policy and Terms of Conditions, and other footer links here', 'research-amp-theme' ),
 	implode( ' &nbsp;/&nbsp; ', $bottom_contents )
 );

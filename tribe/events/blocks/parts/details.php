@@ -167,7 +167,7 @@ $website = tribe_get_event_website_url();
 		if ( ! empty( $website ) ) : ?>
 
 			<div class="details-section">
-				<a href="<?php echo esc_url( $website ); ?>"><?php esc_html_e( 'Visit Event Website', 'ramp' ); ?></a>
+				<a href="<?php echo esc_url( $website ); ?>"><?php esc_html_e( 'Visit Event Website', 'research-amp' ); ?></a>
 			</div>
 		<?php endif ?>
 

@@ -63,5 +63,5 @@ printf(
 	SSRC\RAMP\Util\Navigation::get_default_secondary_nav_items(),
 	SSRC\RAMP\Util\Navigation::get_nav_id( 'primary-nav' ),
 	SSRC\RAMP\Util\Navigation::get_default_primary_nav_items(),
-	esc_html__( 'Search', 'ramp-theme' )
+	esc_html__( 'Search', 'research-amp-theme' )
 );

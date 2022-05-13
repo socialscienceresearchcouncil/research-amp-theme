@@ -20,6 +20,6 @@ printf(
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->',
-	esc_html__( 'Research Reviews', 'ramp-theme' ),
-	esc_html__( 'Enter a description of the Research Reviews directory', 'ramp-theme' )
+	esc_html__( 'Research Reviews', 'research-amp-theme' ),
+	esc_html__( 'Enter a description of the Research Reviews directory', 'research-amp-theme' )
 );

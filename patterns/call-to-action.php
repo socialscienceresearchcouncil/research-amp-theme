@@ -28,8 +28,8 @@ printf(
 	<!-- /wp:button --></div>
 	<!-- /wp:buttons --></section>
 	<!-- /wp:group -->',
-	esc_html( sprintf( __( 'Welcome to %s', 'ramp-theme' ), get_option( 'blogname' ) ) ),
-	esc_html__( 'Get involved in our project.', 'ramp-theme' ),
-	esc_html__( 'Use this call-to-action to invite users to learn more about your project, or to get involved.', 'ramp-theme' ),
-	esc_html__( 'Learn more', 'ramp-theme' )
+	esc_html( sprintf( __( 'Welcome to %s', 'research-amp-theme' ), get_option( 'blogname' ) ) ),
+	esc_html__( 'Get involved in our project.', 'research-amp-theme' ),
+	esc_html__( 'Use this call-to-action to invite users to learn more about your project, or to get involved.', 'research-amp-theme' ),
+	esc_html__( 'Learn more', 'research-amp-theme' )
 );

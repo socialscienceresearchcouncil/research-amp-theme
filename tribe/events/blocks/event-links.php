@@ -50,9 +50,9 @@ if ( empty( $google_cal_link ) && empty( $ical_link ) ) {
 				href="<?php echo esc_url( $google_cal_link ); ?>"
 				target="_blank"
 				rel="noopener noreferrer nofollow"
-				title="<?php esc_attr_e( 'Add to Google Calendar', 'ramp-theme' ); ?>"
+				title="<?php esc_attr_e( 'Add to Google Calendar', 'research-amp-theme' ); ?>"
 			>
-				<?php echo esc_html_e( 'Google Calendar', 'ramp-theme' ) ?>
+				<?php echo esc_html_e( 'Google Calendar', 'research-amp-theme' ) ?>
 			</a>
 		</div>
 	<?php endif; ?>
@@ -63,9 +63,9 @@ if ( empty( $google_cal_link ) && empty( $ical_link ) ) {
 				class="wp-block-button__link"
 				href="<?php echo esc_url( $ical_link ); ?>"
 				rel="noopener noreferrer nofollow"
-				title="<?php esc_attr_e( 'iCal Export', 'ramp-theme' ); ?>"
+				title="<?php esc_attr_e( 'iCal Export', 'research-amp-theme' ); ?>"
 			>
-				<?php echo esc_html_e( 'iCal Export', 'ramp-theme' ) ?>
+				<?php echo esc_html_e( 'iCal Export', 'research-amp-theme' ) ?>
 			</a>
 		</div>
 	<?php endif; ?>

@@ -29,7 +29,7 @@ printf(
 	</section>
 	<!-- /wp:group -->',
 	esc_url( $archive_link ),
-	esc_html__( 'Research Reviews', 'ramp-theme' ),
+	esc_html__( 'Research Reviews', 'research-amp-theme' ),
 	esc_url( $archive_link ),
-	esc_html__( 'More Research Reviews', 'ramp-theme' )
+	esc_html__( 'More Research Reviews', 'research-amp-theme' )
 );

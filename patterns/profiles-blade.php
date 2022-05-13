@@ -26,7 +26,7 @@ printf(
 		<!-- wp:ramp/profile-teasers {"contentMode": "all", "numberOfItems": 4} /-->
 	</section>
 	<!-- /wp:group -->',
-	esc_html__( 'Profiles', 'ramp-theme' ),
+	esc_html__( 'Profiles', 'research-amp-theme' ),
 	esc_url( get_post_type_archive_link( 'ramp_profile' ) ),
-	esc_html__( 'More Profiles', 'ramp-theme' )
+	esc_html__( 'More Profiles', 'research-amp-theme' )
 );

@@ -21,7 +21,7 @@ add_action(
 	'wp_enqueue_scripts',
 	function() {
 		wp_register_style(
-			'ramp-theme',
+			'research-amp-theme',
 			get_template_directory_uri() . '/style.css',
 			[],
 			wp_get_theme()->get( 'Version' )
@@ -29,7 +29,7 @@ add_action(
 
 		// Inline styles.
 		wp_add_inline_style(
-			'ramp-theme',
+			'research-amp-theme',
 			ramp_theme_font_styles()
 		);
 
@@ -41,7 +41,7 @@ add_action(
 		);
 
 		wp_enqueue_script(
-			'ramp-theme',
+			'research-amp-theme',
 			get_template_directory_uri() . '/assets/js/ramp-theme.js',
 			[],
 			wp_get_theme()->get( 'Version' ),
@@ -52,7 +52,7 @@ add_action(
 
 function ramp_theme_enqueue_styles() {
 	wp_enqueue_style( 'ramp-theme-shared-styles' );
-	wp_enqueue_style( 'ramp-theme' );
+	wp_enqueue_style( 'research-amp-theme' );
 }
 add_action( 'wp_enqueue_scripts', 'ramp_theme_enqueue_styles' );
 add_action( 'enqueue_block_editor_assets', 'ramp_theme_enqueue_styles' );

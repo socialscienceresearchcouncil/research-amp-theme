@@ -26,7 +26,7 @@ printf(
 		<!-- wp:ramp/citation-teasers {"contentMode":"auto","numberOfItems": 3, "order": "latest"} /--></section>
 
 	<!-- /wp:group -->',
-	esc_html__( 'Citations', 'ramp-theme' ),
+	esc_html__( 'Citations', 'research-amp-theme' ),
 	esc_url( get_post_type_archive_link( 'ramp_citation' ) ),
-	esc_html__( 'Full Citation Library', 'ramp-theme' )
+	esc_html__( 'Full Citation Library', 'research-amp-theme' )
 );
