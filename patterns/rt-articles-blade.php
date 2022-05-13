@@ -23,7 +23,7 @@ printf(
 		</header>
 		<!-- /wp:group -->
 
-		<!-- wp:ramp/article-teasers {"contentMode":"auto", "horizontalSwipe": true, "numberOfItems": 3, "order": "latest", "variationType":"grid"} /-->
+		<!-- wp:research-amp/article-teasers {"contentMode":"auto", "horizontalSwipe": true, "numberOfItems": 3, "order": "latest", "variationType":"grid"} /-->
 	</section>
 	<!-- /wp:group -->',
 	esc_html__( 'Articles', 'research-amp-theme' ),

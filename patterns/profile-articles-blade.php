@@ -19,7 +19,7 @@ printf(
 		</header>
 		<!-- /wp:group -->
 
-		<!-- wp:ramp/article-teasers {"contentMode":"auto", "numberOfItems": 3, "order": "latest", "variationType":"list"} /-->
+		<!-- wp:research-amp/article-teasers {"contentMode":"auto", "numberOfItems": 3, "order": "latest", "variationType":"list"} /-->
 	</section>
 	<!-- /wp:group -->',
 	esc_html__( 'Associated Articles', 'research-amp-theme' )

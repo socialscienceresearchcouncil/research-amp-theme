@@ -19,7 +19,7 @@ printf(
 		</header>
 		<!-- /wp:group -->
 
-		<!-- wp:ramp/profile-teasers {"contentMode":"auto", "numberOfItems": 4} /-->
+		<!-- wp:research-amp/profile-teasers {"contentMode":"auto", "numberOfItems": 4} /-->
 	</section>
 	<!-- /wp:group -->',
 	esc_html__( 'Profiles', 'research-amp-theme' )

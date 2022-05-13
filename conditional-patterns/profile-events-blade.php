@@ -19,7 +19,7 @@ printf(
 		</header>
 		<!-- /wp:group -->
 
-		<!-- wp:ramp/event-teasers {"contentMode":"auto", "numberOfItems": 3, "variationType":"list"} /-->
+		<!-- wp:research-amp/event-teasers {"contentMode":"auto", "numberOfItems": 3, "variationType":"list"} /-->
 	</section>
 	<!-- /wp:group -->',
 	esc_html__( 'Featured Events', 'research-amp-theme' )

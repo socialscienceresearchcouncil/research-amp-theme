@@ -22,7 +22,7 @@ printf(
 		</header>
 		<!-- /wp:group -->
 
-		<!-- wp:ramp/research-review-teasers {"contentMode":"auto", "variationType":"list", "numberOfItems": 2, "order":"latest"} /-->
+		<!-- wp:research-amp/research-review-teasers {"contentMode":"auto", "variationType":"list", "numberOfItems": 2, "order":"latest"} /-->
 	</section>
 	<!-- /wp:group -->',
 	esc_html__( 'Research Reviews', 'research-amp-theme' ),

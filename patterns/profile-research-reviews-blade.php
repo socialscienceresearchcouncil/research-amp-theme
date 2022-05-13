@@ -19,7 +19,7 @@ printf(
 		</header>
 		<!-- /wp:group -->
 
-		<!-- wp:ramp/research-review-teasers {"contentMode":"auto", "numberOfItems": 3, "order": "latest", "variationType":"list"} /-->
+		<!-- wp:research-amp/research-review-teasers {"contentMode":"auto", "numberOfItems": 3, "order": "latest", "variationType":"list"} /-->
 	</section>
 	<!-- /wp:group -->',
 	esc_html__( 'Associated Research Reviews', 'research-amp-theme' )

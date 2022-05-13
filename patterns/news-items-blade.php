@@ -23,7 +23,7 @@ printf(
 		</header>
 		<!-- /wp:group -->
 
-		<!-- wp:ramp/news-item-teasers {"contentMode":"all", "numberOfItems": 6, "showFeaturedItem": true, "variationType":"grid"} /-->
+		<!-- wp:research-amp/news-item-teasers {"contentMode":"all", "numberOfItems": 6, "showFeaturedItem": true, "variationType":"grid"} /-->
 	</section>
 	<!-- /wp:group -->',
 	esc_html__( 'News Items', 'research-amp-theme' ),

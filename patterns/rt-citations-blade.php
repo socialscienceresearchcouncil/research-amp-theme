@@ -23,7 +23,7 @@ printf(
 		</header>
 		<!-- /wp:group -->
 
-		<!-- wp:ramp/citation-teasers {"contentMode":"auto","numberOfItems": 3, "order": "latest"} /--></section>
+		<!-- wp:research-amp/citation-teasers {"contentMode":"auto","numberOfItems": 3, "order": "latest"} /--></section>
 
 	<!-- /wp:group -->',
 	esc_html__( 'Citations', 'research-amp-theme' ),

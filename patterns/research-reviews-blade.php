@@ -25,7 +25,7 @@ printf(
 		</header>
 		<!-- /wp:group -->
 
-		<!-- wp:ramp/research-review-teasers {"variationType":"grid","contentMode":"all", "horizontalSwipe": true, "order":"random","numberOfItems":3} /-->
+		<!-- wp:research-amp/research-review-teasers {"variationType":"grid","contentMode":"all", "horizontalSwipe": true, "order":"random","numberOfItems":3} /-->
 	</section>
 	<!-- /wp:group -->',
 	esc_url( $archive_link ),

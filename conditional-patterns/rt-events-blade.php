@@ -23,7 +23,7 @@ printf(
 		</header>
 		<!-- /wp:group -->
 
-		<!-- wp:ramp/event-teasers {"contentMode":"auto", "numberOfItems": 3} /-->
+		<!-- wp:research-amp/event-teasers {"contentMode":"auto", "numberOfItems": 3} /-->
 	</section>
 	<!-- /wp:group -->',
 	esc_html__( 'Events', 'research-amp-theme' ),

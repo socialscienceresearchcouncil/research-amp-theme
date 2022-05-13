@@ -19,7 +19,7 @@ printf(
 		</header>
 		<!-- /wp:group -->
 
-		<!-- wp:ramp/citation-teasers {"contentMode":"auto", "numberOfItems": 4} /-->
+		<!-- wp:research-amp/citation-teasers {"contentMode":"auto", "numberOfItems": 4} /-->
 	</section>
 	<!-- /wp:group -->',
 	esc_html__( 'Featured Publications', 'research-amp-theme' )

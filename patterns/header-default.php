@@ -39,7 +39,7 @@ printf(
 					'<!-- /wp:column -->' .
 					'<!-- wp:column {"width":"30px"} -->' .
 					'<div class="wp-block-column" style="flex-basis:30px">' .
-						'<!-- wp:ramp/nav-search /-->' .
+						'<!-- wp:research-amp/nav-search /-->' .
 					'</div>' .
 					'<!-- /wp:column -->' .
 				'</div>' .

@@ -23,7 +23,7 @@ printf(
 		</header>
 		<!-- /wp:group -->
 
-		<!-- wp:ramp/profile-teasers {"contentMode": "all", "numberOfItems": 4} /-->
+		<!-- wp:research-amp/profile-teasers {"contentMode": "all", "numberOfItems": 4} /-->
 	</section>
 	<!-- /wp:group -->',
 	esc_html__( 'Profiles', 'research-amp-theme' ),
