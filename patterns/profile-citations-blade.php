@@ -2,10 +2,10 @@
 
 /**
  * Title: Citations Blade for Profiles
- * Slug: ramp-theme/profile-citations-blade
+ * Slug: research-amp-theme/profile-citations-blade
  * Description: A preview of recent Citations associated with a specific Profile.
  * Inserter: false
- * Categories: ramp-theme/content-blades
+ * Categories: research-amp-theme/content-blades
  */
 
 printf(

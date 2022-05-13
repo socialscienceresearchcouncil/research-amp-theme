@@ -2,7 +2,7 @@
 
 /**
  * Title: Citation Library Intro
- * Slug: ramp-theme/citation-library-intro
+ * Slug: research-amp-theme/citation-library-intro
  * Description: The introductory section of the Citations Library
  * Inserter: false
  * Categories: ramp-theme

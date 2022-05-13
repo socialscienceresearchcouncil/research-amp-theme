@@ -2,10 +2,10 @@
 
 /**
  * Title: Profiles Blade
- * Slug: ramp-theme/profiles-blade
+ * Slug: research-amp-theme/profiles-blade
  * Description: Lists Profiles from your network.
  * Inserter: true
- * Categories: ramp-theme/content-blades
+ * Categories: research-amp-theme/content-blades
  */
 
 printf(

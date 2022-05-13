@@ -40,6 +40,6 @@ function modifyButtonBlockSettings( settings, name ) {
 
 addFilter(
     'blocks.registerBlockType',
-    'ramp-theme/modify-button-block-settings',
+    'research-amp-theme/modify-button-block-settings',
     modifyButtonBlockSettings
 );

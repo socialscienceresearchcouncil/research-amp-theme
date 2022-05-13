@@ -2,7 +2,7 @@
 
 /**
  * Title: Header - Default
- * Slug: ramp-theme/header-default
+ * Slug: research-amp-theme/header-default
  * Description: Default header
  * blockTypes: core/template-part/header
  * Inserter: true

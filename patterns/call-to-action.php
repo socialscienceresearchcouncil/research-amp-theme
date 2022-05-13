@@ -2,7 +2,7 @@
 
 /**
  * Title: Call to Action
- * Slug: ramp-theme/call-to-action
+ * Slug: research-amp-theme/call-to-action
  * Description: Invite users to learn more or get involved
  * Inserter: true
  * Categories: ramp-theme

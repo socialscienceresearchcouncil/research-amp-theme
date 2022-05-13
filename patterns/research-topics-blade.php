@@ -2,10 +2,10 @@
 
 /**
  * Title: Research Topics Blade
- * Slug: ramp-theme/research-topics-blade
+ * Slug: research-amp-theme/research-topics-blade
  * Description: A preview of Research Topics, useful for the home page.
  * Inserter: true
- * Categories: ramp-theme/content-blades
+ * Categories: research-amp-theme/content-blades
  */
 
 $archive_link = get_post_type_archive_link( 'ramp_topic' );

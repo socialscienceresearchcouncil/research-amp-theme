@@ -2,7 +2,7 @@
 
 /**
  * Title: Research Topics Archive Intro
- * Slug: ramp-theme/research-topics-archive-intro
+ * Slug: research-amp-theme/research-topics-archive-intro
  * Description: The introductory section of the Research Topics archive
  * Inserter: false
  * Categories: ramp-theme

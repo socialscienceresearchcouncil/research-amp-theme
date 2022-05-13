@@ -6,9 +6,9 @@
 function ramp_theme_register_block_patterns() {
 	$block_pattern_categories = [
 		'research-amp-theme'                => [ 'label' => __( 'RAMP', 'research-amp-theme' ) ],
-		'ramp-theme/footers'        => [ 'label' => __( 'RAMP Footers', 'research-amp-theme' ) ],
-		'ramp-theme/headers'        => [ 'label' => __( 'RAMP Headers', 'research-amp-theme' ) ],
-		'ramp-theme/content-blades' => [ 'label' => __( 'RAMP Content Blades', 'research-amp-theme' ) ],
+		'research-amp-theme/footers'        => [ 'label' => __( 'RAMP Footers', 'research-amp-theme' ) ],
+		'research-amp-theme/headers'        => [ 'label' => __( 'RAMP Headers', 'research-amp-theme' ) ],
+		'research-amp-theme/content-blades' => [ 'label' => __( 'RAMP Content Blades', 'research-amp-theme' ) ],
 	];
 
 	foreach ( $block_pattern_categories as $name => $properties ) {
@@ -47,7 +47,7 @@ function ramp_theme_register_block_patterns() {
 			continue;
 		}
 
-		register_block_pattern( 'ramp-theme/' . $block_pattern, $pattern_data );
+		register_block_pattern( 'research-amp-theme/' . $block_pattern, $pattern_data );
 	}
 }
 add_action( 'init', 'ramp_theme_register_block_patterns', 15 );

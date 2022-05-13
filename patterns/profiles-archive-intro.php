@@ -2,7 +2,7 @@
 
 /**
  * Title: Profiles Archive Intro
- * Slug: ramp-theme/profiles-archive-intro
+ * Slug: research-amp-theme/profiles-archive-intro
  * Description: The introductory section of the Profiles archive
  * Inserter: false
  * Categories: ramp-theme

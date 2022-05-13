@@ -2,10 +2,10 @@
 
 /**
  * Title: Events Blade for Profiles
- * Slug: ramp-theme/profile-events-blade
+ * Slug: research-amp-theme/profile-events-blade
  * Description: A preview of upcoming Events associated with a specific Profile.
  * Inserter: true
- * Categories: ramp-theme/content-blades
+ * Categories: research-amp-theme/content-blades
  */
 
 printf(

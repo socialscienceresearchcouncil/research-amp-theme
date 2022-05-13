@@ -2,10 +2,10 @@
 
 /**
  * Title: Events Blade
- * Slug: ramp-theme/events-blade
+ * Slug: research-amp-theme/events-blade
  * Description: A preview of upcoming events.
  * Inserter: true
- * Categories: ramp-theme/content-blades
+ * Categories: research-amp-theme/content-blades
  */
 
 printf(

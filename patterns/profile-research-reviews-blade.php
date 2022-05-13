@@ -2,10 +2,10 @@
 
 /**
  * Title: Research Review Blade for Profiles
- * Slug: ramp-theme/profile-research-reviews-blade
+ * Slug: research-amp-theme/profile-research-reviews-blade
  * Description: A preview of recent Research Reviews associated with a specific Profile.
  * Inserter: true
- * Categories: ramp-theme/content-blades
+ * Categories: research-amp-theme/content-blades
  */
 
 printf(

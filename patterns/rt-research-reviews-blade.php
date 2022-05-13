@@ -1,10 +1,10 @@
 <?php
 /**
  * Title: Research Reviews Blade for Research Topic
- * Slug: ramp-theme/rt-research-reviews-blade
+ * Slug: research-amp-theme/rt-research-reviews-blade
  * Description: A list of Research Reviews associated with a specific Research Topic
  * Inserter: true
- * Categories: ramp-theme/content-blades
+ * Categories: research-amp-theme/content-blades
  */
 
 printf(

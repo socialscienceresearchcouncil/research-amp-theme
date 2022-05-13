@@ -2,10 +2,10 @@
 
 /**
  * Title: Research Reviews Blade
- * Slug: ramp-theme/research-reviews-blade
+ * Slug: research-amp-theme/research-reviews-blade
  * Description: A preview of Research Reviews, useful for the home page.
  * Inserter: true
- * Categories: ramp-theme/content-blades
+ * Categories: research-amp-theme/content-blades
  */
 
 $archive_link = get_post_type_archive_link( 'ramp_review' );

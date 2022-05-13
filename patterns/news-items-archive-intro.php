@@ -2,7 +2,7 @@
 
 /**
  * Title: News Items Archive Intro
- * Slug: ramp-theme/news-items-archive-intro
+ * Slug: research-amp-theme/news-items-archive-intro
  * Description: The introductory section of the News Items archive
  * Inserter: false
  * Categories: ramp-theme

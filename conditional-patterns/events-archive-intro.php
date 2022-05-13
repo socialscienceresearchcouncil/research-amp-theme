@@ -2,7 +2,7 @@
 
 /**
  * Title: Events Archive Intro
- * Slug: ramp-theme/events-archive-intro
+ * Slug: research-amp-theme/events-archive-intro
  * Description: The introductory section of the Events archive
  * Inserter: false
  * Categories: ramp-theme

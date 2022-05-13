@@ -2,10 +2,10 @@
 
 /**
  * Title: Articles Blade for Profiles
- * Slug: ramp-theme/profile-articles-blade
+ * Slug: research-amp-theme/profile-articles-blade
  * Description: A preview of recent Articles associated with a specific Profile.
  * Inserter: true
- * Categories: ramp-theme/content-blades
+ * Categories: research-amp-theme/content-blades
  */
 
 printf(

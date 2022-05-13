@@ -2,10 +2,10 @@
 
 /**
  * Title: Articles Blade
- * Slug: ramp-theme/articles-blade
+ * Slug: research-amp-theme/articles-blade
  * Description: A two-column preview of recent and featured articles, useful for the home page.
  * Inserter: true
- * Categories: ramp-theme/content-blades
+ * Categories: research-amp-theme/content-blades
  */
 
 printf(

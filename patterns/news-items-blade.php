@@ -2,10 +2,10 @@
 
 /**
  * Title: News Items Blade
- * Slug: ramp-theme/news-items-blade
+ * Slug: research-amp-theme/news-items-blade
  * Description: A preview of recent and featured news items, useful for the home page.
  * Inserter: true
- * Categories: ramp-theme/content-blades
+ * Categories: research-amp-theme/content-blades
  */
 
 printf(

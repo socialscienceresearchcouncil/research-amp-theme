@@ -2,7 +2,7 @@
 
 /**
  * Title: Research Reviews Archive Intro
- * Slug: ramp-theme/research-reviews-archive-intro
+ * Slug: research-amp-theme/research-reviews-archive-intro
  * Description: The introductory section of the Research Reviews archive
  * Inserter: false
  * Categories: ramp-theme

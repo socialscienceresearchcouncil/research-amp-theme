@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Foter
- * Slug: ramp-theme/footer
+ * Slug: research-amp-theme/footer
  * blockTypes: core/template-part/footer
  * Inserter: true
  */

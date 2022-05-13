@@ -2,7 +2,7 @@
 
 /**
  * Title: Header - Centered
- * Slug: ramp-theme/header-centered
+ * Slug: research-amp-theme/header-centered
  * Description: Centered header
  * blockTypes: core/template-part/header
  * Inserter: true

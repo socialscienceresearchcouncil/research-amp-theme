@@ -2,10 +2,10 @@
 
 /**
  * Title: Articles Blade for Research Topic
- * Slug: ramp-theme/rt-articles-blade
+ * Slug: research-amp-theme/rt-articles-blade
  * Description: A preview of recent Articles associated with a specific Research Topic
  * Inserter: true
- * Categories: ramp-theme/content/blades
+ * Categories: research-amp-theme/content/blades
  */
 
 printf(
