@@ -312,7 +312,7 @@
 		},
 		{
 			"name": "single-ramp_topic",
-			"title": "Research Topic Landing Page",
+			"title": "Single Research Topic",
 			"postTypes": [ "ramp_topic" ]
 		},
 		{
