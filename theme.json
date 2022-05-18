@@ -286,14 +286,14 @@
 			"postTypes": []
 		},
 		{
-			"name": "page-news-items",
+			"name": "archive-ramp_news_item",
 			"title": "News Items Archive",
 			"postTypes": []
 		},
 		{
-			"name": "single",
+			"name": "single-ramp_news_item",
 			"title": "Single News Item",
-			"postTypes": [ "post" ]
+			"postTypes": [ "ramp_news_item" ]
 		},
 		{
 			"name": "single-ramp_article",

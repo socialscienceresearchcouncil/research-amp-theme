@@ -27,6 +27,6 @@ printf(
 	</section>
 	<!-- /wp:group -->',
 	esc_html__( 'News Items', 'research-amp-theme' ),
-	esc_url( get_post_type_archive_link( 'post' ) ),
+	esc_url( get_post_type_archive_link( 'ramp_news_item' ) ),
 	esc_html__( 'More News Items', 'research-amp-theme' )
 );
