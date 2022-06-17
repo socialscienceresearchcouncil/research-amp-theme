@@ -6,6 +6,10 @@
  * Inserter: true
  */
 
+if ( wp_installing() ) {
+	return;
+}
+
 $bottom_contents = [
 	// translators: site name
 	esc_html( sprintf( __( 'Copyright &#169; %s', 'research-amp-theme' ), get_option( 'blogname' ) ) ),
