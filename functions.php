@@ -93,7 +93,7 @@ function ramp_theme_font_styles() {
  * Gets the database ID of the media item of the default logo.
  */
 function ramp_theme_get_default_logo_id() {
-	$id = get_option( 'ramp_default_logo', $attachment_id );
+	$id = get_option( 'ramp_default_logo' );
 	return (int) $id;
 }
 
