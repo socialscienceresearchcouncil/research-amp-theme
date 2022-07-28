@@ -13,16 +13,13 @@ button.wp-block-button__link {
 	background-color: var(--wp--preset--color--ramp-primary);
 }
 
-.wp-block-button.is-style-primary .wp-block-button__link:hover {
-	background-color: var(--wp--preset--color--ramp-green-desaturated);
-}
-
 .wp-block-button.is-style-secondary .wp-block-button__link {
 	background-color: var(--wp--preset--color--ramp-secondary);
 }
 
+.wp-block-button.is-style-primary .wp-block-button__link:hover,
 .wp-block-button.is-style-secondary .wp-block-button__link:hover {
-	background-color: var(--wp--preset--color--ramp-secondary-desaturated);
+	opacity: .8;
 }
 
 .wp-block-button.is-style-outline .wp-block-button__link:hover {

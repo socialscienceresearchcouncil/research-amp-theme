@@ -24,24 +24,19 @@
 			"gradient": false,
 			"palette": [
 				{
+					"slug": "white",
+					"color": "#fff",
+					"name": "White"
+				},
+				{
 					"slug": "ramp-primary",
 					"color": "rgba(1, 118, 126, 1)",
 					"name": "Research AMP Primary"
 				},
 				{
-					"slug": "ramp-green-desaturated",
-					"color": "rgba(1, 118, 126, .85)",
-					"name": "Research AMP Green Desaturated"
-				},
-				{
 					"slug": "ramp-secondary",
 					"color": "rgba(63, 79, 123, 1)",
 					"name": "Research AMP Secondary"
-				},
-				{
-					"slug": "ramp-blue-desaturated",
-					"color": "rgba(63, 79, 123, .85)",
-					"name": "Research AMP Blue Desaturated"
 				},
 				{
 					"slug": "almost-black",
