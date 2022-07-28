@@ -412,7 +412,7 @@ body.single-ramp_topic .item-intro > .ramp-page-section {
 }
 
 .citation-body-text {
-	border-left: 6px solid var(--wp--preset--color--light-grey);
+	border-left: 6px solid var(--wp--preset--color--background-light);
 	font-size: var(--wp--preset--font-size--large-text);
 	line-height: 1.8em;
 	padding-left: 48px;
@@ -460,7 +460,7 @@ h3.tribe-events-single-section-title {
 }
 
 .event-body-text {
-	border-left: 6px solid var(--wp--preset--color--light-grey);
+	border-left: 6px solid var(--wp--preset--color--background-light);
 	line-height: 1.8em;
 	padding-left: 48px;
 }

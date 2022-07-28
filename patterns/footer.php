@@ -95,8 +95,8 @@ printf(
 		'</div>' .
 		'<!-- /wp:group -->' .
 
-		'<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","bottom":"40px"}}},"backgroundColor":"light-grey","className":"footer-funders ramp-container"} -->' .
-		'<div class="wp-block-group footer-funders has-light-grey-background-color has-background ramp-container" style="padding-top:40px;padding-bottom:40px">' .
+		'<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","bottom":"40px"}}},"backgroundColor":"background-light","className":"footer-funders ramp-container"} -->' .
+		'<div class="wp-block-group footer-funders has-background-light-background-color has-background ramp-container" style="padding-top:40px;padding-bottom:40px">' .
 			'<!-- wp:group {"layout":{"inherit":true}} -->' .
 			'<div class="wp-block-group">' .
 				'<!-- wp:paragraph {"placeholder":"%s"} -->' .

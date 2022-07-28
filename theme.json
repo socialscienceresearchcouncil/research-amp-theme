@@ -44,9 +44,9 @@
 					"name": "Text Color"
 				},
 				{
-					"slug": "light-grey",
+					"slug": "background-light",
 					"color": "#f3f4f4",
-					"name": "Light grey"
+					"name": "Background Light"
 				},
 				{
 					"slug": "medium-grey",
