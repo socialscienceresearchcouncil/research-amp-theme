@@ -49,9 +49,9 @@
 					"name": "Background Light"
 				},
 				{
-					"slug": "medium-grey",
+					"slug": "neutral",
 					"color": "#abb8c3",
-					"name": "Medium grey"
+					"name": "Neutral"
 				},
 				{
 					"slug": "dark-grey",

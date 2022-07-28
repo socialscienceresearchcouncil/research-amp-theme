@@ -19,7 +19,7 @@ blockquote p:last-of-type {
 }
 
 body .ramp-page-section {
-	border-bottom: 1px solid var(--wp--preset--color--medium-grey);
+	border-bottom: 1px solid var(--wp--preset--color--neutral);
 	margin-bottom: 48px;
 	padding-bottom: 42px;
 }
@@ -41,7 +41,7 @@ body .ramp-page-section {
 }
 
 .single-ramp_profile .ramp-page-section {
-	border-top: 1px solid var(--wp--preset--color--medium-grey);
+	border-top: 1px solid var(--wp--preset--color--neutral);
 	border-bottom: none;
 	padding: 48px 0;
 }
@@ -164,7 +164,7 @@ body .ramp-page-section {
 	}
 
 	.secondary-nav-contents {
-		border-top: 1px solid var(--wp--preset--color--medium-grey);
+		border-top: 1px solid var(--wp--preset--color--neutral);
 		margin-top: 48px;
 	}
 
@@ -269,7 +269,7 @@ body .item-intro {
 
 .directory-intro,
 .single-ramp_topic .item-intro {
-	border-bottom: 1px solid var(--wp--preset--color--medium-grey);
+	border-bottom: 1px solid var(--wp--preset--color--neutral);
 }
 
 .directory-intro p:empty {
