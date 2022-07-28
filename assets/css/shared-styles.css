@@ -305,9 +305,12 @@ body.single-ramp_topic .item-intro > .ramp-page-section {
 
 .arrow-button,
 .item-type-block-all-link {
-	background: url('../img/ic_arrow_forward_24px.png') no-repeat right center;
-	background-size: 24px auto;
-	padding-right: 36px;
+
+}
+
+.item-type-block-all-link:after,
+.arrow-button:after {
+	content: "\00a0\00a0\27F6";
 }
 
 .item-type-block-all-link a {
