@@ -9,7 +9,7 @@
 }
 
 blockquote {
-	border-left: 4px solid var(--wp--preset--color--dark-grey);
+	border-left: 4px solid var(--ramp-dark-grey);
 	margin-left: 0;
 	padding-left: 24px;
 }

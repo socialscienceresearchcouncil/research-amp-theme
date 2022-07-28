@@ -52,11 +52,6 @@
 					"slug": "neutral",
 					"color": "#abb8c3",
 					"name": "Neutral"
-				},
-				{
-					"slug": "dark-grey",
-					"color": "#62656d",
-					"name": "Dark grey"
 				}
 			]
 		},
