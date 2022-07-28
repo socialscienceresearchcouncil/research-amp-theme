@@ -39,9 +39,9 @@
 					"name": "Research AMP Secondary"
 				},
 				{
-					"slug": "almost-black",
+					"slug": "text-color",
 					"color": "#222",
-					"name": "Almost black"
+					"name": "Text Color"
 				},
 				{
 					"slug": "light-grey",
@@ -211,7 +211,7 @@
 			},
 			"link": {
 				"color": {
-					"text": "var(--wp--preset--color--almost-black)"
+					"text": "var(--wp--preset--color--text-color)"
 				},
 				"typography": {
 					"textDecoration": "underline"

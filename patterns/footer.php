@@ -59,8 +59,8 @@ $bottom_contents[] = sprintf(
 printf(
 	'<!-- wp:group {"style":{"spacing":{"blockGap":"0px","margin":{"top":"96px"}}}} -->' .
 	'<div class="wp-block-group" style="margin-top:96px">' .
-		'<!-- wp:separator {"color":"almost-black","className":"is-style-wide"} -->' .
-			'<hr class="wp-block-separator has-text-color has-background has-almost-black-background-color has-almost-black-color is-style-wide"/>' .
+		'<!-- wp:separator {"color":"text-color","className":"is-style-wide"} -->' .
+			'<hr class="wp-block-separator has-text-color has-background has-text-color-background-color has-text-color-color is-style-wide"/>' .
 		'<!-- /wp:separator -->' .
 
 		'<!-- wp:group {"style":{"spacing":{"padding":{"top":"50px","bottom":"50px"}}},"backgroundColor":"white"} -->' .
@@ -107,8 +107,8 @@ printf(
 		'</div>' .
 		'<!-- /wp:group -->' .
 
-		'<!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"spacing":{"padding":{"top":"12px","bottom":"24px"}}},"backgroundColor":"almost-black","textColor":"white","className":"footer-bottom ramp-container"} -->'.
-		'<div class="wp-block-group footer-bottom has-white-color has-almost-black-background-color has-text-color has-background has-link-color ramp-container" style="padding-top:12px;padding-bottom:24px">'.
+		'<!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"spacing":{"padding":{"top":"12px","bottom":"24px"}}},"backgroundColor":"text-color","textColor":"white","className":"footer-bottom ramp-container"} -->'.
+		'<div class="wp-block-group footer-bottom has-white-color has-text-color-background-color has-text-color has-background has-link-color ramp-container" style="padding-top:12px;padding-bottom:24px">'.
 			'<!-- wp:group {"layout":{"inherit":true}} -->'.
 			'<div class="wp-block-group">'.
 				'<!-- wp:paragraph {"placeholder":"%s"} -->'.

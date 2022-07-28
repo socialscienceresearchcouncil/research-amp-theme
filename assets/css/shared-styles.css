@@ -200,7 +200,7 @@ body .ramp-page-section {
 }
 
 .header-centered .nav-and-search-group {
-	border-top: 1px solid var(--wp--preset--color--almost-black);
+	border-top: 1px solid var(--wp--preset--color--text-color);
 }
 
 .footer-nav .wp-block-navigation a,

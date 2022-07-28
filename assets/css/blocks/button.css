@@ -24,7 +24,7 @@ button.wp-block-button__link {
 
 .wp-block-button.is-style-outline .wp-block-button__link:hover {
 	background-color: #fff;
-	color: var(--wp--preset--color--almost-black);
+	color: var(--wp--preset--color--text-color);
 }
 
 .has-ramp-secondary-background-color .wp-block-button.is-style-outline .wp-block-button__link:hover {
@@ -40,11 +40,11 @@ button.wp-block-button__link {
 }
 
 .wp-block-button.is-style-tertiary .wp-block-button__link {
-	border-color: var(--wp--preset--color--almost-black);
+	border-color: var(--wp--preset--color--text-color);
 }
 
 .wp-block-button.is-style-tertiary .wp-block-button__link:hover {
-	background-color: var(--wp--preset--color--almost-black);
+	background-color: var(--wp--preset--color--text-color);
 }
 
 .wp-block-button input {
