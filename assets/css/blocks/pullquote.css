@@ -1,6 +1,6 @@
 .wp-block-post-content .wp-block-pullquote {
-	border-top: 2px solid var(--wp--preset--color--ramp-green);
-	border-bottom: 2px solid var(--wp--preset--color--ramp-green);
+	border-top: 2px solid var(--wp--preset--color--ramp-primary);
+	border-bottom: 2px solid var(--wp--preset--color--ramp-primary);
 	margin-top: 48px;
 	margin-bottom: 48px;
 	padding-top: 24px;

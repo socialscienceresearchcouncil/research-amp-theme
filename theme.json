@@ -24,14 +24,9 @@
 			"gradient": false,
 			"palette": [
 				{
-					"slug": "white",
-					"color": "#fff",
-					"name": "White"
-				},
-				{
-					"slug": "ramp-green",
+					"slug": "ramp-primary",
 					"color": "rgba(1, 118, 126, 1)",
-					"name": "Research AMP Green"
+					"name": "Research AMP Primary"
 				},
 				{
 					"slug": "ramp-green-desaturated",
@@ -39,9 +34,9 @@
 					"name": "Research AMP Green Desaturated"
 				},
 				{
-					"slug": "ramp-blue",
+					"slug": "ramp-secondary",
 					"color": "rgba(63, 79, 123, 1)",
-					"name": "Research AMP Blue"
+					"name": "Research AMP Secondary"
 				},
 				{
 					"slug": "ramp-blue-desaturated",
@@ -236,7 +231,7 @@
 			},
 			"core/pullquote": {
 				"color": {
-					"text": "var(--wp--preset--color--ramp-green)"
+					"text": "var(--wp--preset--color--ramp-primary)"
 				}
 			},
 			"core/quote": {
