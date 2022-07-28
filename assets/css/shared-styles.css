@@ -308,7 +308,7 @@ body.single-ramp_topic .item-intro > .ramp-page-section {
 
 }
 
-.item-type-block-all-link:after,
+.item-type-block-all-link > a:after,
 .arrow-button:after {
 	content: "\00a0\00a0\27F6";
 }
