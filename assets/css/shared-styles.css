@@ -275,7 +275,7 @@ h6 a:hover:not(.wp-element-button) {
 	margin-bottom: 0;
 }
 
-body .item-intro {
+body .wp-block-group .item-intro {
 	margin-top: calc( 64px + 1rem );
 }
 
