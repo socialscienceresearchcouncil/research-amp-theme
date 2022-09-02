@@ -137,6 +137,39 @@ body .ramp-page-section {
 	align-items: center !important;
 }
 
+.site-search-fields {
+	background: #fff;
+    border: 1px solid var(--wp--preset--color--text-color);
+    max-width: 700px;
+    right: 32px;
+    top: -16px;
+}
+
+input.site-search {
+	border: 0;
+	width: calc( 100% - 90px );
+	height: 18px;
+	background-size: 18px 18px;
+}
+
+input.site-search:focus {
+	border: 0;
+	outline: none;
+}
+
+.site-search-submit {
+    background-color: transparent;
+    background-image: url(../img/search-magnifying-glass.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 18px;
+    border: 0;
+    cursor: pointer;
+    height: 51px;
+    text-indent: -999em;
+    width: 36px;
+}
+
 .nav-search {
 	text-indent: -999em;
 	width: 18px;
@@ -144,6 +177,7 @@ body .ramp-page-section {
 	background-image: url( '../img/search.png' );
 	background-size: 18px 18px;
 }
+
 
 @media screen and (min-width: 601px) {
 	.nav-and-search .wp-block-navigation__responsive-container {
