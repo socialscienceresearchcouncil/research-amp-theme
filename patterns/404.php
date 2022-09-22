@@ -10,8 +10,8 @@
 
 ?>
 
-<!-- wp:heading {"level":"1", "fontSize":"h3"} -->
-<h1 class="has-h-3-font-size"><?php esc_html_e( 'Page not found.', 'research-amp-theme' ); ?></h1>
+<!-- wp:heading {"level":"2", "fontSize":"h3"} -->
+<h2 class="has-h-3-font-size"><?php esc_html_e( 'Page not found.', 'research-amp-theme' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
