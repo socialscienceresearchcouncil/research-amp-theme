@@ -137,6 +137,10 @@ body .ramp-page-section {
 	align-items: center !important;
 }
 
+.wp-block-navigation .current-menu-item > a.wp-block-navigation-item__content {
+	color: #476a8e;
+}
+
 .site-search-fields {
 	background: #fff;
     border: 1px solid var(--wp--preset--color--text-color);
