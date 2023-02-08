@@ -476,6 +476,10 @@ body.single-ramp_topic .item-intro > .ramp-page-section {
 	display: flex;
 }
 
+.tribe-events-event-meta::before, .tribe-events-event-meta ~ div:not(.tribe-events-event-meta, .event-tickets) {
+	border-top: none;
+}
+
 .single-tribe_events .tribe-events-event-meta > div {
 	flex: 0 0 50%;
 }
