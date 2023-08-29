@@ -318,6 +318,10 @@
 		{
 			"name": "search",
 			"title": "Search Results"
+		},
+		{
+			"name": "taxonomy-ramp_focus_tag",
+			"title": "Focus Tag Archive"
 		}
 	],
 	"templateParts": [
